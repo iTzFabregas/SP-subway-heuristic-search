@@ -1,0 +1,99 @@
+#LINHA 1 AZUL
+Estação Jabaquara
+Estação Conceição
+Estação São Judas
+Estação Saúde
+Estação Praça da Árvore
+Estação Santa Cruz
+Estação Vila Mariana
+Estação Ana Rosa
+Estação Paraíso
+Estação Vergueiro
+Estação São Joaquim
+Estação Japão-Liberdade
+Estação Sé
+Estação São Bento
+Estação Luz
+Estação Tiradentes
+Estação Armênia
+Estação Portuguesa-Tietê
+Estação Carandiru
+Estação Santana
+Estação Jardim São Paulo-Ayrton Senna
+Estação Parada Inglesa
+Estação Tucuruvi
+#LINHA 2 VERDE
+Estação Vila Prudente
+Estação Tamanduateí
+Estação Sacomã
+Estação Alto do Ipiranga
+Estação Santos-Imigrantes
+Estação Chácara Klabin
+Estação Ana Rosa
+Estação Paraíso
+Estação Brigadeiro
+Estação Trianon-Masp
+Estação Consolação
+Estação Clínicas
+Estação S. N. Sra. de Fátima-Sumaré
+Estação Vila Madalena
+#LINHA 3 VERMELHA
+Estação Corinthians-Itaquera
+Estação Artur Alvim
+Estação Patriarca-Vila Ré
+Estação Guilhermina-Esperança
+Estação Vila Matilde
+Estação Penha
+Estação Carrão-Assaí Atacadista
+Estação Tatuapé
+Estação Belém
+Estação Bresser-Mooca
+Estação Brás
+Estação Pedro II
+Estação Sé
+Estação Anhangabaú
+Estação República
+Estação Santa Cecília
+Estação Marechal Deodoro
+Estação Palmeiras-Barra Funda
+#LINHA 4 AMARELA
+Estação Vila Sônia Profa. Elisabeth Tenreiro
+Estação São Paulo-Morumbi
+Estação Butantã
+Estação Pinheiros
+Estação Faria Lima
+Estação Fradique Coutinho
+Estação Oscar Freire
+Estação Paulista Pernambucanas
+Estação Higienópolis-Mackenzie
+Estação República
+Estação Luz
+#LINHA 5 LILAS
+Estação Capão Redondo
+Estação Campo Limpo
+Estação Vila das Belezas
+Estação Giovanni Gronchi
+Estação Santo Amaro
+Estação Largo Treze
+Estação Adolfo Pinheiro
+Estação Alto da Boa Vista
+Estação Borba Gato
+Estação Brooklin
+Estação Campo Belo
+Estação Eucaliptos
+Estação Moema
+Estação AACD-Servidor
+Estação Hospital São Paulo
+Estação Santa Cruz
+Estação Chácara Klabin
+#LINHA 15 PRATA
+Estação Vila Prudente
+Estação Oratório
+Estação São Lucas
+Estação Camilo Haddad
+Estação Vila Tolstói
+Estação Vila União
+Estação Jd. Planalto
+Estação Sapopemba
+Estação Fazenda da Juta
+Estação São Mateus
