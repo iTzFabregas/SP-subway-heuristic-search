@@ -1,4 +1,4 @@
-Linha 1-Azul
+#LINHA 1-Azul
 Estação Tucuruvi
 Estação Parada Inglesa
 Estação Jardim São Paulo - Ayrton Senna
@@ -22,7 +22,7 @@ Estação Saúde
 Estação São Judas
 Estação Conceição
 Estação Jabaquara
-Linha 2-Verde
+#LINHA 2-Verde
 Estação Vila Madalena
 Estação Sumaré
 Estação Clínicas
@@ -37,7 +37,7 @@ Estação Alto do Ipiranga
 Estação Sacomã
 Estação Tamanduateí
 Estação Vila Prudente
-Linha 3-Vermelha
+#LINHA 3-Vermelha
 Estação Palmeiras-Barra Funda
 Estação Marechal Deodoro
 Estação Santa Cecília
@@ -56,7 +56,7 @@ Estação Guilhermina-Esperança
 Estação Patriarca
 Estação Artur Alvim
 Estação Corinthians-Itaquera
-Linha 4-Amarela
+#LINHA 4-Amarela
 Estação Vila Sônia
 Estação São Paulo - Morumbi
 Estação Butantã
@@ -68,7 +68,7 @@ Estação Paulista
 Estação Higienópolis-Mackenzie
 Estação República
 Estação Luz
-Linha 5-Lilás
+#LINHA 5-Lilás
 Estação Capão Redondo
 Estação Campo Limpo
 Estação Vila das Belezas
@@ -86,7 +86,7 @@ Estação AACD-Servidor
 Estação Hospital São Paulo
 Estação Santa Cruz
 Estação Chácara Klabin
-Linha 7-Rubi
+#LINHA 7-Rubi
 Estação Luz
 Estação Palmeiras-Barra Funda
 Estação Água Branca
@@ -105,7 +105,7 @@ Estação Botujuru
 Estação Campo Limpo Paulista
 Estação Várzea Paulista
 Estação Jundiaí
-Linha 8-Diamante
+#LINHA 8-Diamante
 Estação Júlio Prestes
 Estação Palmeiras-Barra Funda
 Estação Lapa
@@ -128,7 +128,7 @@ Estação Engenheiro Cardoso
 Estação Itapevi
 Estação Santa Rita
 Estação Amador Bueno
-Linha 9-Esmeralda
+#LINHA 9-Esmeralda
 Estação Osasco
 Estação Presidente Altino
 Estação Ceasa
@@ -149,7 +149,7 @@ Estação Autódromo
 Estação Primavera-Interlagos
 Estação Grajaú
 Estação Mendes-Vila Natal
-Linha 10-Turquesa
+#LINHA 10-Turquesa
 Estação Brás
 Estação Mooca
 Estação Ipiranga
@@ -163,7 +163,7 @@ Estação Mauá
 Estação Guapituba
 Estação Ribeirão Pires
 Estação Rio Grande da Serra
-Linha 11-Coral
+#LINHA 11-Coral
 Estação Luz
 Estação Brás
 Estação Tatuapé
@@ -180,7 +180,7 @@ Estação Jundiapeba
 Estação Brás Cubas
 Estação Mogi das Cruzes
 Estação Estudantes
-Linha 12-Safira
+#LINHA 12-Safira
 Estação Brás
 Estação Tatuapé
 Estação Engenheiro Goulart
@@ -194,14 +194,14 @@ Estação Engenheiro Manoel Feio
 Estação Itaquaquecetuba
 Estação Aracaré
 Estação Calmon Viana
-Linha 13-Jade
+#LINHA 13-Jade
 Estação Luz
 Estação Brás
 Estação Tatuapé
 Estação Eng. Goulart
 Estação Guarulhos-Cecap
 Estação Aeroporto-Guarulhos
-Linha 15-Prata
+#LINHA 15-Prata
 Estação Vila Prudente
 Estação Oratório
 Estação São Lucas
