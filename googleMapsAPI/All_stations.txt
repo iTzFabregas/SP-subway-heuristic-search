@@ -1,0 +1,214 @@
+Linha 1-Azul
+Estação Tucuruvi
+Estação Parada Inglesa
+Estação Jardim São Paulo - Ayrton Senna
+Estação Santana
+Estação Carandiru
+Estação Portuguesa-Tietê (ex Tietê)
+Estação Armênia (ex Ponte Pequena)
+Estação Tiradentes
+Estação Luz
+Estação São Bento
+Estação Sé
+Estação Liberdade
+Estação São Joaquim
+Estação Vergueiro
+Estação Paraíso
+Estação Ana Rosa
+Estação Vila Mariana
+Estação Santa Cruz
+Estação Praça da Árvore
+Estação Saúde
+Estação São Judas
+Estação Conceição
+Estação Jabaquara
+Linha 2-Verde
+Estação Vila Madalena
+Estação Sumaré
+Estação Clínicas
+Estação Consolação
+Estação Trianon-Masp
+Estação Brigadeiro
+Estação Paraíso
+Estação Ana Rosa
+Estação Chácara Klabin
+Estação Santos-Imigrantes
+Estação Alto do Ipiranga
+Estação Sacomã
+Estação Tamanduateí
+Estação Vila Prudente
+Linha 3-Vermelha
+Estação Palmeiras-Barra Funda
+Estação Marechal Deodoro
+Estação Santa Cecília
+Estação República
+Estação Anhangabaú
+Estação Sé
+Estação Pedro II
+Estação Brás
+Estação Bresser-Mooca
+Estação Belém
+Estação Tatuapé
+Estação Carrão
+Estação Penha
+Estação Vila Matilde
+Estação Guilhermina-Esperança
+Estação Patriarca
+Estação Artur Alvim
+Estação Corinthians-Itaquera
+Linha 4-Amarela
+Estação Vila Sônia
+Estação São Paulo - Morumbi
+Estação Butantã
+Estação Pinheiros
+Estação Faria Lima
+Estação Fradique Coutinho
+Estação Oscar Freire
+Estação Paulista
+Estação Higienópolis-Mackenzie
+Estação República
+Estação Luz
+Linha 5-Lilás
+Estação Capão Redondo
+Estação Campo Limpo
+Estação Vila das Belezas
+Estação Giovanni Gronchi
+Estação Santo Amaro
+Estação Largo Treze
+Estação Adolfo Pinheiro
+Estação Alto da Boa Vista
+Estação Borba Gato
+Estação Brooklin
+Estação Campo Belo
+Estação Eucaliptos
+Estação Moema
+Estação AACD-Servidor
+Estação Hospital São Paulo
+Estação Santa Cruz
+Estação Chácara Klabin
+Linha 7-Rubi
+Estação Luz
+Estação Palmeiras-Barra Funda
+Estação Água Branca
+Estação Lapa
+Estação Piqueri
+Estação Pirituba
+Estação Vila Clarice
+Estação Jaraguá
+Estação Vila Aurora
+Estação Perus
+Estação Caieiras
+Estação Franco da Rocha
+Estação Baltazar Fidélis
+Estação Francisco Morato
+Estação Botujuru
+Estação Campo Limpo Paulista
+Estação Várzea Paulista
+Estação Jundiaí
+Linha 8-Diamante
+Estação Júlio Prestes
+Estação Palmeiras-Barra Funda
+Estação Lapa
+Estação Domingos de Moraes
+Estação Imperatriz Leopoldina
+Estação Presidente Altino
+Estação Osasco
+Estação Comandante Sampaio
+Estação Quitaúna
+Estação General Miguel Costa
+Estação Carapicuíba
+Estação Santa Terezinha
+Estação Antonio João
+Estação Barueri
+Estação Jardim Belval
+Estação Jardim Silveira
+Estação Jandira
+Estação Sagrado Coração
+Estação Engenheiro Cardoso
+Estação Itapevi
+Estação Santa Rita
+Estação Amador Bueno
+Linha 9-Esmeralda
+Estação Osasco
+Estação Presidente Altino
+Estação Ceasa
+Estação Vila Lobos-Jaguaré
+Estação Cidade Universitária
+Estação Pinheiros
+Estação Hebraica-Rebouças
+Estação Cidade Jardim
+Estação Vila Olímpia
+Estação Berrini
+Estação Morumbi
+Estação Granja Julieta
+Estação João Dias
+Estação Santo Amaro
+Estação Socorro
+Estação Jurubatuba
+Estação Autódromo
+Estação Primavera-Interlagos
+Estação Grajaú
+Estação Mendes-Vila Natal
+Linha 10-Turquesa
+Estação Brás
+Estação Mooca
+Estação Ipiranga
+Estação Tamanduateí
+Estação São Caetano
+Estação Utinga
+Estação Prefeito Saladino
+Estação Prefeito Celso Daniel - Santo André
+Estação Capuava
+Estação Mauá
+Estação Guapituba
+Estação Ribeirão Pires
+Estação Rio Grande da Serra
+Linha 11-Coral
+Estação Luz
+Estação Brás
+Estação Tatuapé
+Estação Itaquera
+Estação Dom Bosco
+Estação José Bonifácio
+Estação Guaianases
+Estação Antônio Gianetti Neto
+Estação Ferraz de Vasconcelos
+Estação Poá
+Estação Calmon Viana
+Estação Suzano
+Estação Jundiapeba
+Estação Brás Cubas
+Estação Mogi das Cruzes
+Estação Estudantes
+Linha 12-Safira
+Estação Brás
+Estação Tatuapé
+Estação Engenheiro Goulart
+Estação USP Leste
+Estação Comendador Ermelino
+Estação São Miguel Paulista
+Estação Jardim Helena-Vila Mara
+Estação Itaim Paulista
+Estação Jardim Romano
+Estação Engenheiro Manoel Feio
+Estação Itaquaquecetuba
+Estação Aracaré
+Estação Calmon Viana
+Linha 13-Jade
+Estação Luz
+Estação Brás
+Estação Tatuapé
+Estação Eng. Goulart
+Estação Guarulhos-Cecap
+Estação Aeroporto-Guarulhos
+Linha 15-Prata
+Estação Vila Prudente
+Estação Oratório
+Estação São Lucas
+Estação Camilo Haddad
+Estação Vila Tolstói
+Estação Vila União
+Estação Jd. Planalto
+Estação Sapopemba
+Estação Fazenda da Juta
+Estação São Mateus
