@@ -1,214 +1,214 @@
 #LINHA 1-Azul
-Estação Tucuruvi
-Estação Parada Inglesa
-Estação Jardim São Paulo - Ayrton Senna
-Estação Santana
-Estação Carandiru
-Estação Portuguesa-Tietê (ex Tietê)
-Estação Armênia (ex Ponte Pequena)
-Estação Tiradentes
-Estação Luz
-Estação São Bento
-Estação Sé
-Estação Liberdade
-Estação São Joaquim
-Estação Vergueiro
-Estação Paraíso
-Estação Ana Rosa
-Estação Vila Mariana
-Estação Santa Cruz
-Estação Praça da Árvore
-Estação Saúde
-Estação São Judas
-Estação Conceição
-Estação Jabaquara
+Estação Tucuruvi - Sao Paulo - Brasil
+Estação Parada Inglesa - Sao Paulo - Brasil
+Estação Jardim São Paulo - Ayrton Senna - Sao Paulo - Brasil
+Estação Santana - Sao Paulo - Brasil
+Estação Carandiru - Sao Paulo - Brasil
+Estação Portuguesa-Tietê (ex Tietê) - Sao Paulo - Brasil
+Estação Armênia (ex Ponte Pequena) - Sao Paulo - Brasil
+Estação Tiradentes - Sao Paulo - Brasil
+Estação Luz - Sao Paulo - Brasil
+Estação São Bento - Sao Paulo - Brasil
+Estação Sé - Sao Paulo - Brasil
+Estação Liberdade - Sao Paulo - Brasil
+Estação São Joaquim - Sao Paulo - Brasil
+Estação Vergueiro - Sao Paulo - Brasil
+Estação Paraíso - Sao Paulo - Brasil
+Estação Ana Rosa - Sao Paulo - Brasil
+Estação Vila Mariana - Sao Paulo - Brasil
+Estação Santa Cruz - Sao Paulo - Brasil
+Estação Praça da Árvore - Sao Paulo - Brasil
+Estação Saúde - Sao Paulo - Brasil
+Estação São Judas - Sao Paulo - Brasil
+Estação Conceição - Sao Paulo - Brasil
+Estação Jabaquara - Sao Paulo - Brasil
 #LINHA 2-Verde
-Estação Vila Madalena
-Estação Sumaré
-Estação Clínicas
-Estação Consolação
-Estação Trianon-Masp
-Estação Brigadeiro
-Estação Paraíso
-Estação Ana Rosa
-Estação Chácara Klabin
-Estação Santos-Imigrantes
-Estação Alto do Ipiranga
-Estação Sacomã
-Estação Tamanduateí
-Estação Vila Prudente
+Estação Vila Madalena - Sao Paulo - Brasil
+Estação Sumaré - Sao Paulo - Brasil
+Estação Clínicas - Sao Paulo - Brasil
+Estação Consolação - Sao Paulo - Brasil
+Estação Trianon-Masp - Sao Paulo - Brasil
+Estação Brigadeiro - Sao Paulo - Brasil
+Estação Paraíso - Sao Paulo - Brasil
+Estação Ana Rosa - Sao Paulo - Brasil
+Estação Chácara Klabin - Sao Paulo - Brasil
+Estação Santos-Imigrantes - Sao Paulo - Brasil
+Estação Alto do Ipiranga - Sao Paulo - Brasil
+Estação Sacomã - Sao Paulo - Brasil
+Estação Tamanduateí - Sao Paulo - Brasil
+Estação Vila Prudente - Sao Paulo - Brasil
 #LINHA 3-Vermelha
-Estação Palmeiras-Barra Funda
-Estação Marechal Deodoro
-Estação Santa Cecília
-Estação República
-Estação Anhangabaú
-Estação Sé
-Estação Pedro II
-Estação Brás
-Estação Bresser-Mooca
-Estação Belém
-Estação Tatuapé
-Estação Carrão
-Estação Penha
-Estação Vila Matilde
-Estação Guilhermina-Esperança
-Estação Patriarca
-Estação Artur Alvim
-Estação Corinthians-Itaquera
+Estação Palmeiras-Barra Funda - Sao Paulo - Brasil
+Estação Marechal Deodoro - Sao Paulo - Brasil
+Estação Santa Cecília - Sao Paulo - Brasil
+Estação República - Sao Paulo - Brasil
+Estação Anhangabaú - Sao Paulo - Brasil
+Estação Sé - Sao Paulo - Brasil
+Estação Pedro II - Sao Paulo - Brasil
+Estação Brás - Sao Paulo - Brasil
+Estação Bresser-Mooca - Sao Paulo - Brasil
+Estação Belém - Sao Paulo - Brasil
+Estação Tatuapé - Sao Paulo - Brasil
+Estação Carrão - Sao Paulo - Brasil
+Estação Penha - Sao Paulo - Brasil
+Estação Vila Matilde - Sao Paulo - Brasil
+Estação Guilhermina-Esperança - Sao Paulo - Brasil
+Estação Patriarca - Sao Paulo - Brasil
+Estação Artur Alvim - Sao Paulo - Brasil
+Estação Corinthians-Itaquera - Sao Paulo - Brasil
 #LINHA 4-Amarela
-Estação Vila Sônia
-Estação São Paulo - Morumbi
-Estação Butantã
-Estação Pinheiros
-Estação Faria Lima
-Estação Fradique Coutinho
-Estação Oscar Freire
-Estação Paulista
-Estação Higienópolis-Mackenzie
-Estação República
-Estação Luz
+Estação Vila Sônia - Sao Paulo - Brasil
+Estação São Paulo - Morumbi - Sao Paulo - Brasil
+Estação Butantã - Sao Paulo - Brasil
+Estação Pinheiros - Sao Paulo - Brasil
+Estação Faria Lima - Sao Paulo - Brasil
+Estação Fradique Coutinho - Sao Paulo - Brasil
+Estação Oscar Freire - Sao Paulo - Brasil
+Estação Paulista - Sao Paulo - Brasil
+Estação Higienópolis-Mackenzie - Sao Paulo - Brasil
+Estação República - Sao Paulo - Brasil
+Estação Luz - Sao Paulo - Brasil
 #LINHA 5-Lilás
-Estação Capão Redondo
-Estação Campo Limpo
-Estação Vila das Belezas
-Estação Giovanni Gronchi
-Estação Santo Amaro
-Estação Largo Treze
-Estação Adolfo Pinheiro
-Estação Alto da Boa Vista
-Estação Borba Gato
-Estação Brooklin
-Estação Campo Belo
-Estação Eucaliptos
-Estação Moema
-Estação AACD-Servidor
-Estação Hospital São Paulo
-Estação Santa Cruz
-Estação Chácara Klabin
+Estação Capão Redondo - Sao Paulo - Brasil
+Estação Campo Limpo - Sao Paulo - Brasil
+Estação Vila das Belezas - Sao Paulo - Brasil
+Estação Giovanni Gronchi - Sao Paulo - Brasil
+Estação Santo Amaro - Sao Paulo - Brasil
+Estação Largo Treze - Sao Paulo - Brasil
+Estação Adolfo Pinheiro - Sao Paulo - Brasil
+Estação Alto da Boa Vista - Sao Paulo - Brasil
+Estação Borba Gato - Sao Paulo - Brasil
+Estação Brooklin - Sao Paulo - Brasil
+Estação Campo Belo - Sao Paulo - Brasil
+Estação Eucaliptos - Sao Paulo - Brasil
+Estação Moema - Sao Paulo - Brasil
+Estação AACD-Servidor - Sao Paulo - Brasil
+Estação Hospital São Paulo - Sao Paulo - Brasil
+Estação Santa Cruz - Sao Paulo - Brasil
+Estação Chácara Klabin - Sao Paulo - Brasil
 #LINHA 7-Rubi
-Estação Luz
-Estação Palmeiras-Barra Funda
-Estação Água Branca
-Estação Lapa
-Estação Piqueri
-Estação Pirituba
-Estação Vila Clarice
-Estação Jaraguá
-Estação Vila Aurora
-Estação Perus
-Estação Caieiras
-Estação Franco da Rocha
-Estação Baltazar Fidélis
-Estação Francisco Morato
-Estação Botujuru
-Estação Campo Limpo Paulista
-Estação Várzea Paulista
-Estação Jundiaí
+Estação Luz - Sao Paulo - Brasil
+Estação Palmeiras-Barra Funda - Sao Paulo - Brasil
+Estação Água Branca - Sao Paulo - Brasil
+Estação Lapa - Sao Paulo - Brasil
+Estação Piqueri - Sao Paulo - Brasil
+Estação Pirituba - Sao Paulo - Brasil
+Estação Vila Clarice - Sao Paulo - Brasil
+Estação Jaraguá - Sao Paulo - Brasil
+Estação Vila Aurora - Sao Paulo - Brasil
+Estação Perus - Sao Paulo - Brasil
+Estação Caieiras - Sao Paulo - Brasil
+Estação Franco da Rocha - Sao Paulo - Brasil
+Estação Baltazar Fidélis - Sao Paulo - Brasil
+Estação Francisco Morato - Sao Paulo - Brasil
+Estação Botujuru - Sao Paulo - Brasil
+Estação Campo Limpo Paulista - Sao Paulo - Brasil
+Estação Várzea Paulista - Sao Paulo - Brasil
+Estação Jundiaí - Sao Paulo - Brasil
 #LINHA 8-Diamante
-Estação Júlio Prestes
-Estação Palmeiras-Barra Funda
-Estação Lapa
-Estação Domingos de Moraes
-Estação Imperatriz Leopoldina
-Estação Presidente Altino
-Estação Osasco
-Estação Comandante Sampaio
-Estação Quitaúna
-Estação General Miguel Costa
-Estação Carapicuíba
-Estação Santa Terezinha
-Estação Antonio João
-Estação Barueri
-Estação Jardim Belval
-Estação Jardim Silveira
-Estação Jandira
-Estação Sagrado Coração
-Estação Engenheiro Cardoso
-Estação Itapevi
-Estação Santa Rita
-Estação Amador Bueno
+Estação Júlio Prestes - Sao Paulo - Brasil
+Estação Palmeiras-Barra Funda - Sao Paulo - Brasil
+Estação Lapa - Sao Paulo - Brasil
+Estação Domingos de Moraes - Sao Paulo - Brasil
+Estação Imperatriz Leopoldina - Sao Paulo - Brasil
+Estação Presidente Altino - Sao Paulo - Brasil
+Estação Osasco - Sao Paulo - Brasil
+Estação Comandante Sampaio - Sao Paulo - Brasil
+Estação Quitaúna - Sao Paulo - Brasil
+Estação General Miguel Costa - Sao Paulo - Brasil
+Estação Carapicuíba - Sao Paulo - Brasil
+Estação Santa Terezinha - Sao Paulo - Brasil
+Estação Antonio João - Sao Paulo - Brasil
+Estação Barueri - Sao Paulo - Brasil
+Estação Jardim Belval - Sao Paulo - Brasil
+Estação Jardim Silveira - Sao Paulo - Brasil
+Estação Jandira - Sao Paulo - Brasil
+Estação Sagrado Coração - Sao Paulo - Brasil
+Estação Engenheiro Cardoso - Sao Paulo - Brasil
+Estação Itapevi - Sao Paulo - Brasil
+Estação Santa Rita - Sao Paulo - Brasil
+Estação Amador Bueno - Sao Paulo - Brasil
 #LINHA 9-Esmeralda
-Estação Osasco
-Estação Presidente Altino
-Estação Ceasa
-Estação Vila Lobos-Jaguaré
-Estação Cidade Universitária
-Estação Pinheiros
-Estação Hebraica-Rebouças
-Estação Cidade Jardim
-Estação Vila Olímpia
-Estação Berrini
-Estação Morumbi
-Estação Granja Julieta
-Estação João Dias
-Estação Santo Amaro
-Estação Socorro
-Estação Jurubatuba
-Estação Autódromo
-Estação Primavera-Interlagos
-Estação Grajaú
-Estação Mendes-Vila Natal
+Estação Osasco - Sao Paulo - Brasil
+Estação Presidente Altino - Sao Paulo - Brasil
+Estação Ceasa - Sao Paulo - Brasil
+Estação Vila Lobos-Jaguaré - Sao Paulo - Brasil
+Estação Cidade Universitária - Sao Paulo - Brasil
+Estação Pinheiros - Sao Paulo - Brasil
+Estação Hebraica-Rebouças - Sao Paulo - Brasil
+Estação Cidade Jardim - Sao Paulo - Brasil
+Estação Vila Olímpia - Sao Paulo - Brasil
+Estação Berrini - Sao Paulo - Brasil
+Estação Morumbi - Sao Paulo - Brasil
+Estação Granja Julieta - Sao Paulo - Brasil
+Estação João Dias - Sao Paulo - Brasil
+Estação Santo Amaro - Sao Paulo - Brasil
+Estação Socorro - Sao Paulo - Brasil
+Estação Jurubatuba - Sao Paulo - Brasil
+Estação Autódromo - Sao Paulo - Brasil
+Estação Primavera-Interlagos - Sao Paulo - Brasil
+Estação Grajaú - Sao Paulo - Brasil
+Estação Mendes-Vila Natal - Sao Paulo - Brasil
 #LINHA 10-Turquesa
-Estação Brás
-Estação Mooca
-Estação Ipiranga
-Estação Tamanduateí
-Estação São Caetano
-Estação Utinga
-Estação Prefeito Saladino
-Estação Prefeito Celso Daniel - Santo André
-Estação Capuava
-Estação Mauá
-Estação Guapituba
-Estação Ribeirão Pires
-Estação Rio Grande da Serra
+Estação Brás - Sao Paulo - Brasil
+Estação Mooca - Sao Paulo - Brasil
+Estação Ipiranga - Sao Paulo - Brasil
+Estação Tamanduateí - Sao Paulo - Brasil
+Estação São Caetano - Sao Paulo - Brasil
+Estação Utinga - Sao Paulo - Brasil
+Estação Prefeito Saladino - Sao Paulo - Brasil
+Estação Prefeito Celso Daniel - Santo André - Sao Paulo - Brasil
+Estação Capuava - Sao Paulo - Brasil
+Estação Mauá - Sao Paulo - Brasil
+Estação Guapituba - Sao Paulo - Brasil
+Estação Ribeirão Pires - Sao Paulo - Brasil
+Estação Rio Grande da Serra - Sao Paulo - Brasil
 #LINHA 11-Coral
-Estação Luz
-Estação Brás
-Estação Tatuapé
-Estação Itaquera
-Estação Dom Bosco
-Estação José Bonifácio
-Estação Guaianases
-Estação Antônio Gianetti Neto
-Estação Ferraz de Vasconcelos
-Estação Poá
-Estação Calmon Viana
-Estação Suzano
-Estação Jundiapeba
-Estação Brás Cubas
-Estação Mogi das Cruzes
-Estação Estudantes
+Estação Luz - Sao Paulo - Brasil
+Estação Brás - Sao Paulo - Brasil
+Estação Tatuapé - Sao Paulo - Brasil
+Estação Itaquera - Sao Paulo - Brasil
+Estação Dom Bosco - Sao Paulo - Brasil
+Estação José Bonifácio - Sao Paulo - Brasil
+Estação Guaianases - Sao Paulo - Brasil
+Estação Antônio Gianetti Neto - Sao Paulo - Brasil
+Estação Ferraz de Vasconcelos - Sao Paulo - Brasil
+Estação Poá - Sao Paulo - Brasil
+Estação Calmon Viana - Sao Paulo - Brasil
+Estação Suzano - Sao Paulo - Brasil
+Estação Jundiapeba - Sao Paulo - Brasil
+Estação Brás Cubas - Sao Paulo - Brasil
+Estação Mogi das Cruzes - Sao Paulo - Brasil
+Estação Estudantes - Sao Paulo - Brasil
 #LINHA 12-Safira
-Estação Brás
-Estação Tatuapé
-Estação Engenheiro Goulart
-Estação USP Leste
-Estação Comendador Ermelino
-Estação São Miguel Paulista
-Estação Jardim Helena-Vila Mara
-Estação Itaim Paulista
-Estação Jardim Romano
-Estação Engenheiro Manoel Feio
-Estação Itaquaquecetuba
-Estação Aracaré
-Estação Calmon Viana
+Estação Brás - Sao Paulo - Brasil
+Estação Tatuapé - Sao Paulo - Brasil
+Estação Engenheiro Goulart - Sao Paulo - Brasil
+Estação USP Leste - Sao Paulo - Brasil
+Estação Comendador Ermelino - Sao Paulo - Brasil
+Estação São Miguel Paulista - Sao Paulo - Brasil
+Estação Jardim Helena-Vila Mara - Sao Paulo - Brasil
+Estação Itaim Paulista - Sao Paulo - Brasil
+Estação Jardim Romano - Sao Paulo - Brasil
+Estação Engenheiro Manoel Feio - Sao Paulo - Brasil
+Estação Itaquaquecetuba - Sao Paulo - Brasil
+Estação Aracaré - Sao Paulo - Brasil
+Estação Calmon Viana - Sao Paulo - Brasil
 #LINHA 13-Jade
-Estação Luz
-Estação Brás
-Estação Tatuapé
-Estação Eng. Goulart
-Estação Guarulhos-Cecap
-Estação Aeroporto-Guarulhos
+Estação Luz - Sao Paulo - Brasil
+Estação Brás - Sao Paulo - Brasil
+Estação Tatuapé - Sao Paulo - Brasil
+Estação Eng. Goulart - Sao Paulo - Brasil
+Estação Guarulhos-Cecap - Sao Paulo - Brasil
+Estação Aeroporto-Guarulhos - Sao Paulo - Brasil
 #LINHA 15-Prata
-Estação Vila Prudente
-Estação Oratório
-Estação São Lucas
-Estação Camilo Haddad
-Estação Vila Tolstói
-Estação Vila União
-Estação Jd. Planalto
-Estação Sapopemba
-Estação Fazenda da Juta
-Estação São Mateus
+Estação Vila Prudente - Sao Paulo - Brasil
+Estação Oratório - Sao Paulo - Brasil
+Estação São Lucas - Sao Paulo - Brasil
+Estação Camilo Haddad - Sao Paulo - Brasil
+Estação Vila Tolstói - Sao Paulo - Brasil
+Estação Vila União - Sao Paulo - Brasil
+Estação Jd. Planalto - Sao Paulo - Brasil
+Estação Sapopemba - Sao Paulo - Brasil
+Estação Fazenda da Juta - Sao Paulo - Brasil
+Estação São Mateus - Sao Paulo - Brasil
