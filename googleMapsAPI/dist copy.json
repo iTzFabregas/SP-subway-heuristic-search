@@ -1,0 +1,42 @@
+[
+    {
+        "origin": "Esta\u00e7\u00e3o Santana\n",
+        "destination": "Esta\u00e7\u00e3o Carandiru\n",
+        "distance": 942
+    },
+    {
+        "origin": "Esta\u00e7\u00e3o Carandiru\n",
+        "destination": "Esta\u00e7\u00e3o Portuguesa-Tiet\u00ea (ex Tiet\u00ea)\n",
+        "distance": 138111
+    },
+    {
+        "origin": "Esta\u00e7\u00e3o Portuguesa-Tiet\u00ea (ex Tiet\u00ea)\n",
+        "destination": "Esta\u00e7\u00e3o Arm\u00eania (ex Ponte Pequena)\n",
+        "distance": 136071
+    },
+    {
+        "origin": "Esta\u00e7\u00e3o Vila Madalena\n",
+        "destination": "Esta\u00e7\u00e3o Sumar\u00e9\n",
+        "distance": 1706
+    },
+    {
+        "origin": "Esta\u00e7\u00e3o Sumar\u00e9\n",
+        "destination": "Esta\u00e7\u00e3o Cl\u00ednicas\n",
+        "distance": 1026
+    },
+    {
+        "origin": "Esta\u00e7\u00e3o Cl\u00ednicas\n",
+        "destination": "Esta\u00e7\u00e3o Consola\u00e7\u00e3o\n",
+        "distance": 1476
+    },
+    {
+        "origin": "Esta\u00e7\u00e3o Palmeiras-Barra Funda\n",
+        "destination": "Esta\u00e7\u00e3o Marechal Deodoro\n",
+        "distance": 1868
+    },
+    {
+        "origin": "Esta\u00e7\u00e3o Marechal Deodoro\n",
+        "destination": "Esta\u00e7\u00e3o Santa Cec\u00edlia",
+        "distance": 1031
+    }
+]
