@@ -1,20 +1,19 @@
 import googlemaps
 import json
 
-client = googlemaps.Client(key="AIzaSyBoxKHJNAVlH4Mc8UQAFnC6SrZtaLSgAEg")
-
-# geocode_result = client.geocode("Rua Vergueiro, 1000, São Paulo, SP")
+client = googlemaps.Client(key="")
 
 stations_dist = []
 
-with open("small_list_station.txt", "r") as f:
+with open("./stations_list/small_list_station.txt", "r") as f:
     stations_list = f.readlines()
     n = len(stations_list)
+
     for station_1 in range(n):
         station_2 = station_1 + 1
 
-        if (stations_list[station_1][0] == "#"): continue
         if (station_2 >= n): break
+        if (stations_list[station_1][0] == "#"): continue
         if (stations_list[station_2][0] == "#"): continue
 
         directions_result = client.directions(stations_list[station_1],
