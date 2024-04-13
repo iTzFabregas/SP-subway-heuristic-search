@@ -2,41 +2,49 @@
     {
         "origin": "Estacao Santana - Sao Paulo - Brasil\n",
         "destination": "Estacao Carandiru - Sao Paulo - Brasil\n",
-        "distance": 942
+        "real-distance": 944,
+        "heuristic-distance": 739.2994973555844
     },
     {
         "origin": "Estacao Carandiru - Sao Paulo - Brasil\n",
         "destination": "Estacao Portuguesa-Tiete (ex Tiete) - Sao Paulo - Brasil\n",
-        "distance": 856
+        "real-distance": 856,
+        "heuristic-distance": 828.2003120290857
     },
     {
         "origin": "Estacao Portuguesa-Tiete (ex Tiete) - Sao Paulo - Brasil\n",
         "destination": "Estacao Armenia (ex Ponte Pequena) - Sao Paulo - Brasil\n",
-        "distance": 1285
+        "real-distance": 1420,
+        "heuristic-distance": 1169.4958317073708
     },
     {
         "origin": "Estacao Vila Madalena - Sao Paulo - Brasil\n",
         "destination": "Estacao Sumare - Sao Paulo - Brasil\n",
-        "distance": 1706
+        "real-distance": 1607,
+        "heuristic-distance": 1479.7477454590826
     },
     {
         "origin": "Estacao Sumare - Sao Paulo - Brasil\n",
         "destination": "Estacao Clinicas - Sao Paulo - Brasil\n",
-        "distance": 1026
+        "real-distance": 1058,
+        "heuristic-distance": 845.4315829452887
     },
     {
         "origin": "Estacao Clinicas - Sao Paulo - Brasil\n",
         "destination": "Estacao Consolacao - Sao Paulo - Brasil\n",
-        "distance": 1476
+        "real-distance": 1554,
+        "heuristic-distance": 1359.0754746800333
     },
     {
         "origin": "Estacao Palmeiras-Barra Funda - Sao Paulo - Brasil\n",
         "destination": "Estacao Marechal Deodoro - Sao Paulo - Brasil\n",
-        "distance": 1740
+        "real-distance": 1740,
+        "heuristic-distance": 1643.7710452953609
     },
     {
         "origin": "Estacao Marechal Deodoro - Sao Paulo - Brasil\n",
         "destination": "Estacao Santa Cecilia - Sao Paulo - Brasil",
-        "distance": 1031
+        "real-distance": 1031,
+        "heuristic-distance": 868.1316368795094
     }
 ]
