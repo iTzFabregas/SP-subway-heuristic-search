@@ -64,6 +64,6 @@ if __name__ == "__main__":
     station = check_station(station)
     heuristic_list = find_heuristic(station)
                 
-    file_name = "./output/heuristcs/" + station.split(', ')[0].replace(" ", "") + "_heuristic.json"
+    file_name = "./output/heuristics/" + station.split(', ')[0].replace(" ", "") + "_heuristic.json"
     with open(file_name, "w") as f:
         json.dump(heuristic_list, f)
