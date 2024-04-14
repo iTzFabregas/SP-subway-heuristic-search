@@ -1,13 +1,29 @@
 from math import radians, sin, atan2, cos, sqrt, pow
+import googlemaps
+import json
+import csv
+
+def save_latlon(client, station):
+
+    geocode_result = client.geocode(station)
+
+    lat = geocode_result[0]["geometry"]["location"]["lat"]
+    lon = geocode_result[0]["geometry"]["location"]["lng"]
+
+    with open("./output/latlon.csv", 'r') as f:
+        reader = csv.reader(f)
+        for row in reader:
+            if row[0] == station:
+                return
+
+    with open("./output/latlon.csv", 'a', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow([station, lat, lon])
+    
 
 def find_heuristic(directions_result):
 
-    origin_lat = radians(directions_result[0]["legs"][0]["start_location"]["lat"])
-    dest_lat = radians(directions_result[0]["legs"][0]["end_location"]["lat"])
-
-    origin_lng = radians(directions_result[0]["legs"][0]["start_location"]["lng"])
-    dest_lng = radians(directions_result[0]["legs"][0]["end_location"]["lng"])
-
+    # TO-DO: grab the info from the csv
 
     return haversine(origin_lat, dest_lat, origin_lng, dest_lng)
 

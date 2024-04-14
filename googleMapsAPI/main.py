@@ -1,6 +1,5 @@
 import googlemaps
 import json
-import csv
 
 import heuristic
 
@@ -11,7 +10,7 @@ stations_latlon = []
 
 if __name__ == "__main__":
 
-    with open("./stations_list/all_stations.txt", "r") as f:
+    with open("./stations_list/metro_stations.txt", "r") as f:
         stations_list = [line.rstrip('\n') for line in f.readlines()]
         n = len(stations_list)
 
@@ -20,6 +19,7 @@ if __name__ == "__main__":
 
             if (station_2 >= n): break
             if (stations_list[station_1][0] == "#"): continue
+            heuristic.save_latlon(client, stations_list[station_1])
             if (stations_list[station_2][0] == "#"): continue
 
             directions_result = client.directions(stations_list[station_1],
