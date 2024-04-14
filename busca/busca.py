@@ -52,11 +52,11 @@ def plotGraph():
     nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=8)
     
     plt.title("Graph Visualization with Edge Weights")
-    # plt.show()
+    plt.show()
 
 
-starting_node = "Estacao Carrao"
-target_node = "Estacao Jabaquara"
+starting_node = "Estacao Vila Sonia Profa. Elisabeth Tenreiro"
+target_node = "Estacao Sao Mateus"
 createGraph()
 searchGraph(starting_node, target_node)
 plotGraph()

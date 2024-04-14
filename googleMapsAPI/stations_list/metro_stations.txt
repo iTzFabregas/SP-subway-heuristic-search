@@ -14,7 +14,6 @@ Estacao Japao-Liberdade, Sao Paulo, Brasil
 Estacao Se, Sao Paulo, Brasil
 Estacao Sao Bento, Sao Paulo, Brasil
 Estacao Luz, Sao Paulo, Brasil
-Estacao Tiradentes, Sao Paulo, Brasil
 Estacao Armenia, Sao Paulo, Brasil
 Estacao Portuguesa-Tiete, Sao Paulo, Brasil
 Estacao Carandiru, Sao Paulo, Brasil
