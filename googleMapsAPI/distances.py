@@ -3,7 +3,7 @@ import json
 
 import heuristic
 
-client = googlemaps.Client(key="AIzaSyBoxKHJNAVlH4Mc8UQAFnC6SrZtaLSgAEg")
+client = googlemaps.Client(key="")
 
 # stations_res = []
 stations_dist = []
