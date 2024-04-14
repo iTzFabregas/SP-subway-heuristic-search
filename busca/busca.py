@@ -3,7 +3,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 # file path
-file_path = "../googleMapsAPI/dist.json"
+file_path = "../googleMapsAPI/output/dist.json"
 
 # create graph
 G = nx.DiGraph()
@@ -15,8 +15,8 @@ def createGraph():
     
     # full graph
     for item in data:
-        origin = item['origin'].split(' -')[0].strip()
-        destination = item['destination'].split(' -')[0].strip()
+        origin = item['origin'].split(', ')[0].strip()
+        destination = item['destination'].split(', ')[0].strip()
         distance = item['real-distance']
         G.add_node(origin)
         G.add_node(destination)
@@ -40,7 +40,7 @@ def searchGraph(starting_node, target_node):
         print("O nó final não foi alcançado.")
 
 def plotGraph():
-    plt.figure(figsize=(8, 6))
+    plt.figure(figsize=(16, 12))
     
     pos = nx.circular_layout(G)
     
@@ -54,8 +54,8 @@ def plotGraph():
     plt.show()
 
 
-starting_node = "Estacao Santana"
-target_node = "Estacao Portuguesa-Tiete (ex Tiete)"
+starting_node = "Estacao Vila Sonia Profa. Elisabeth Tenreiro"
+target_node = "Estacao Sao Mateus"
 createGraph()
 searchGraph(starting_node, target_node)
 plotGraph()
