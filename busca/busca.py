@@ -53,6 +53,7 @@ def dfs(starting_node, target_node):
             break
     showPath(path)
     print("Custo total do caminho:", total_cost)
+    return path
 
 def heuristic(origin, destination):
     with open(heuristic_path, 'r') as f:
@@ -73,25 +74,30 @@ def AStar(starting_node, target_node):
 
     showPath(path)
     print("Custo total do caminho:", total_cost)
+    return path
 
 
-def plotGraph():
+def plotGraph(path):
     plt.figure(figsize=(16, 12))
     
     pos = nx.circular_layout(G)
-    
-    nx.draw_networkx_nodes(G, pos, node_size=500, node_color='skyblue')
-    nx.draw_networkx_edges(G, pos, edge_color='gray')
+   
+    nx.draw_networkx_nodes(G, pos, nodelist=path, node_size=500, node_color='skyblue')
+    edges = [(path[i], path[i+1]) for i in range(len(path)-1)]
+    nx.draw_networkx_edges(G, pos, edgelist=edges, edge_color='red', width=2)
     nx.draw_networkx_labels(G, pos, font_size=8)
     edge_labels = nx.get_edge_attributes(G, 'weight')
     nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=8)
     
-    plt.title("Graph Visualization with Edge Weights")
+    plt.title("Graph Visualization with Path Highlighted")
     plt.show()
 
-
 createGraph()
-dfs(starting_node, target_node)
-print("========")
-AStar(starting_node, target_node)
-#plotGraph()
+print("BUSCA NAO INFORMADA")
+dfs_path = dfs(starting_node, target_node)
+print("================================")
+print("BUSCA INFORMADA")
+astar_path = AStar(starting_node, target_node)
+
+plotGraph(dfs_path)
+plotGraph(astar_path)
