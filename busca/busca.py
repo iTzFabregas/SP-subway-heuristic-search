@@ -3,7 +3,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 # file path
-file_path = "../googleMapsAPI/dist.json"
+file_path = "../googleMapsAPI/output/dist.json"
 
 # create graph
 G = nx.DiGraph()
@@ -16,12 +16,13 @@ def createGraph():
    
     # full graph
     for item in data:
-        origin = item['origin'].split(' -')[0].strip()
-        destination = item['destination'].split(' -')[0].strip()
+        origin = item['origin'].split(', ')[0].strip()
+        destination = item['destination'].split(', ')[0].strip()
         distance = item['real-distance']
         G.add_node(origin)
         G.add_node(destination)
         G.add_edge(origin, destination, weight=distance)
+        G.add_edge(destination, origin, weight=distance)
 
 def searchGraph(starting_node, target_node):
     # search in graph
@@ -40,7 +41,7 @@ def searchGraph(starting_node, target_node):
         print("O nó final não foi alcançado.")
 
 def plotGraph():
-    plt.figure(figsize=(8, 6))
+    plt.figure(figsize=(16, 12))
     
     pos = nx.circular_layout(G)
     
@@ -51,11 +52,11 @@ def plotGraph():
     nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=8)
     
     plt.title("Graph Visualization with Edge Weights")
-    plt.show()
+    # plt.show()
 
 
-starting_node = "Estacao Santana"
-target_node = "Estacao Portuguesa-Tiete (ex Tiete)"
+starting_node = "Estacao Carrao"
+target_node = "Estacao Jabaquara"
 createGraph()
 searchGraph(starting_node, target_node)
 plotGraph()
