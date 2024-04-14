@@ -4,7 +4,7 @@ import csv
 import sys
 from math import radians, sin, atan2, cos, sqrt, pow
 
-client = googlemaps.Client(key="")
+client = googlemaps.Client(key="AIzaSyBoxKHJNAVlH4Mc8UQAFnC6SrZtaLSgAEg")
 
 
 def check_station(station):
