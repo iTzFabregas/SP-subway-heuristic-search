@@ -1,0 +1,518 @@
+[
+    {
+        "origin": "Estacao Jabaquara, Sao Paulo, Brasil",
+        "destination": "Estacao Conceicao, Sao Paulo, Brasil",
+        "real-distance": 1205,
+        "heuristic_destination": 1197.058700984088
+    },
+    {
+        "origin": "Estacao Conceicao, Sao Paulo, Brasil",
+        "destination": "Estacao Sao Judas, Sao Paulo, Brasil",
+        "real-distance": 1073,
+        "heuristic_destination": 1063.2930050547645
+    },
+    {
+        "origin": "Estacao Sao Judas, Sao Paulo, Brasil",
+        "destination": "Estacao Saude, Sao Paulo, Brasil",
+        "real-distance": 871,
+        "heuristic_destination": 849.2801716559164
+    },
+    {
+        "origin": "Estacao Saude, Sao Paulo, Brasil",
+        "destination": "Estacao Praca da arvore, Sao Paulo, Brasil",
+        "real-distance": 859,
+        "heuristic_destination": 843.4110336340207
+    },
+    {
+        "origin": "Estacao Praca da arvore, Sao Paulo, Brasil",
+        "destination": "Estacao Santa Cruz, Sao Paulo, Brasil",
+        "real-distance": 1379,
+        "heuristic_destination": 1358.2807262607673
+    },
+    {
+        "origin": "Estacao Santa Cruz, Sao Paulo, Brasil",
+        "destination": "Estacao Vila Mariana, Sao Paulo, Brasil",
+        "real-distance": 1066,
+        "heuristic_destination": 1012.2424986980297
+    },
+    {
+        "origin": "Estacao Vila Mariana, Sao Paulo, Brasil",
+        "destination": "Estacao Ana Rosa, Sao Paulo, Brasil",
+        "real-distance": 988,
+        "heuristic_destination": 884.49758005079
+    },
+    {
+        "origin": "Estacao Ana Rosa, Sao Paulo, Brasil",
+        "destination": "Estacao Paraiso, Sao Paulo, Brasil",
+        "real-distance": 765,
+        "heuristic_destination": 666.8614486893129
+    },
+    {
+        "origin": "Estacao Paraiso, Sao Paulo, Brasil",
+        "destination": "Estacao Vergueiro, Sao Paulo, Brasil",
+        "real-distance": 709,
+        "heuristic_destination": 684.6502217266016
+    },
+    {
+        "origin": "Estacao Vergueiro, Sao Paulo, Brasil",
+        "destination": "Estacao Sao Joaquim, Sao Paulo, Brasil",
+        "real-distance": 835,
+        "heuristic_destination": 818.917264999549
+    },
+    {
+        "origin": "Estacao Sao Joaquim, Sao Paulo, Brasil",
+        "destination": "Estacao Japao-Liberdade, Sao Paulo, Brasil",
+        "real-distance": 789,
+        "heuristic_destination": 730.350575409405
+    },
+    {
+        "origin": "Estacao Japao-Liberdade, Sao Paulo, Brasil",
+        "destination": "Estacao Se, Sao Paulo, Brasil",
+        "real-distance": 625,
+        "heuristic_destination": 524.8379079955354
+    },
+    {
+        "origin": "Estacao Se, Sao Paulo, Brasil",
+        "destination": "Estacao Sao Bento, Sao Paulo, Brasil",
+        "real-distance": 740,
+        "heuristic_destination": 713.9416288032858
+    },
+    {
+        "origin": "Estacao Sao Bento, Sao Paulo, Brasil",
+        "destination": "Estacao Luz, Sao Paulo, Brasil",
+        "real-distance": 828,
+        "heuristic_destination": 812.1019323543901
+    },
+    {
+        "origin": "Estacao Luz, Sao Paulo, Brasil",
+        "destination": "Estacao Armenia, Sao Paulo, Brasil",
+        "real-distance": 722,
+        "heuristic_destination": 618.6348390393605
+    },
+    {
+        "origin": "Estacao Armenia, Sao Paulo, Brasil",
+        "destination": "Estacao Portuguesa-Tiete, Sao Paulo, Brasil",
+        "real-distance": 1269,
+        "heuristic_destination": 1060.9612818020616
+    },
+    {
+        "origin": "Estacao Portuguesa-Tiete, Sao Paulo, Brasil",
+        "destination": "Estacao Carandiru, Sao Paulo, Brasil",
+        "real-distance": 723,
+        "heuristic_destination": 720.1326032201105
+    },
+    {
+        "origin": "Estacao Carandiru, Sao Paulo, Brasil",
+        "destination": "Estacao Santana, Sao Paulo, Brasil",
+        "real-distance": 767,
+        "heuristic_destination": 765.2113020576451
+    },
+    {
+        "origin": "Estacao Santana, Sao Paulo, Brasil",
+        "destination": "Estacao Jardim Sao Paulo-Ayrton Senna, Sao Paulo, Brasil",
+        "real-distance": 1436,
+        "heuristic_destination": 1097.0153446281374
+    },
+    {
+        "origin": "Estacao Jardim Sao Paulo-Ayrton Senna, Sao Paulo, Brasil",
+        "destination": "Estacao Parada Inglesa, Sao Paulo, Brasil",
+        "real-distance": 1107,
+        "heuristic_destination": 619.324414743777
+    },
+    {
+        "origin": "Estacao Parada Inglesa, Sao Paulo, Brasil",
+        "destination": "Estacao Tucuruvi, Sao Paulo, Brasil",
+        "real-distance": 987,
+        "heuristic_destination": 786.7995759594039
+    },
+    {
+        "origin": "Estacao Vila Prudente, Sao Paulo, Brasil",
+        "destination": "Estacao Tamanduatei, Sao Paulo, Brasil",
+        "real-distance": 1308,
+        "heuristic_destination": 986.2773275683785
+    },
+    {
+        "origin": "Estacao Tamanduatei, Sao Paulo, Brasil",
+        "destination": "Estacao Sacoma, Sao Paulo, Brasil",
+        "real-distance": 1632,
+        "heuristic_destination": 915.1989697343498
+    },
+    {
+        "origin": "Estacao Sacoma, Sao Paulo, Brasil",
+        "destination": "Estacao Alto do Ipiranga, Sao Paulo, Brasil",
+        "real-distance": 1099,
+        "heuristic_destination": 118.52241344414011
+    },
+    {
+        "origin": "Estacao Alto do Ipiranga, Sao Paulo, Brasil",
+        "destination": "Estacao Santos-Imigrantes, Sao Paulo, Brasil",
+        "real-distance": 1120,
+        "heuristic_destination": 694.4233472193876
+    },
+    {
+        "origin": "Estacao Santos-Imigrantes, Sao Paulo, Brasil",
+        "destination": "Estacao Chacara Klabin, Sao Paulo, Brasil",
+        "real-distance": 1168,
+        "heuristic_destination": 389.73094605132536
+    },
+    {
+        "origin": "Estacao Chacara Klabin, Sao Paulo, Brasil",
+        "destination": "Estacao Ana Rosa, Sao Paulo, Brasil",
+        "real-distance": 1527,
+        "heuristic_destination": 1248.4231771843868
+    },
+    {
+        "origin": "Estacao Ana Rosa, Sao Paulo, Brasil",
+        "destination": "Estacao Paraiso, Sao Paulo, Brasil",
+        "real-distance": 765,
+        "heuristic_destination": 666.8614486893129
+    },
+    {
+        "origin": "Estacao Paraiso, Sao Paulo, Brasil",
+        "destination": "Estacao Brigadeiro, Sao Paulo, Brasil",
+        "real-distance": 1037,
+        "heuristic_destination": 720.5434328836809
+    },
+    {
+        "origin": "Estacao Brigadeiro, Sao Paulo, Brasil",
+        "destination": "Estacao Trianon-Masp, Sao Paulo, Brasil",
+        "real-distance": 938,
+        "heuristic_destination": 622.2838884814634
+    },
+    {
+        "origin": "Estacao Trianon-Masp, Sao Paulo, Brasil",
+        "destination": "Estacao Consolacao, Sao Paulo, Brasil",
+        "real-distance": 919,
+        "heuristic_destination": 628.0378530292087
+    },
+    {
+        "origin": "Estacao Consolacao, Sao Paulo, Brasil",
+        "destination": "Estacao Clinicas, Sao Paulo, Brasil",
+        "real-distance": 1163,
+        "heuristic_destination": 394.0879999439101
+    },
+    {
+        "origin": "Estacao Clinicas, Sao Paulo, Brasil",
+        "destination": "Estacao S. N. Sra. de Fatima-Sumare, Sao Paulo, Brasil",
+        "real-distance": 758,
+        "heuristic_destination": 332.6767359227789
+    },
+    {
+        "origin": "Estacao S. N. Sra. de Fatima-Sumare, Sao Paulo, Brasil",
+        "destination": "Estacao Vila Madalena, Sao Paulo, Brasil",
+        "real-distance": 1469,
+        "heuristic_destination": 506.16979302513397
+    },
+    {
+        "origin": "Estacao Corinthians-Itaquera, Sao Paulo, Brasil",
+        "destination": "Estacao Artur Alvim, Sao Paulo, Brasil",
+        "real-distance": 1464,
+        "heuristic_destination": 239.52803510979913
+    },
+    {
+        "origin": "Estacao Artur Alvim, Sao Paulo, Brasil",
+        "destination": "Estacao Patriarca-Vila Re, Sao Paulo, Brasil",
+        "real-distance": 2145,
+        "heuristic_destination": 1020.0679336558555
+    },
+    {
+        "origin": "Estacao Patriarca-Vila Re, Sao Paulo, Brasil",
+        "destination": "Estacao Guilhermina-Esperanca, Sao Paulo, Brasil",
+        "real-distance": 1718,
+        "heuristic_destination": 206.99620297774928
+    },
+    {
+        "origin": "Estacao Guilhermina-Esperanca, Sao Paulo, Brasil",
+        "destination": "Estacao Vila Matilde, Sao Paulo, Brasil",
+        "real-distance": 1540,
+        "heuristic_destination": 281.4973986582877
+    },
+    {
+        "origin": "Estacao Vila Matilde, Sao Paulo, Brasil",
+        "destination": "Estacao Penha, Sao Paulo, Brasil",
+        "real-distance": 1171,
+        "heuristic_destination": 184.79591983947293
+    },
+    {
+        "origin": "Estacao Penha, Sao Paulo, Brasil",
+        "destination": "Estacao Carrao-Assai Atacadista, Sao Paulo, Brasil",
+        "real-distance": 2280,
+        "heuristic_destination": 488.90493014571626
+    },
+    {
+        "origin": "Estacao Carrao-Assai Atacadista, Sao Paulo, Brasil",
+        "destination": "Estacao Tatuape, Sao Paulo, Brasil",
+        "real-distance": 1351,
+        "heuristic_destination": 308.2860906546965
+    },
+    {
+        "origin": "Estacao Tatuape, Sao Paulo, Brasil",
+        "destination": "Estacao Belem, Sao Paulo, Brasil",
+        "real-distance": 1387,
+        "heuristic_destination": 270.32079940593945
+    },
+    {
+        "origin": "Estacao Belem, Sao Paulo, Brasil",
+        "destination": "Estacao Bresser-Mooca, Sao Paulo, Brasil",
+        "real-distance": 1798,
+        "heuristic_destination": 383.09193857710727
+    },
+    {
+        "origin": "Estacao Bresser-Mooca, Sao Paulo, Brasil",
+        "destination": "Estacao Bras, Sao Paulo, Brasil",
+        "real-distance": 925,
+        "heuristic_destination": 165.10557104503206
+    },
+    {
+        "origin": "Estacao Bras, Sao Paulo, Brasil",
+        "destination": "Estacao Pedro II, Sao Paulo, Brasil",
+        "real-distance": 1058,
+        "heuristic_destination": 209.07976046913035
+    },
+    {
+        "origin": "Estacao Pedro II, Sao Paulo, Brasil",
+        "destination": "Estacao Se, Sao Paulo, Brasil",
+        "real-distance": 744,
+        "heuristic_destination": 80.25573161087738
+    },
+    {
+        "origin": "Estacao Se, Sao Paulo, Brasil",
+        "destination": "Estacao Anhangabau, Sao Paulo, Brasil",
+        "real-distance": 654,
+        "heuristic_destination": 280.9848506725578
+    },
+    {
+        "origin": "Estacao Anhangabau, Sao Paulo, Brasil",
+        "destination": "Estacao Republica, Sao Paulo, Brasil",
+        "real-distance": 649,
+        "heuristic_destination": 449.267407571578
+    },
+    {
+        "origin": "Estacao Republica, Sao Paulo, Brasil",
+        "destination": "Estacao Santa Cecilia, Sao Paulo, Brasil",
+        "real-distance": 822,
+        "heuristic_destination": 508.18830770882613
+    },
+    {
+        "origin": "Estacao Santa Cecilia, Sao Paulo, Brasil",
+        "destination": "Estacao Marechal Deodoro, Sao Paulo, Brasil",
+        "real-distance": 947,
+        "heuristic_destination": 615.4706632638408
+    },
+    {
+        "origin": "Estacao Marechal Deodoro, Sao Paulo, Brasil",
+        "destination": "Estacao Palmeiras-Barra Funda, Sao Paulo, Brasil",
+        "real-distance": 1577,
+        "heuristic_destination": 849.4193105953336
+    },
+    {
+        "origin": "Estacao Vila Sonia Profa. Elisabeth Tenreiro, Sao Paulo, Brasil",
+        "destination": "Estacao Sao Paulo-Morumbi, Sao Paulo, Brasil",
+        "real-distance": 1490,
+        "heuristic_destination": 684.1374830130482
+    },
+    {
+        "origin": "Estacao Sao Paulo-Morumbi, Sao Paulo, Brasil",
+        "destination": "Estacao Butanta, Sao Paulo, Brasil",
+        "real-distance": 2425,
+        "heuristic_destination": 1565.5596511352167
+    },
+    {
+        "origin": "Estacao Butanta, Sao Paulo, Brasil",
+        "destination": "Estacao Pinheiros, Sao Paulo, Brasil",
+        "real-distance": 896,
+        "heuristic_destination": 522.2306548747404
+    },
+    {
+        "origin": "Estacao Pinheiros, Sao Paulo, Brasil",
+        "destination": "Estacao Faria Lima, Sao Paulo, Brasil",
+        "real-distance": 855,
+        "heuristic_destination": 4.921839178689487
+    },
+    {
+        "origin": "Estacao Faria Lima, Sao Paulo, Brasil",
+        "destination": "Estacao Fradique Coutinho, Sao Paulo, Brasil",
+        "real-distance": 1002,
+        "heuristic_destination": 117.48693439651001
+    },
+    {
+        "origin": "Estacao Fradique Coutinho, Sao Paulo, Brasil",
+        "destination": "Estacao Oscar Freire, Sao Paulo, Brasil",
+        "real-distance": 1461,
+        "heuristic_destination": 645.1213367907771
+    },
+    {
+        "origin": "Estacao Oscar Freire, Sao Paulo, Brasil",
+        "destination": "Estacao Paulista Pernambucanas, Sao Paulo, Brasil",
+        "real-distance": 1183,
+        "heuristic_destination": 600.4734433922631
+    },
+    {
+        "origin": "Estacao Paulista Pernambucanas, Sao Paulo, Brasil",
+        "destination": "Estacao Higienopolis-Mackenzie, Sao Paulo, Brasil",
+        "real-distance": 1240,
+        "heuristic_destination": 687.9660946487654
+    },
+    {
+        "origin": "Estacao Higienopolis-Mackenzie, Sao Paulo, Brasil",
+        "destination": "Estacao Republica, Sao Paulo, Brasil",
+        "real-distance": 1084,
+        "heuristic_destination": 504.5055162545953
+    },
+    {
+        "origin": "Estacao Republica, Sao Paulo, Brasil",
+        "destination": "Estacao Luz, Sao Paulo, Brasil",
+        "real-distance": 1311,
+        "heuristic_destination": 906.5356582905209
+    },
+    {
+        "origin": "Estacao Capao Redondo, Sao Paulo, Brasil",
+        "destination": "Estacao Campo Limpo, Sao Paulo, Brasil",
+        "real-distance": 1478,
+        "heuristic_destination": 1122.6695974884897
+    },
+    {
+        "origin": "Estacao Campo Limpo, Sao Paulo, Brasil",
+        "destination": "Estacao Vila das Belezas, Sao Paulo, Brasil",
+        "real-distance": 1851,
+        "heuristic_destination": 1016.6916358176763
+    },
+    {
+        "origin": "Estacao Vila das Belezas, Sao Paulo, Brasil",
+        "destination": "Estacao Giovanni Gronchi, Sao Paulo, Brasil",
+        "real-distance": 1621,
+        "heuristic_destination": 412.06722512512204
+    },
+    {
+        "origin": "Estacao Giovanni Gronchi, Sao Paulo, Brasil",
+        "destination": "Estacao Santo Amaro, Sao Paulo, Brasil",
+        "real-distance": 2328,
+        "heuristic_destination": 1327.2606320008751
+    },
+    {
+        "origin": "Estacao Santo Amaro, Sao Paulo, Brasil",
+        "destination": "Estacao Largo Treze, Sao Paulo, Brasil",
+        "real-distance": 1126,
+        "heuristic_destination": 182.17985102581895
+    },
+    {
+        "origin": "Estacao Largo Treze, Sao Paulo, Brasil",
+        "destination": "Estacao Adolfo Pinheiro, Sao Paulo, Brasil",
+        "real-distance": 862,
+        "heuristic_destination": 493.3337336339066
+    },
+    {
+        "origin": "Estacao Adolfo Pinheiro, Sao Paulo, Brasil",
+        "destination": "Estacao Alto da Boa Vista, Sao Paulo, Brasil",
+        "real-distance": 1060,
+        "heuristic_destination": 937.1012847619843
+    },
+    {
+        "origin": "Estacao Alto da Boa Vista, Sao Paulo, Brasil",
+        "destination": "Estacao Borba Gato, Sao Paulo, Brasil",
+        "real-distance": 1130,
+        "heuristic_destination": 920.599596644638
+    },
+    {
+        "origin": "Estacao Borba Gato, Sao Paulo, Brasil",
+        "destination": "Estacao Brooklin, Sao Paulo, Brasil",
+        "real-distance": 887,
+        "heuristic_destination": 721.4592856733912
+    },
+    {
+        "origin": "Estacao Brooklin, Sao Paulo, Brasil",
+        "destination": "Estacao Campo Belo, Sao Paulo, Brasil",
+        "real-distance": 1108,
+        "heuristic_destination": 910.6267724286583
+    },
+    {
+        "origin": "Estacao Campo Belo, Sao Paulo, Brasil",
+        "destination": "Estacao Eucaliptos, Sao Paulo, Brasil",
+        "real-distance": 1772,
+        "heuristic_destination": 986.7541794686368
+    },
+    {
+        "origin": "Estacao Eucaliptos, Sao Paulo, Brasil",
+        "destination": "Estacao Moema, Sao Paulo, Brasil",
+        "real-distance": 949,
+        "heuristic_destination": 671.0246108998043
+    },
+    {
+        "origin": "Estacao Moema, Sao Paulo, Brasil",
+        "destination": "Estacao AACD-Servidor, Sao Paulo, Brasil",
+        "real-distance": 1318,
+        "heuristic_destination": 670.1214697830144
+    },
+    {
+        "origin": "Estacao AACD-Servidor, Sao Paulo, Brasil",
+        "destination": "Estacao Hospital Sao Paulo, Sao Paulo, Brasil",
+        "real-distance": 662,
+        "heuristic_destination": 44.88301540760501
+    },
+    {
+        "origin": "Estacao Hospital Sao Paulo, Sao Paulo, Brasil",
+        "destination": "Estacao Santa Cruz, Sao Paulo, Brasil",
+        "real-distance": 872,
+        "heuristic_destination": 51.6638368535014
+    },
+    {
+        "origin": "Estacao Santa Cruz, Sao Paulo, Brasil",
+        "destination": "Estacao Chacara Klabin, Sao Paulo, Brasil",
+        "real-distance": 946,
+        "heuristic_destination": 615.9045505386035
+    },
+    {
+        "origin": "Estacao Vila Prudente, Sao Paulo, Brasil",
+        "destination": "Estacao Oratorio, Sao Paulo, Brasil",
+        "real-distance": 2262,
+        "heuristic_destination": 270.7103562202825
+    },
+    {
+        "origin": "Estacao Oratorio, Sao Paulo, Brasil",
+        "destination": "Estacao Sao Lucas, Sao Paulo, Brasil",
+        "real-distance": 2028,
+        "heuristic_destination": 745.2223440588559
+    },
+    {
+        "origin": "Estacao Sao Lucas, Sao Paulo, Brasil",
+        "destination": "Estacao Camilo Haddad, Sao Paulo, Brasil",
+        "real-distance": 1041,
+        "heuristic_destination": 726.7138245203643
+    },
+    {
+        "origin": "Estacao Camilo Haddad, Sao Paulo, Brasil",
+        "destination": "Estacao Vila Tolstoi, Sao Paulo, Brasil",
+        "real-distance": 1254,
+        "heuristic_destination": 604.1588102863882
+    },
+    {
+        "origin": "Estacao Vila Tolstoi, Sao Paulo, Brasil",
+        "destination": "Estacao Vila Uniao, Sao Paulo, Brasil",
+        "real-distance": 1219,
+        "heuristic_destination": 232.58395244634426
+    },
+    {
+        "origin": "Estacao Vila Uniao, Sao Paulo, Brasil",
+        "destination": "Estacao Jd. Planalto, Sao Paulo, Brasil",
+        "real-distance": 957,
+        "heuristic_destination": 386.5458747519471
+    },
+    {
+        "origin": "Estacao Jd. Planalto, Sao Paulo, Brasil",
+        "destination": "Estacao Sapopemba, Sao Paulo, Brasil",
+        "real-distance": 2993,
+        "heuristic_destination": 1613.6178980133718
+    },
+    {
+        "origin": "Estacao Sapopemba, Sao Paulo, Brasil",
+        "destination": "Estacao Fazenda da Juta, Sao Paulo, Brasil",
+        "real-distance": 6212,
+        "heuristic_destination": 1816.892758702962
+    },
+    {
+        "origin": "Estacao Fazenda da Juta, Sao Paulo, Brasil",
+        "destination": "Estacao Sao Mateus, Sao Paulo, Brasil",
+        "real-distance": 1216,
+        "heuristic_destination": 86.71270433992441
+    }
+]

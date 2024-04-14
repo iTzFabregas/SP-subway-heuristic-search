@@ -6,6 +6,7 @@ import heuristic
 client = googlemaps.Client(key="AIzaSyBoxKHJNAVlH4Mc8UQAFnC6SrZtaLSgAEg")
 
 stations_dist = []
+stations_res = []
 
 if __name__ == "__main__":
 
@@ -18,7 +19,6 @@ if __name__ == "__main__":
 
             if (station_2 >= n): break
             if (stations_list[station_1][0] == "#"): continue
-            heuristic.save_latlon(client, stations_list[station_1])
             if (stations_list[station_2][0] == "#"): continue
 
             directions_result = client.directions(stations_list[station_1],
@@ -27,14 +27,22 @@ if __name__ == "__main__":
                                                 transit_mode="subway")
 
             buffer = {}
+            dest_lat = dest_lon = ori_lat = ori_lon = -1
             buffer['origin'] = stations_list[station_1]
             buffer['destination'] = stations_list[station_2]
             for i in directions_result[0]["legs"][0]["steps"]:
                 if i["travel_mode"] != "TRANSIT": continue
                 buffer['real-distance'] = i["distance"]["value"]
-            # buffer['heuristic-distance'] = heuristic.find_heuristic(directions_result)  # testing heurist values
-            
+                ori_lat = i["start_location"]["lat"]
+                ori_log = i["start_location"]["lng"]
+                dest_lat = i["end_location"]["lat"]
+                dest_lng = i["end_location"]["lng"]
+                buffer['heuristic_destination'] = heuristic.haversine(ori_lat, dest_lat, ori_log, dest_lng)
+            stations_res.append(directions_result)
             stations_dist.append(buffer)
 
     with open("./output/dist.json", "w") as f:
         json.dump(stations_dist, f)
+
+    with open("./output/res.json", "w") as f:
+        json.dump(stations_res, f)
