@@ -1,9 +1,22 @@
 import json
 import networkx as nx
 import matplotlib.pyplot as plt
+import subprocess
+import os
+
+starting_node = "Estacao Saude"
+target_node = "Estacao Santa Cruz"
 
 # file path
-file_path = "../googleMapsAPI/output/dist.json"
+file_path = "../googleMapsAPI/output/distances.json"
+
+# generate the heuristic file 
+os.chdir("../googleMapsAPI/") 
+python_interpreter = 'python3'
+python_program = './heuristic.py'
+subprocess.run(f'python3 {python_program} "{target_node}"', shell=True, check=True)
+
+heuristic_path = "../googleMapsAPI/output/heuristics/" + target_node.replace(" ", "") + "_heuristic.json"
 
 # create graph
 G = nx.DiGraph()
@@ -23,21 +36,44 @@ def createGraph():
         G.add_edge(origin, destination, weight=distance)
         G.add_edge(destination, origin, weight=distance)
 
-def searchGraph(starting_node, target_node):
+def showPath(path):
+    for i in range(len(path) - 1):
+        print(path[i] + " ➡ ", end="")
+    print(path[-1]) 
+
+def dfs(starting_node, target_node):
     # search in graph
     dfs_path = list(nx.dfs_edges(G, source=starting_node))
-    
-    if target_node in [starting_node] + [edge[1] for edge in dfs_path]:
-        print("O nó final foi alcançado.")
-        path_to_target = nx.shortest_path(G, source=starting_node, target=target_node)
-        print("Caminho encontrado:", path_to_target)
-       
-        total_cost = 0
-        for i in range(len(path_to_target) - 1):
-            total_cost += G[path_to_target[i]][path_to_target[i+1]]['weight']
-        print("Custo total do caminho:", total_cost)
-    else:
-        print("O nó final não foi alcançado.")
+    total_cost = 0
+    path = [starting_node]
+    for edge in dfs_path:
+        total_cost += G[edge[0]][edge[1]]['weight']
+        path.append(edge[1])
+        if edge[1] == target_node:
+            break
+    showPath(path)
+    print("Custo total do caminho:", total_cost)
+
+def heuristic(origin, destination):
+    with open(heuristic_path, 'r') as f:
+        data = json.load(f)
+    for item in data:
+        current_station = item['station'].split(', ')[0].strip()
+        if (current_station == origin):
+            return item['heuristc']
+    return 0
+
+def AStar(starting_node, target_node):
+    path = nx.astar_path(G, starting_node, target_node, 
+                         heuristic=heuristic,
+                         weight='weight')
+    total_cost = 0
+    for i in range(len(path) - 1):
+        total_cost += G[path[i]][path[i+1]]['weight']
+
+    showPath(path)
+    print("Custo total do caminho:", total_cost)
+
 
 def plotGraph():
     plt.figure(figsize=(16, 12))
@@ -54,8 +90,8 @@ def plotGraph():
     plt.show()
 
 
-starting_node = "Estacao Vila Sonia Profa. Elisabeth Tenreiro"
-target_node = "Estacao Sao Mateus"
 createGraph()
-searchGraph(starting_node, target_node)
-plotGraph()
+dfs(starting_node, target_node)
+print("========")
+AStar(starting_node, target_node)
+#plotGraph()

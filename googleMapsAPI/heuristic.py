@@ -6,7 +6,6 @@ from math import radians, sin, atan2, cos, sqrt, pow
 
 client = googlemaps.Client(key="AIzaSyBoxKHJNAVlH4Mc8UQAFnC6SrZtaLSgAEg")
 
-
 def check_station(station):
     with open("./stations_list/metro_stations.txt", "r") as f:
         stations_list = [line.split(', ')[0].strip() for line in f.readlines()]
@@ -64,6 +63,6 @@ if __name__ == "__main__":
     station = check_station(station)
     heuristic_list = find_heuristic(station)
                 
-    file_name = "./output/heuristcs/" + station.split(', ')[0].replace(" ", "") + "_heuristic.json"
+    file_name = "./output/heuristics/" + station.split(', ')[0].replace(" ", "") + "_heuristic.json"
     with open(file_name, "w") as f:
         json.dump(heuristic_list, f)
