@@ -13,7 +13,6 @@ def createGraph():
     with open(file_path, 'r') as f:
         data = json.load(f)
     
-   
     # full graph
     for item in data:
         origin = item['origin'].split(' -')[0].strip()
@@ -22,6 +21,7 @@ def createGraph():
         G.add_node(origin)
         G.add_node(destination)
         G.add_edge(origin, destination, weight=distance)
+        G.add_edge(destination, origin, weight=distance)
 
 def searchGraph(starting_node, target_node):
     # search in graph
