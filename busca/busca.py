@@ -1,100 +1,81 @@
 import os
+import json
 
 class Grafo:
     def __init__(self):
-        # Inicializa um dicionário para armazenar as listas de adjacências das estações.
+        # Inicializa um dicionário para armazenar a lista de adjacências.
         self.adjacentes = {}
 
-    def adiciona_aresta(self, origem, destino):
-        # Adiciona uma conexão bidirecional entre duas estações.
+    def adiciona_aresta(self, origem, destino, distancia):
+        # Adiciona uma aresta bidirecional com a distância entre os nós ao grafo.
         if origem not in self.adjacentes:
-            self.adjacentes[origem] = []
-        if destino not in self.adjacentes[origem]:
-            self.adjacentes[origem].append(destino)
+            self.adjacentes[origem] = {}
+        self.adjacentes[origem][destino] = distancia
         
         if destino not in self.adjacentes:
-            self.adjacentes[destino] = []
-        if origem not in self.adjacentes[destino]:
-            self.adjacentes[destino].append(origem)
+            self.adjacentes[destino] = {}
+        self.adjacentes[destino][origem] = distancia
 
     def imprime(self):
-        # Imprime todas as estações e suas conexões diretas, evitando duplicatas.
+        # Imprime todas as conexões do grafo formatadas para fácil leitura.
         print("Grafo de Estações de Metrô:")
         for estacao, conexoes in self.adjacentes.items():
-            conexoes_unicas = list(set(conexoes))
-            print(f"{estacao} -> {', '.join(conexoes_unicas)}")
+            print(f"{estacao} -> {', '.join(f'{v} ({d}m)' for v, d in conexoes.items())}")
 
     def dfs(self, inicio, fim):
-        # Executa uma busca em profundidade para encontrar um caminho do inicio ao fim.
+        # Executa uma busca em profundidade (DFS) para encontrar um caminho e a soma das distâncias.
         visitados = set()
         caminho = []
-        if self._dfs_recursivo(inicio, fim, visitados, caminho):
+        dist_total = self._dfs_recursivo(inicio, fim, visitados, caminho, 0)
+        if dist_total is not None:
             caminho.reverse()  # Inverte a ordem do caminho ao final da busca
-            return caminho
+            return caminho, dist_total
         else:
-            return []
+            return [], 0
 
-    def _dfs_recursivo(self, atual, fim, visitados, caminho):
-        # Função recursiva usada pela DFS para percorrer o grafo.
+    def _dfs_recursivo(self, atual, fim, visitados, caminho, dist_acumulada):
+        # Auxiliar recursiva da DFS que realiza a busca e acumula a distância.
         if atual == fim:
             caminho.append(atual)
-            return True
+            return dist_acumulada
         visitados.add(atual)
-        for vizinho in self.adjacentes.get(atual, []):
+        for vizinho, distancia in self.adjacentes.get(atual, {}).items():
             if vizinho not in visitados:
-                if self._dfs_recursivo(vizinho, fim, visitados, caminho):
+                resultado = self._dfs_recursivo(vizinho, fim, visitados, caminho, dist_acumulada + distancia)
+                if resultado is not None:
                     caminho.append(atual)
-                    return True
-        return False
+                    return resultado
+        return None
 
-def conectar_baldeacoes(grafo, est_por_linha):
-    # Conecta estações que aparecem em mais de uma linha.
-    for estacao, linhas in est_por_linha.items():
-        if len(linhas) > 1:
-            for i in range(len(linhas)):
-                chave_i = f"{estacao} - {linhas[i]}"
-                for j in range(i + 1, len(linhas)):
-                    chave_j = f"{estacao} - {linhas[j]}"
-                    grafo.adiciona_aresta(chave_i, chave_j)
-                    #print(f"Conectado {chave_i} com {chave_j}")
-
-def cria_grafo():
-    # Cria o grafo a partir de um arquivo de texto que lista as estações e linhas.
-    grafo = Grafo()
-    est_por_linha = {}
-    todas_as_estacoes_por_linha = {}
+def ler_distancias():
+    # Lê um arquivo JSON contendo as distâncias entre as estações e retorna um dicionário.
     dir_atual = os.getcwd()
-    file_path = os.path.join(dir_atual, 'googleMapsAPI', 'stations_list', 'metro_stations.txt')
+    file_json = os.path.join(dir_atual, 'googleMapsAPI', 'dist.json')
+    with open(file_json, 'r') as file:
+        dados = json.load(file)
+    distancias = {}
+    for item in dados:
+        origem = item["origin"].split(" - ")[0]  # Remove a localização adicional no nome da estação
+        destino = item["destination"].split(" - ")[0]
+        dist = item["real-distance"]
+        distancias[(origem, destino)] = dist
+    return distancias
 
-    with open(file_path, 'r') as file:
-        linha_atual = None
-        for linha in file:
-            linha = linha.strip()
-            if linha.startswith("#"):
-                linha_atual = linha.strip('#').strip()
-            else:
-                estacao = linha.split(" - ")[0].strip()
-                chave_estacao = f"{estacao} - {linha_atual}"
-                if estacao not in est_por_linha:
-                    est_por_linha[estacao] = []
-                est_por_linha[estacao].append(linha_atual)
-                if linha_atual not in todas_as_estacoes_por_linha:
-                    todas_as_estacoes_por_linha[linha_atual] = []
-                todas_as_estacoes_por_linha[linha_atual].append(chave_estacao)
-
-        # Conecta sequencialmente as estações dentro de cada linha
-        for linha, estacoes in todas_as_estacoes_por_linha.items():
-            for i in range(len(estacoes) - 1):
-                grafo.adiciona_aresta(estacoes[i], estacoes[i + 1])
-
-    # Adiciona conexões entre diferentes linhas para estações de baldeação.
-    conectar_baldeacoes(grafo, est_por_linha)
+def cria_grafo_dist():
+    # Cria o grafo a partir das distâncias lidas do JSON.
+    grafo = Grafo()
+    distancias = ler_distancias()
+    for (origem, destino), dist in distancias.items():
+        grafo.adiciona_aresta(origem, destino, dist)
     return grafo
 
 # Criação e uso do grafo
-g2 = cria_grafo()
-caminho = g2.dfs("Estação Conceição - LINHA 1 AZUL", "Estação Saúde - LINHA 1 AZUL")
-print("Caminho é:", caminho)
+g = cria_grafo_dist()
+g.imprime()  # Imprime o grafo completo com distâncias
+caminho, dist = g.dfs("Estacao Conceicao", "Estacao Saude")
+print("Caminho:", caminho)  # Imprime o caminho encontrado e a distância total
+print("Distancia:", dist)
 
-caminho2 = g2.dfs("Estação Sé - LINHA 3 VERMELHA", "Estação Faria Lima - LINHA 4 AMARELA")
-print("Caminho do g2 é:", caminho2)
+caminho2, dist2 = g.dfs("Estacao Conceicao", "Estacao Santos-Imigrantes")
+print("Caminho:", caminho2)
+print("Distancia:", dist2)
