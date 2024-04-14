@@ -1,32 +1,39 @@
 import googlemaps
 import json
 
+import heuristic
+
 client = googlemaps.Client(key="")
 
 stations_dist = []
+stations_latlon = []
 
-with open("./stations_list/small_list_station.txt", "r") as f:
-    stations_list = f.readlines()
-    n = len(stations_list)
+if __name__ == "__main__":
 
-    for station_1 in range(n):
-        station_2 = station_1 + 1
+    with open("./stations_list/metro_stations.txt", "r") as f:
+        stations_list = [line.rstrip('\n') for line in f.readlines()]
+        n = len(stations_list)
 
-        if (station_2 >= n): break
-        if (stations_list[station_1][0] == "#"): continue
-        if (stations_list[station_2][0] == "#"): continue
+        for station_1 in range(n):
+            station_2 = station_1 + 1
 
-        directions_result = client.directions(stations_list[station_1],
-                                            stations_list[station_2],
-                                            mode="transit",
-                                            transit_mode="subway")
+            if (station_2 >= n): break
+            if (stations_list[station_1][0] == "#"): continue
+            heuristic.save_latlon(client, stations_list[station_1])
+            if (stations_list[station_2][0] == "#"): continue
 
-        buffer = {}
-        buffer['origin'] = stations_list[station_1]
-        buffer['destination'] = stations_list[station_2]
-        buffer['distance'] = directions_result[0]["legs"][0]["distance"]["value"]
-        
-        stations_dist.append(buffer)
+            directions_result = client.directions(stations_list[station_1],
+                                                stations_list[station_2],
+                                                mode="transit",
+                                                transit_mode="subway")
 
-with open("dist.json", "w") as f:
-    json.dump(stations_dist, f)
+            buffer = {}
+            buffer['origin'] = stations_list[station_1]
+            buffer['destination'] = stations_list[station_2]
+            buffer['real-distance'] = directions_result[0]["legs"][0]["distance"]["value"]
+            # buffer['heuristic-distance'] = heuristic.find_heuristic(directions_result)  # testing heurist values
+
+            stations_dist.append(buffer)
+
+    with open("./output/dist.json", "w") as f:
+        json.dump(stations_dist, f)
