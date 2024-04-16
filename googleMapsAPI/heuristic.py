@@ -51,7 +51,7 @@ def haversine(origin_lat, dest_lat, origin_lng, dest_lng):
     a = pow(sin(del_lat/2),2) + cos(origin_lat) * cos(dest_lat) * pow(sin(del_lng/2),2)
     c = 2 * atan2(sqrt(a), sqrt(1-a))
 
-    return  1000 * r * c
+    return  r * c / 80 * 3600
 
     
 

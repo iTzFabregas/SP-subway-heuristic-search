@@ -28,7 +28,7 @@ if __name__ == "__main__":
             buffer['destination'] = stations_list[station_2]
             for i in directions_result[0]["legs"][0]["steps"]:
                 if i["travel_mode"] != "TRANSIT": continue
-                buffer['real-distance'] = i["distance"]["value"]
+                buffer['real-distance'] = i["duration"]["value"]
 
             stations_dist.append(buffer)
 
