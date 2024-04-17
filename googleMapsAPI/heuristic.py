@@ -4,7 +4,7 @@ import csv
 import sys
 from math import radians, sin, atan2, cos, sqrt, pow
 
-client = googlemaps.Client(key="AIzaSyBoxKHJNAVlH4Mc8UQAFnC6SrZtaLSgAEg")
+client = googlemaps.Client(key="AIzaSyA_prM8fOfjOLNI_pDa0w1IO0L5ePMMaaU")
 
 
 def check_station(station):
@@ -36,7 +36,7 @@ def find_heuristic(dest_station):
             
             buffer = {}
             buffer['station'] = origin_station
-            buffer['heuristc'] = curr_heuristic
+            buffer['heuristic'] = curr_heuristic
             heuristic_list.append(buffer)
 
     return heuristic_list
@@ -51,7 +51,7 @@ def haversine(origin_lat, dest_lat, origin_lng, dest_lng):
     a = pow(sin(del_lat/2),2) + cos(origin_lat) * cos(dest_lat) * pow(sin(del_lng/2),2)
     c = 2 * atan2(sqrt(a), sqrt(1-a))
 
-    return  1000 * r * c
+    return r * c / 80 * 3600
 
     
 
@@ -64,6 +64,6 @@ if __name__ == "__main__":
     station = check_station(station)
     heuristic_list = find_heuristic(station)
                 
-    file_name = "./output/heuristcs/" + station.split(', ')[0].replace(" ", "") + "_heuristic.json"
+    file_name = "./output/heuristics/" + station.split(', ')[0].replace(" ", "") + "_heuristic.json"
     with open(file_name, "w") as f:
         json.dump(heuristic_list, f)
