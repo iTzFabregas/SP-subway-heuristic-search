@@ -1,370 +1,370 @@
 [
     {
         "station": "Estacao Jabaquara, Sao Paulo, Brasil",
-        "heuristc": 477.19843731175575
+        "heuristic": 477.19843731175575
     },
     {
         "station": "Estacao Conceicao, Sao Paulo, Brasil",
-        "heuristc": 423.8385577412025
+        "heuristic": 423.8385577412025
     },
     {
         "station": "Estacao Sao Judas, Sao Paulo, Brasil",
-        "heuristc": 373.68485685426333
+        "heuristic": 373.68485685426333
     },
     {
         "station": "Estacao Saude, Sao Paulo, Brasil",
-        "heuristc": 338.2057886254133
+        "heuristic": 338.2057886254133
     },
     {
         "station": "Estacao Praca da arvore, Sao Paulo, Brasil",
-        "heuristc": 298.3840870729912
+        "heuristic": 298.3840870729912
     },
     {
         "station": "Estacao Santa Cruz, Sao Paulo, Brasil",
-        "heuristc": 240.18811899075916
+        "heuristic": 240.18811899075916
     },
     {
         "station": "Estacao Vila Mariana, Sao Paulo, Brasil",
-        "heuristc": 190.3969004956763
+        "heuristic": 190.3969004956763
     },
     {
         "station": "Estacao Ana Rosa, Sao Paulo, Brasil",
-        "heuristc": 153.82479883887328
+        "heuristic": 153.82479883887328
     },
     {
         "station": "Estacao Paraiso, Sao Paulo, Brasil",
-        "heuristc": 121.27148322693532
+        "heuristic": 121.27148322693532
     },
     {
         "station": "Estacao Vergueiro, Sao Paulo, Brasil",
-        "heuristc": 89.99317898180462
+        "heuristic": 89.99317898180462
     },
     {
         "station": "Estacao Sao Joaquim, Sao Paulo, Brasil",
-        "heuristc": 55.08202816823709
+        "heuristic": 55.08202816823709
     },
     {
         "station": "Estacao Japao-Liberdade, Sao Paulo, Brasil",
-        "heuristc": 21.596902858235637
+        "heuristic": 21.596902858235637
     },
     {
         "station": "Estacao Se, Sao Paulo, Brasil",
-        "heuristc": 0.0
+        "heuristic": 0.0
     },
     {
         "station": "Estacao Sao Bento, Sao Paulo, Brasil",
-        "heuristc": 33.4416732316999
+        "heuristic": 33.4416732316999
     },
     {
         "station": "Estacao Luz, Sao Paulo, Brasil",
-        "heuristc": 65.03571977571266
+        "heuristic": 65.03571977571266
     },
     {
         "station": "Estacao Armenia, Sao Paulo, Brasil",
-        "heuristc": 123.80855094457625
+        "heuristic": 123.80855094457625
     },
     {
         "station": "Estacao Portuguesa-Tiete, Sao Paulo, Brasil",
-        "heuristc": 173.1096958819639
+        "heuristic": 173.1096958819639
     },
     {
         "station": "Estacao Carandiru, Sao Paulo, Brasil",
-        "heuristc": 208.67103582685357
+        "heuristic": 208.67103582685357
     },
     {
         "station": "Estacao Santana, Sao Paulo, Brasil",
-        "heuristc": 240.59561935798334
+        "heuristic": 240.59561935798334
     },
     {
         "station": "Estacao Jardim Sao Paulo-Ayrton Senna, Sao Paulo, Brasil",
-        "heuristc": 291.38728485300487
+        "heuristic": 291.38728485300487
     },
     {
         "station": "Estacao Parada Inglesa, Sao Paulo, Brasil",
-        "heuristc": 318.85724918780227
+        "heuristic": 318.85724918780227
     },
     {
         "station": "Estacao Tucuruvi, Sao Paulo, Brasil",
-        "heuristc": 351.10326759824625
+        "heuristic": 351.10326759824625
     },
     {
         "station": "Estacao Vila Prudente, Sao Paulo, Brasil",
-        "heuristc": 172.41235130253747
+        "heuristic": 172.41235130253747
     },
     {
         "station": "Estacao Tamanduatei, Sao Paulo, Brasil",
-        "heuristc": 218.47102947505425
+        "heuristic": 218.47102947505425
     },
     {
         "station": "Estacao Sacoma, Sao Paulo, Brasil",
-        "heuristc": 267.21187465152246
+        "heuristic": 267.21187465152246
     },
     {
         "station": "Estacao Alto do Ipiranga, Sao Paulo, Brasil",
-        "heuristc": 263.91355536933236
+        "heuristic": 263.91355536933236
     },
     {
         "station": "Estacao Santos-Imigrantes, Sao Paulo, Brasil",
-        "heuristc": 231.2839159420729
+        "heuristic": 231.2839159420729
     },
     {
         "station": "Estacao Chacara Klabin, Sao Paulo, Brasil",
-        "heuristc": 209.7100100022964
+        "heuristic": 209.7100100022964
     },
     {
         "station": "Estacao Ana Rosa, Sao Paulo, Brasil",
-        "heuristc": 153.82479883887328
+        "heuristic": 153.82479883887328
     },
     {
         "station": "Estacao Paraiso, Sao Paulo, Brasil",
-        "heuristc": 121.27148322693532
+        "heuristic": 121.27148322693532
     },
     {
         "station": "Estacao Brigadeiro, Sao Paulo, Brasil",
-        "heuristc": 90.68791155226175
+        "heuristic": 90.68791155226175
     },
     {
         "station": "Estacao Trianon-Masp, Sao Paulo, Brasil",
-        "heuristc": 58.81701394237037
+        "heuristic": 58.81701394237037
     },
     {
         "station": "Estacao Consolacao, Sao Paulo, Brasil",
-        "heuristc": 33.282332386351705
+        "heuristic": 33.282332386351705
     },
     {
         "station": "Estacao Clinicas, Sao Paulo, Brasil",
-        "heuristc": 17.027053043708094
+        "heuristic": 17.027053043708094
     },
     {
         "station": "Estacao S. N. Sra. de Fatima-Sumare, Sao Paulo, Brasil",
-        "heuristc": 2.5885369836618883
+        "heuristic": 2.5885369836618883
     },
     {
         "station": "Estacao Vila Madalena, Sao Paulo, Brasil",
-        "heuristc": 21.63458615811988
+        "heuristic": 21.63458615811988
     },
     {
         "station": "Estacao Corinthians-Itaquera, Sao Paulo, Brasil",
-        "heuristc": 38.22413916284636
+        "heuristic": 38.22413916284636
     },
     {
         "station": "Estacao Artur Alvim, Sao Paulo, Brasil",
-        "heuristc": 48.388948452689775
+        "heuristic": 48.388948452689775
     },
     {
         "station": "Estacao Patriarca-Vila Re, Sao Paulo, Brasil",
-        "heuristc": 92.66406643748756
+        "heuristic": 92.66406643748756
     },
     {
         "station": "Estacao Guilhermina-Esperanca, Sao Paulo, Brasil",
-        "heuristc": 100.88886426684118
+        "heuristic": 100.88886426684118
     },
     {
         "station": "Estacao Vila Matilde, Sao Paulo, Brasil",
-        "heuristc": 88.5836447203169
+        "heuristic": 88.5836447203169
     },
     {
         "station": "Estacao Penha, Sao Paulo, Brasil",
-        "heuristc": 90.20970983578201
+        "heuristic": 90.20970983578201
     },
     {
         "station": "Estacao Carrao-Assai Atacadista, Sao Paulo, Brasil",
-        "heuristc": 57.826564233427554
+        "heuristic": 57.826564233427554
     },
     {
         "station": "Estacao Tatuape, Sao Paulo, Brasil",
-        "heuristc": 49.55446080568103
+        "heuristic": 49.55446080568103
     },
     {
         "station": "Estacao Belem, Sao Paulo, Brasil",
-        "heuristc": 31.563334531476766
+        "heuristic": 31.563334531476766
     },
     {
         "station": "Estacao Bresser-Mooca, Sao Paulo, Brasil",
-        "heuristc": 13.905365634513137
+        "heuristic": 13.905365634513137
     },
     {
         "station": "Estacao Bras, Sao Paulo, Brasil",
-        "heuristc": 26.722496850682933
+        "heuristic": 26.722496850682933
     },
     {
         "station": "Estacao Pedro II, Sao Paulo, Brasil",
-        "heuristc": 1.4984994458516971
+        "heuristic": 1.4984994458516971
     },
     {
         "station": "Estacao Se, Sao Paulo, Brasil",
-        "heuristc": 0.0
+        "heuristic": 0.0
     },
     {
         "station": "Estacao Anhangabau, Sao Paulo, Brasil",
-        "heuristc": 11.157152249701909
+        "heuristic": 11.157152249701909
     },
     {
         "station": "Estacao Republica, Sao Paulo, Brasil",
-        "heuristc": 36.405683899477296
+        "heuristic": 36.405683899477296
     },
     {
         "station": "Estacao Santa Cecilia, Sao Paulo, Brasil",
-        "heuristc": 60.68872914946052
+        "heuristic": 60.68872914946052
     },
     {
         "station": "Estacao Marechal Deodoro, Sao Paulo, Brasil",
-        "heuristc": 85.16286476030919
+        "heuristic": 85.16286476030919
     },
     {
         "station": "Estacao Palmeiras-Barra Funda, Sao Paulo, Brasil",
-        "heuristc": 118.64106892330835
+        "heuristic": 118.64106892330835
     },
     {
         "station": "Estacao Vila Sonia Profa. Elisabeth Tenreiro, Sao Paulo, Brasil",
-        "heuristc": 210.82663169822087
+        "heuristic": 210.82663169822087
     },
     {
         "station": "Estacao Sao Paulo-Morumbi, Sao Paulo, Brasil",
-        "heuristc": 175.794002117872
+        "heuristic": 175.794002117872
     },
     {
         "station": "Estacao Butanta, Sao Paulo, Brasil",
-        "heuristc": 104.81144186065967
+        "heuristic": 104.81144186065967
     },
     {
         "station": "Estacao Pinheiros, Sao Paulo, Brasil",
-        "heuristc": 81.99851516831806
+        "heuristic": 81.99851516831806
     },
     {
         "station": "Estacao Faria Lima, Sao Paulo, Brasil",
-        "heuristc": 82.66975623429103
+        "heuristic": 82.66975623429103
     },
     {
         "station": "Estacao Fradique Coutinho, Sao Paulo, Brasil",
-        "heuristc": 76.69051655571717
+        "heuristic": 76.69051655571717
     },
     {
         "station": "Estacao Oscar Freire, Sao Paulo, Brasil",
-        "heuristc": 49.145788391636174
+        "heuristic": 49.145788391636174
     },
     {
         "station": "Estacao Paulista Pernambucanas, Sao Paulo, Brasil",
-        "heuristc": 21.54018035747159
+        "heuristic": 21.54018035747159
     },
     {
         "station": "Estacao Higienopolis-Mackenzie, Sao Paulo, Brasil",
-        "heuristc": 8.951715789110022
+        "heuristic": 8.951715789110022
     },
     {
         "station": "Estacao Republica, Sao Paulo, Brasil",
-        "heuristc": 36.405683899477296
+        "heuristic": 36.405683899477296
     },
     {
         "station": "Estacao Luz, Sao Paulo, Brasil",
-        "heuristc": 65.03571977571266
+        "heuristic": 65.03571977571266
     },
     {
         "station": "Estacao Capao Redondo, Sao Paulo, Brasil",
-        "heuristc": 543.0980717254783
+        "heuristic": 543.0980717254783
     },
     {
         "station": "Estacao Campo Limpo, Sao Paulo, Brasil",
-        "heuristc": 494.6692001614701
+        "heuristic": 494.6692001614701
     },
     {
         "station": "Estacao Vila das Belezas, Sao Paulo, Brasil",
-        "heuristc": 448.7157250850171
+        "heuristic": 448.7157250850171
     },
     {
         "station": "Estacao Giovanni Gronchi, Sao Paulo, Brasil",
-        "heuristc": 468.08553976910656
+        "heuristic": 468.08553976910656
     },
     {
         "station": "Estacao Santo Amaro, Sao Paulo, Brasil",
-        "heuristc": 523.0372728945156
+        "heuristic": 523.0372728945156
     },
     {
         "station": "Estacao Largo Treze, Sao Paulo, Brasil",
-        "heuristc": 518.1979777970133
+        "heuristic": 518.1979777970133
     },
     {
         "station": "Estacao Adolfo Pinheiro, Sao Paulo, Brasil",
-        "heuristc": 496.3594823157791
+        "heuristic": 496.3594823157791
     },
     {
         "station": "Estacao Alto da Boa Vista, Sao Paulo, Brasil",
-        "heuristc": 454.65557284329674
+        "heuristic": 454.65557284329674
     },
     {
         "station": "Estacao Borba Gato, Sao Paulo, Brasil",
-        "heuristc": 413.56443127417845
+        "heuristic": 413.56443127417845
     },
     {
         "station": "Estacao Brooklin, Sao Paulo, Brasil",
-        "heuristc": 381.5575496039701
+        "heuristic": 381.5575496039701
     },
     {
         "station": "Estacao Campo Belo, Sao Paulo, Brasil",
-        "heuristc": 339.36257604097204
+        "heuristic": 339.36257604097204
     },
     {
         "station": "Estacao Eucaliptos, Sao Paulo, Brasil",
-        "heuristc": 297.31097747819786
+        "heuristic": 297.31097747819786
     },
     {
         "station": "Estacao Moema, Sao Paulo, Brasil",
-        "heuristc": 263.05511279437565
+        "heuristic": 263.05511279437565
     },
     {
         "station": "Estacao AACD-Servidor, Sao Paulo, Brasil",
-        "heuristc": 233.8720757939962
+        "heuristic": 233.8720757939962
     },
     {
         "station": "Estacao Hospital Sao Paulo, Sao Paulo, Brasil",
-        "heuristc": 237.5633336216029
+        "heuristic": 237.5633336216029
     },
     {
         "station": "Estacao Santa Cruz, Sao Paulo, Brasil",
-        "heuristc": 240.18811899075916
+        "heuristic": 240.18811899075916
     },
     {
         "station": "Estacao Chacara Klabin, Sao Paulo, Brasil",
-        "heuristc": 209.7100100022964
+        "heuristic": 209.7100100022964
     },
     {
         "station": "Estacao Vila Prudente, Sao Paulo, Brasil",
-        "heuristc": 172.41235130253747
+        "heuristic": 172.41235130253747
     },
     {
         "station": "Estacao Oratorio, Sao Paulo, Brasil",
-        "heuristc": 161.58463976525775
+        "heuristic": 161.58463976525775
     },
     {
         "station": "Estacao Sao Lucas, Sao Paulo, Brasil",
-        "heuristc": 196.17030810566152
+        "heuristic": 196.17030810566152
     },
     {
         "station": "Estacao Camilo Haddad, Sao Paulo, Brasil",
-        "heuristc": 229.5443425168126
+        "heuristic": 229.5443425168126
     },
     {
         "station": "Estacao Vila Tolstoi, Sao Paulo, Brasil",
-        "heuristc": 255.47169592776794
+        "heuristic": 255.47169592776794
     },
     {
         "station": "Estacao Vila Uniao, Sao Paulo, Brasil",
-        "heuristc": 265.6426677012879
+        "heuristic": 265.6426677012879
     },
     {
         "station": "Estacao Jd. Planalto, Sao Paulo, Brasil",
-        "heuristc": 283.95192933548856
+        "heuristic": 283.95192933548856
     },
     {
         "station": "Estacao Sapopemba, Sao Paulo, Brasil",
-        "heuristc": 214.43930536422846
+        "heuristic": 214.43930536422846
     },
     {
         "station": "Estacao Fazenda da Juta, Sao Paulo, Brasil",
-        "heuristc": 312.7333701003939
+        "heuristic": 312.7333701003939
     },
     {
         "station": "Estacao Sao Mateus, Sao Paulo, Brasil",
-        "heuristc": 311.3999432074483
+        "heuristic": 311.3999432074483
     }
 ]
