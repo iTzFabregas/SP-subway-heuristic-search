@@ -5,7 +5,6 @@ import heuristic
 
 client = googlemaps.Client(key="AIzaSyA_prM8fOfjOLNI_pDa0w1IO0L5ePMMaaU")
 
-# stations_res = []
 stations_dist = []
 
 if __name__ == "__main__":
@@ -34,10 +33,6 @@ if __name__ == "__main__":
                 buffer['real-distance'] = i["duration"]["value"]
 
             stations_dist.append(buffer)
-            # stations_res.append(directions_result)
 
     with open("./output/distances.json", "w") as f:
         json.dump(stations_dist, f)
-
-    # with open("./output/res.json", "w") as f:
-    #     json.dump(stations_res, f)
