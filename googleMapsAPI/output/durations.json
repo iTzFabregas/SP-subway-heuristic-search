@@ -1,0 +1,432 @@
+[
+    {
+        "origin": "Estacao Jabaquara, Sao Paulo, Brasil",
+        "destination": "Estacao Conceicao, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Conceicao, Sao Paulo, Brasil",
+        "destination": "Estacao Sao Judas, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Sao Judas, Sao Paulo, Brasil",
+        "destination": "Estacao Saude, Sao Paulo, Brasil",
+        "real-duration": 60
+    },
+    {
+        "origin": "Estacao Saude, Sao Paulo, Brasil",
+        "destination": "Estacao Praca da arvore, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Praca da arvore, Sao Paulo, Brasil",
+        "destination": "Estacao Santa Cruz, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Santa Cruz, Sao Paulo, Brasil",
+        "destination": "Estacao Vila Mariana, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Vila Mariana, Sao Paulo, Brasil",
+        "destination": "Estacao Ana Rosa, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Ana Rosa, Sao Paulo, Brasil",
+        "destination": "Estacao Paraiso, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Paraiso, Sao Paulo, Brasil",
+        "destination": "Estacao Vergueiro, Sao Paulo, Brasil",
+        "real-duration": 60
+    },
+    {
+        "origin": "Estacao Vergueiro, Sao Paulo, Brasil",
+        "destination": "Estacao Sao Joaquim, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Sao Joaquim, Sao Paulo, Brasil",
+        "destination": "Estacao Japao-Liberdade, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Japao-Liberdade, Sao Paulo, Brasil",
+        "destination": "Estacao Se, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Se, Sao Paulo, Brasil",
+        "destination": "Estacao Sao Bento, Sao Paulo, Brasil",
+        "real-duration": 60
+    },
+    {
+        "origin": "Estacao Sao Bento, Sao Paulo, Brasil",
+        "destination": "Estacao Luz, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Luz, Sao Paulo, Brasil",
+        "destination": "Estacao Armenia, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Armenia, Sao Paulo, Brasil",
+        "destination": "Estacao Portuguesa-Tiete, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Portuguesa-Tiete, Sao Paulo, Brasil",
+        "destination": "Estacao Carandiru, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Carandiru, Sao Paulo, Brasil",
+        "destination": "Estacao Santana, Sao Paulo, Brasil",
+        "real-duration": 60
+    },
+    {
+        "origin": "Estacao Santana, Sao Paulo, Brasil",
+        "destination": "Estacao Jardim Sao Paulo-Ayrton Senna, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Jardim Sao Paulo-Ayrton Senna, Sao Paulo, Brasil",
+        "destination": "Estacao Parada Inglesa, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Parada Inglesa, Sao Paulo, Brasil",
+        "destination": "Estacao Tucuruvi, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Vila Prudente, Sao Paulo, Brasil",
+        "destination": "Estacao Tamanduatei, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Tamanduatei, Sao Paulo, Brasil",
+        "destination": "Estacao Sacoma, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Sacoma, Sao Paulo, Brasil",
+        "destination": "Estacao Alto do Ipiranga, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Alto do Ipiranga, Sao Paulo, Brasil",
+        "destination": "Estacao Santos-Imigrantes, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Santos-Imigrantes, Sao Paulo, Brasil",
+        "destination": "Estacao Chacara Klabin, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Chacara Klabin, Sao Paulo, Brasil",
+        "destination": "Estacao Ana Rosa, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Ana Rosa, Sao Paulo, Brasil",
+        "destination": "Estacao Paraiso, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Paraiso, Sao Paulo, Brasil",
+        "destination": "Estacao Brigadeiro, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Brigadeiro, Sao Paulo, Brasil",
+        "destination": "Estacao Trianon-Masp, Sao Paulo, Brasil",
+        "real-duration": 180
+    },
+    {
+        "origin": "Estacao Trianon-Masp, Sao Paulo, Brasil",
+        "destination": "Estacao Consolacao, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Consolacao, Sao Paulo, Brasil",
+        "destination": "Estacao Clinicas, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Clinicas, Sao Paulo, Brasil",
+        "destination": "Estacao S. N. Sra. de Fatima-Sumare, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao S. N. Sra. de Fatima-Sumare, Sao Paulo, Brasil",
+        "destination": "Estacao Vila Madalena, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Corinthians-Itaquera, Sao Paulo, Brasil",
+        "destination": "Estacao Artur Alvim, Sao Paulo, Brasil",
+        "real-duration": 180
+    },
+    {
+        "origin": "Estacao Artur Alvim, Sao Paulo, Brasil",
+        "destination": "Estacao Patriarca-Vila Re, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Patriarca-Vila Re, Sao Paulo, Brasil",
+        "destination": "Estacao Guilhermina-Esperanca, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Guilhermina-Esperanca, Sao Paulo, Brasil",
+        "destination": "Estacao Vila Matilde, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Vila Matilde, Sao Paulo, Brasil",
+        "destination": "Estacao Penha, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Penha, Sao Paulo, Brasil",
+        "destination": "Estacao Carrao-Assai Atacadista, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Carrao-Assai Atacadista, Sao Paulo, Brasil",
+        "destination": "Estacao Tatuape, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Tatuape, Sao Paulo, Brasil",
+        "destination": "Estacao Belem, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Belem, Sao Paulo, Brasil",
+        "destination": "Estacao Bresser-Mooca, Sao Paulo, Brasil",
+        "real-duration": 180
+    },
+    {
+        "origin": "Estacao Bresser-Mooca, Sao Paulo, Brasil",
+        "destination": "Estacao Bras, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Bras, Sao Paulo, Brasil",
+        "destination": "Estacao Pedro II, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Pedro II, Sao Paulo, Brasil",
+        "destination": "Estacao Se, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Se, Sao Paulo, Brasil",
+        "destination": "Estacao Anhangabau, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Anhangabau, Sao Paulo, Brasil",
+        "destination": "Estacao Republica, Sao Paulo, Brasil",
+        "real-duration": 180
+    },
+    {
+        "origin": "Estacao Republica, Sao Paulo, Brasil",
+        "destination": "Estacao Santa Cecilia, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Santa Cecilia, Sao Paulo, Brasil",
+        "destination": "Estacao Marechal Deodoro, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Marechal Deodoro, Sao Paulo, Brasil",
+        "destination": "Estacao Palmeiras-Barra Funda, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Vila Sonia Profa. Elisabeth Tenreiro, Sao Paulo, Brasil",
+        "destination": "Estacao Sao Paulo-Morumbi, Sao Paulo, Brasil",
+        "real-duration": 147
+    },
+    {
+        "origin": "Estacao Sao Paulo-Morumbi, Sao Paulo, Brasil",
+        "destination": "Estacao Butanta, Sao Paulo, Brasil",
+        "real-duration": 165
+    },
+    {
+        "origin": "Estacao Butanta, Sao Paulo, Brasil",
+        "destination": "Estacao Pinheiros, Sao Paulo, Brasil",
+        "real-duration": 101
+    },
+    {
+        "origin": "Estacao Pinheiros, Sao Paulo, Brasil",
+        "destination": "Estacao Faria Lima, Sao Paulo, Brasil",
+        "real-duration": 102
+    },
+    {
+        "origin": "Estacao Faria Lima, Sao Paulo, Brasil",
+        "destination": "Estacao Fradique Coutinho, Sao Paulo, Brasil",
+        "real-duration": 111
+    },
+    {
+        "origin": "Estacao Fradique Coutinho, Sao Paulo, Brasil",
+        "destination": "Estacao Oscar Freire, Sao Paulo, Brasil",
+        "real-duration": 133
+    },
+    {
+        "origin": "Estacao Oscar Freire, Sao Paulo, Brasil",
+        "destination": "Estacao Paulista Pernambucanas, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Paulista Pernambucanas, Sao Paulo, Brasil",
+        "destination": "Estacao Higienopolis-Mackenzie, Sao Paulo, Brasil",
+        "real-duration": 130
+    },
+    {
+        "origin": "Estacao Higienopolis-Mackenzie, Sao Paulo, Brasil",
+        "destination": "Estacao Republica, Sao Paulo, Brasil",
+        "real-duration": 116
+    },
+    {
+        "origin": "Estacao Republica, Sao Paulo, Brasil",
+        "destination": "Estacao Luz, Sao Paulo, Brasil",
+        "real-duration": 139
+    },
+    {
+        "origin": "Estacao Capao Redondo, Sao Paulo, Brasil",
+        "destination": "Estacao Campo Limpo, Sao Paulo, Brasil",
+        "real-duration": 160
+    },
+    {
+        "origin": "Estacao Campo Limpo, Sao Paulo, Brasil",
+        "destination": "Estacao Vila das Belezas, Sao Paulo, Brasil",
+        "real-duration": 169
+    },
+    {
+        "origin": "Estacao Vila das Belezas, Sao Paulo, Brasil",
+        "destination": "Estacao Giovanni Gronchi, Sao Paulo, Brasil",
+        "real-duration": 156
+    },
+    {
+        "origin": "Estacao Giovanni Gronchi, Sao Paulo, Brasil",
+        "destination": "Estacao Santo Amaro, Sao Paulo, Brasil",
+        "real-duration": 200
+    },
+    {
+        "origin": "Estacao Santo Amaro, Sao Paulo, Brasil",
+        "destination": "Estacao Largo Treze, Sao Paulo, Brasil",
+        "real-duration": 119
+    },
+    {
+        "origin": "Estacao Largo Treze, Sao Paulo, Brasil",
+        "destination": "Estacao Adolfo Pinheiro, Sao Paulo, Brasil",
+        "real-duration": 106
+    },
+    {
+        "origin": "Estacao Adolfo Pinheiro, Sao Paulo, Brasil",
+        "destination": "Estacao Alto da Boa Vista, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Alto da Boa Vista, Sao Paulo, Brasil",
+        "destination": "Estacao Borba Gato, Sao Paulo, Brasil",
+        "real-duration": 122
+    },
+    {
+        "origin": "Estacao Borba Gato, Sao Paulo, Brasil",
+        "destination": "Estacao Brooklin, Sao Paulo, Brasil",
+        "real-duration": 107
+    },
+    {
+        "origin": "Estacao Brooklin, Sao Paulo, Brasil",
+        "destination": "Estacao Campo Belo, Sao Paulo, Brasil",
+        "real-duration": 112
+    },
+    {
+        "origin": "Estacao Campo Belo, Sao Paulo, Brasil",
+        "destination": "Estacao Eucaliptos, Sao Paulo, Brasil",
+        "real-duration": 144
+    },
+    {
+        "origin": "Estacao Eucaliptos, Sao Paulo, Brasil",
+        "destination": "Estacao Moema, Sao Paulo, Brasil",
+        "real-duration": 108
+    },
+    {
+        "origin": "Estacao Moema, Sao Paulo, Brasil",
+        "destination": "Estacao AACD-Servidor, Sao Paulo, Brasil",
+        "real-duration": 134
+    },
+    {
+        "origin": "Estacao AACD-Servidor, Sao Paulo, Brasil",
+        "destination": "Estacao Hospital Sao Paulo, Sao Paulo, Brasil",
+        "real-duration": 91
+    },
+    {
+        "origin": "Estacao Hospital Sao Paulo, Sao Paulo, Brasil",
+        "destination": "Estacao Santa Cruz, Sao Paulo, Brasil",
+        "real-duration": 109
+    },
+    {
+        "origin": "Estacao Santa Cruz, Sao Paulo, Brasil",
+        "destination": "Estacao Chacara Klabin, Sao Paulo, Brasil",
+        "real-duration": 104
+    },
+    {
+        "origin": "Estacao Vila Prudente, Sao Paulo, Brasil",
+        "destination": "Estacao Oratorio, Sao Paulo, Brasil",
+        "real-duration": 180
+    },
+    {
+        "origin": "Estacao Oratorio, Sao Paulo, Brasil",
+        "destination": "Estacao Sao Lucas, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Sao Lucas, Sao Paulo, Brasil",
+        "destination": "Estacao Camilo Haddad, Sao Paulo, Brasil",
+        "real-duration": 180
+    },
+    {
+        "origin": "Estacao Camilo Haddad, Sao Paulo, Brasil",
+        "destination": "Estacao Vila Tolstoi, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Vila Tolstoi, Sao Paulo, Brasil",
+        "destination": "Estacao Vila Uniao, Sao Paulo, Brasil",
+        "real-duration": 180
+    },
+    {
+        "origin": "Estacao Vila Uniao, Sao Paulo, Brasil",
+        "destination": "Estacao Jd. Planalto, Sao Paulo, Brasil",
+        "real-duration": 120
+    },
+    {
+        "origin": "Estacao Jd. Planalto, Sao Paulo, Brasil",
+        "destination": "Estacao Sapopemba, Sao Paulo, Brasil",
+        "real-duration": 420
+    },
+    {
+        "origin": "Estacao Sapopemba, Sao Paulo, Brasil",
+        "destination": "Estacao Fazenda da Juta, Sao Paulo, Brasil",
+        "real-duration": 720
+    },
+    {
+        "origin": "Estacao Fazenda da Juta, Sao Paulo, Brasil",
+        "destination": "Estacao Sao Mateus, Sao Paulo, Brasil",
+        "real-duration": 120
+    }
+]
