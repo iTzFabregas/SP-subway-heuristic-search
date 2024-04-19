@@ -1,5 +1,4 @@
-### Real duration between connected station
-### The latitude and longitude from each station
+### Real duration between connected station and the latitude and longitude from each station
 ``` 
 python3 duration.py
 ```
