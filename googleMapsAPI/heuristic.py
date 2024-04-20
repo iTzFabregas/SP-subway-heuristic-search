@@ -6,7 +6,6 @@ from math import radians, sin, atan2, cos, sqrt, pow
 
 client = googlemaps.Client(key="AIzaSyA_prM8fOfjOLNI_pDa0w1IO0L5ePMMaaU")
 
-
 def check_station(station):
     with open("./stations_list/metro_stations.txt", "r") as f:
         stations_list = [line.split(', ')[0].strip() for line in f.readlines()]
