@@ -1,505 +1,505 @@
 [
     {
-        "station_name": "Estacao Jabaquara, Sao Paulo, Brasil",
-        "station_real": "Jabaquara",
+        "station": "Estacao Jabaquara, Sao Paulo, Brasil",
+        "real_station": "Jabaquara",
         "rating": 4.3,
         "address": "R. dos Jequitib\u00e1s - Jabaquara, S\u00e3o Paulo - SP, 04309-011, Brazil"
     },
     {
-        "station_name": "Estacao Conceicao, Sao Paulo, Brasil",
-        "station_real": "Concei\u00e7\u00e3o",
+        "station": "Estacao Conceicao, Sao Paulo, Brasil",
+        "real_station": "Concei\u00e7\u00e3o",
         "rating": 4.4,
         "address": "Vila Guarani, S\u00e3o Paulo - State of S\u00e3o Paulo, Brazil"
     },
     {
-        "station_name": "Estacao Sao Judas, Sao Paulo, Brasil",
-        "station_real": "S\u00e3o Judas",
+        "station": "Estacao Sao Judas, Sao Paulo, Brasil",
+        "real_station": "S\u00e3o Judas",
         "rating": 4.4,
         "address": "Vila Monte Alegre, S\u00e3o Paulo - State of S\u00e3o Paulo, 04046-400, Brazil"
     },
     {
-        "station_name": "Estacao Saude, Sao Paulo, Brasil",
-        "station_real": "Sa\u00fade",
+        "station": "Estacao Saude, Sao Paulo, Brasil",
+        "real_station": "Sa\u00fade",
         "rating": 4.3,
         "address": "Av. Jabaquara, 1634 - Mirand\u00f3polis, S\u00e3o Paulo - SP, 04046-300, Brazil"
     },
     {
-        "station_name": "Estacao Praca da arvore, Sao Paulo, Brasil",
-        "station_real": "Pra\u00e7a da \u00c1rvore",
+        "station": "Estacao Praca da arvore, Sao Paulo, Brasil",
+        "real_station": "Pra\u00e7a da \u00c1rvore",
         "rating": 4.4,
         "address": "Pra\u00e7a da \u00c1rvore, 39 - Mirand\u00f3polis, S\u00e3o Paulo - SP, 04140-000, Brazil"
     },
     {
-        "station_name": "Estacao Santa Cruz, Sao Paulo, Brasil",
-        "station_real": "Santa Cruz",
+        "station": "Estacao Santa Cruz, Sao Paulo, Brasil",
+        "real_station": "Santa Cruz",
         "rating": 4.4,
         "address": "R. Domingos de Morais, 2564 - Vila Mariana, S\u00e3o Paulo - SP, 04036-100, Brazil"
     },
     {
-        "station_name": "Estacao Vila Mariana, Sao Paulo, Brasil",
-        "station_real": "Vila Mariana",
+        "station": "Estacao Vila Mariana, Sao Paulo, Brasil",
+        "real_station": "Vila Mariana",
         "rating": 4.3,
         "address": "Vila Mariana, S\u00e3o Paulo - State of S\u00e3o Paulo, 04117-040, Brazil"
     },
     {
-        "station_name": "Estacao Ana Rosa, Sao Paulo, Brasil",
-        "station_real": "Ana Rosa",
+        "station": "Estacao Ana Rosa, Sao Paulo, Brasil",
+        "real_station": "Ana Rosa",
         "rating": 4.3,
         "address": "Vila Mariana, S\u00e3o Paulo - State of S\u00e3o Paulo, 04010-100, Brazil"
     },
     {
-        "station_name": "Estacao Paraiso, Sao Paulo, Brasil",
-        "station_real": "Para\u00edso",
+        "station": "Estacao Paraiso, Sao Paulo, Brasil",
+        "real_station": "Para\u00edso",
         "rating": 4.3,
         "address": "Para\u00edso, S\u00e3o Paulo - State of S\u00e3o Paulo, 04104-000, Brazil"
     },
     {
-        "station_name": "Estacao Vergueiro, Sao Paulo, Brasil",
-        "station_real": "Vergueiro Metro Station",
+        "station": "Estacao Vergueiro, Sao Paulo, Brasil",
+        "real_station": "Vergueiro Metro Station",
         "rating": 4.3,
         "address": "Rua Vergueiro, 790 - Liberdade, S\u00e3o Paulo - SP, 01504-001, Brazil"
     },
     {
-        "station_name": "Estacao Sao Joaquim, Sao Paulo, Brasil",
-        "station_real": "S\u00e3o Joaquim",
-        "rating": 4.4,
+        "station": "Estacao Sao Joaquim, Sao Paulo, Brasil",
+        "real_station": "S\u00e3o Joaquim",
+        "rating": 4.3,
         "address": "Liberdade, S\u00e3o Paulo - State of S\u00e3o Paulo, 01502-001, Brazil"
     },
     {
-        "station_name": "Estacao Japao-Liberdade, Sao Paulo, Brasil",
-        "station_real": "Esta\u00e7\u00e3o Jap\u00e3o-Liberdade",
+        "station": "Estacao Japao-Liberdade, Sao Paulo, Brasil",
+        "real_station": "Esta\u00e7\u00e3o Jap\u00e3o-Liberdade",
         "rating": 4.5,
         "address": "Liberdade, S\u00e3o Paulo - State of S\u00e3o Paulo, 01502-000, Brazil"
     },
     {
-        "station_name": "Estacao Se, Sao Paulo, Brasil",
-        "station_real": "S\u00e9",
+        "station": "Estacao Se, Sao Paulo, Brasil",
+        "real_station": "S\u00e9",
         "rating": 3.9,
         "address": "Pra\u00e7a da S\u00e9 - S\u00e9, S\u00e3o Paulo - SP, 01310-200, Brazil"
     },
     {
-        "station_name": "Estacao Sao Bento, Sao Paulo, Brasil",
-        "station_real": "S\u00e3o Bento",
+        "station": "Estacao Sao Bento, Sao Paulo, Brasil",
+        "real_station": "S\u00e3o Bento",
         "rating": 4.4,
         "address": "Largo S\u00e3o Bento, 109 - Centro Hist\u00f3rico de S\u00e3o Paulo, S\u00e3o Paulo - SP, 01029-010, Brazil"
     },
     {
-        "station_name": "Estacao Luz, Sao Paulo, Brasil",
-        "station_real": "Luz Station",
+        "station": "Estacao Luz, Sao Paulo, Brasil",
+        "real_station": "Luz Station",
         "rating": 4.4,
         "address": "Pra\u00e7a da Luz, 1, Luz, S\u00e3o Paulo - SP, Brazil"
     },
     {
-        "station_name": "Estacao Armenia, Sao Paulo, Brasil",
-        "station_real": "Arm\u00eania",
+        "station": "Estacao Armenia, Sao Paulo, Brasil",
+        "real_station": "Arm\u00eania",
         "rating": 3.4,
         "address": "R. Pedro Vicente - Luz, S\u00e3o Paulo - SP, 01109-010, Brazil"
     },
     {
-        "station_name": "Estacao Portuguesa-Tiete, Sao Paulo, Brasil",
-        "station_real": "Portuguesa-Tiet\u00ea",
+        "station": "Estacao Portuguesa-Tiete, Sao Paulo, Brasil",
+        "real_station": "Portuguesa-Tiet\u00ea",
         "rating": 4.3,
         "address": "Santana, S\u00e3o Paulo - State of S\u00e3o Paulo, 02031-000, Brazil"
     },
     {
-        "station_name": "Estacao Carandiru, Sao Paulo, Brasil",
-        "station_real": "Carandiru",
+        "station": "Estacao Carandiru, Sao Paulo, Brasil",
+        "real_station": "Carandiru",
         "rating": 3.8,
         "address": "Santana, S\u00e3o Paulo - State of S\u00e3o Paulo, 02030-000, Brazil"
     },
     {
-        "station_name": "Estacao Santana, Sao Paulo, Brasil",
-        "station_real": "Santana",
+        "station": "Estacao Santana, Sao Paulo, Brasil",
+        "real_station": "Santana",
         "rating": 4.3,
         "address": "Santana, S\u00e3o Paulo - State of S\u00e3o Paulo, 02030-200, Brazil"
     },
     {
-        "station_name": "Estacao Jardim Sao Paulo-Ayrton Senna, Sao Paulo, Brasil",
-        "station_real": "Jardim S\u00e3o Paulo-Ayrton Senna",
+        "station": "Estacao Jardim Sao Paulo-Ayrton Senna, Sao Paulo, Brasil",
+        "real_station": "Jardim S\u00e3o Paulo-Ayrton Senna",
         "rating": 4.5,
         "address": "Jardim S\u00e3o Paulo, S\u00e3o Paulo - State of S\u00e3o Paulo, Brazil"
     },
     {
-        "station_name": "Estacao Parada Inglesa, Sao Paulo, Brasil",
-        "station_real": "Parada Inglesa",
+        "station": "Estacao Parada Inglesa, Sao Paulo, Brasil",
+        "real_station": "Parada Inglesa",
         "rating": 4.3,
         "address": "Parada Inglesa, S\u00e3o Paulo - State of S\u00e3o Paulo, 02242-005, Brazil"
     },
     {
-        "station_name": "Estacao Tucuruvi, Sao Paulo, Brasil",
-        "station_real": "Tucuruvi",
+        "station": "Estacao Tucuruvi, Sao Paulo, Brasil",
+        "real_station": "Tucuruvi",
         "rating": 4.1,
         "address": "Av. Dr. Ant\u00f4nio Maria Laet, 100 - Tucuruvi, S\u00e3o Paulo - SP, 02240-000, Brazil"
     },
     {
-        "station_name": "Estacao Vila Prudente, Sao Paulo, Brasil",
-        "station_real": "Vila Prudente",
+        "station": "Estacao Vila Prudente, Sao Paulo, Brasil",
+        "real_station": "Vila Prudente",
         "rating": 4.3,
         "address": "Av. Professor Luiz Ign\u00e1cio Anhaia Mello, 1359 - Vila Prudente, S\u00e3o Paulo - SP, 03155-000, Brazil"
     },
     {
-        "station_name": "Estacao Tamanduatei, Sao Paulo, Brasil",
-        "station_real": "Tamanduate\u00ed",
+        "station": "Estacao Tamanduatei, Sao Paulo, Brasil",
+        "real_station": "Tamanduate\u00ed",
         "rating": 4.3,
         "address": "Av. Presidente Wilson, 4801 - Vila Independencia, S\u00e3o Paulo - SP, 03153-001, Brazil"
     },
     {
-        "station_name": "Estacao Sacoma, Sao Paulo, Brasil",
-        "station_real": "Esta\u00e7\u00e3o Sacom\u00e3",
+        "station": "Estacao Sacoma, Sao Paulo, Brasil",
+        "real_station": "Esta\u00e7\u00e3o Sacom\u00e3",
         "rating": 4.3,
         "address": "Pra\u00e7a Altemar Dutra - Ipiranga, S\u00e3o Paulo - SP, 04203-053, Brazil"
     },
     {
-        "station_name": "Estacao Alto do Ipiranga, Sao Paulo, Brasil",
-        "station_real": "Alto do Ipiranga",
+        "station": "Estacao Alto do Ipiranga, Sao Paulo, Brasil",
+        "real_station": "Alto do Ipiranga",
         "rating": 4.5,
         "address": "Av. Dr. Gentil de Moura - Ipiranga, S\u00e3o Paulo - SP, 04278-080, Brazil"
     },
     {
-        "station_name": "Estacao Santos-Imigrantes, Sao Paulo, Brasil",
-        "station_real": "Santos - Imigrantes",
+        "station": "Estacao Santos-Imigrantes, Sao Paulo, Brasil",
+        "real_station": "Santos - Imigrantes",
         "rating": 4.4,
         "address": "Cursino, S\u00e3o Paulo - State of S\u00e3o Paulo, 04124-020, Brazil"
     },
     {
-        "station_name": "Estacao Chacara Klabin, Sao Paulo, Brasil",
-        "station_real": "Ch\u00e1cara Klabin",
+        "station": "Estacao Chacara Klabin, Sao Paulo, Brasil",
+        "real_station": "Ch\u00e1cara Klabin",
         "rating": 4.6,
         "address": "Rua Vergueiro - Vila Mariana, S\u00e3o Paulo - SP, 04102-002, Brazil"
     },
     {
-        "station_name": "Estacao Brigadeiro, Sao Paulo, Brasil",
-        "station_real": "Brigadeiro",
+        "station": "Estacao Brigadeiro, Sao Paulo, Brasil",
+        "real_station": "Brigadeiro",
         "rating": 4.3,
         "address": "01310-000, Av. Paulista, 447 - Para\u00edso, S\u00e3o Paulo, Brazil"
     },
     {
-        "station_name": "Estacao Trianon-Masp, Sao Paulo, Brasil",
-        "station_real": "Trianon - Masp",
+        "station": "Estacao Trianon-Masp, Sao Paulo, Brasil",
+        "real_station": "Trianon - Masp",
         "rating": 4.6,
         "address": "Av. Paulista - Jardins, S\u00e3o Paulo - SP, 01310-200, Brazil"
     },
     {
-        "station_name": "Estacao Consolacao, Sao Paulo, Brasil",
-        "station_real": "Consola\u00e7\u00e3o",
+        "station": "Estacao Consolacao, Sao Paulo, Brasil",
+        "real_station": "Consola\u00e7\u00e3o",
         "rating": 4.3,
         "address": "Av. Paulista, 2163 - Cerqueira C\u00e9sar, S\u00e3o Paulo - SP, 01310-200, Brazil"
     },
     {
-        "station_name": "Estacao Clinicas, Sao Paulo, Brasil",
-        "station_real": "Cl\u00ednicas",
+        "station": "Estacao Clinicas, Sao Paulo, Brasil",
+        "real_station": "Cl\u00ednicas",
         "rating": 4.6,
         "address": "Cerqueira C\u00e9sar, S\u00e3o Paulo - State of S\u00e3o Paulo, Brazil"
     },
     {
-        "station_name": "Estacao S. N. Sra. de Fatima-Sumare, Sao Paulo, Brasil",
-        "station_real": "Santu\u00e1rio N. Sra. de F\u00e1tima-Sumar\u00e9",
+        "station": "Estacao S. N. Sra. de Fatima-Sumare, Sao Paulo, Brasil",
+        "real_station": "Santu\u00e1rio N. Sra. de F\u00e1tima-Sumar\u00e9",
         "rating": 4.5,
         "address": "Av. Dr. Arnaldo, 1470 - Sumar\u00e9, S\u00e3o Paulo - SP, 01251-000, Brazil"
     },
     {
-        "station_name": "Estacao Vila Madalena, Sao Paulo, Brasil",
-        "station_real": "Vila Madalena",
+        "station": "Estacao Vila Madalena, Sao Paulo, Brasil",
+        "real_station": "Vila Madalena",
         "rating": 4.5,
         "address": "R. Dr. Paulo Vieira, 010 - Sumarezinho, S\u00e3o Paulo - SP, 05438-100, Brazil"
     },
     {
-        "station_name": "Estacao Corinthians-Itaquera, Sao Paulo, Brasil",
-        "station_real": "Corinthians - Itaquera",
+        "station": "Estacao Corinthians-Itaquera, Sao Paulo, Brasil",
+        "real_station": "Corinthians - Itaquera",
         "rating": 4.2,
         "address": "08220-000 - Cidade Ant\u00f4nio Est\u00eav\u00e3o de Carvalho, S\u00e3o Paulo, 08220-000, Brazil"
     },
     {
-        "station_name": "Estacao Artur Alvim, Sao Paulo, Brasil",
-        "station_real": "Artur Alvim",
+        "station": "Estacao Artur Alvim, Sao Paulo, Brasil",
+        "real_station": "Artur Alvim",
         "rating": 4.3,
         "address": "Parque Artur Alvim, S\u00e3o Paulo - State of S\u00e3o Paulo, Brazil"
     },
     {
-        "station_name": "Estacao Patriarca-Vila Re, Sao Paulo, Brasil",
-        "station_real": "Patriarca",
+        "station": "Estacao Patriarca-Vila Re, Sao Paulo, Brasil",
+        "real_station": "Patriarca",
         "rating": 4.2,
         "address": "Av. Ant\u00f4nio Estev\u00e3o de Carvalho, 1990 - Cidade Patriarca, S\u00e3o Paulo - SP, 03540-100, Brazil"
     },
     {
-        "station_name": "Estacao Guilhermina-Esperanca, Sao Paulo, Brasil",
-        "station_real": "Guilhermina - Esperan\u00e7a",
+        "station": "Estacao Guilhermina-Esperanca, Sao Paulo, Brasil",
+        "real_station": "Guilhermina - Esperan\u00e7a",
         "rating": 4.2,
         "address": "Vila R\u00e9, S\u00e3o Paulo - State of S\u00e3o Paulo, 03540-100, Brazil"
     },
     {
-        "station_name": "Estacao Vila Matilde, Sao Paulo, Brasil",
-        "station_real": "Vila Matilde",
+        "station": "Estacao Vila Matilde, Sao Paulo, Brasil",
+        "real_station": "Vila Matilde",
         "rating": 4.3,
         "address": "Vila Aricanduva, S\u00e3o Paulo - State of S\u00e3o Paulo, 03644-070, Brazil"
     },
     {
-        "station_name": "Estacao Penha, Sao Paulo, Brasil",
-        "station_real": "Penha",
+        "station": "Estacao Penha, Sao Paulo, Brasil",
+        "real_station": "Penha",
         "rating": 4.3,
         "address": "R. Alvin\u00f3polis, 178 - Vila Beatriz, S\u00e3o Paulo - SP, 03644-070, Brazil"
     },
     {
-        "station_name": "Estacao Carrao-Assai Atacadista, Sao Paulo, Brasil",
-        "station_real": "Carr\u00e3o",
+        "station": "Estacao Carrao-Assai Atacadista, Sao Paulo, Brasil",
+        "real_station": "Carr\u00e3o",
         "rating": 4.2,
         "address": "Esta\u00e7\u00e3o Carr\u00e3o - Tatuap\u00e9, S\u00e3o Paulo - SP, 03311-002, Brazil"
     },
     {
-        "station_name": "Estacao Tatuape, Sao Paulo, Brasil",
-        "station_real": "Esta\u00e7\u00e3o Tatuap\u00e9",
+        "station": "Estacao Tatuape, Sao Paulo, Brasil",
+        "real_station": "Esta\u00e7\u00e3o Tatuap\u00e9",
         "rating": 4.2,
         "address": "R. Melo Freire - Tatuap\u00e9, S\u00e3o Paulo - SP, 03307-005, Brazil"
     },
     {
-        "station_name": "Estacao Belem, Sao Paulo, Brasil",
-        "station_real": "Bel\u00e9m",
+        "station": "Estacao Belem, Sao Paulo, Brasil",
+        "real_station": "Bel\u00e9m",
         "rating": 4.1,
         "address": "Av. Alc\u00e2ntara Machado - Belenzinho, S\u00e3o Paulo - SP, Brazil"
     },
     {
-        "station_name": "Estacao Bresser-Mooca, Sao Paulo, Brasil",
-        "station_real": "Bresser - Mooca",
+        "station": "Estacao Bresser-Mooca, Sao Paulo, Brasil",
+        "real_station": "Bresser - Mooca",
         "rating": 4.1,
         "address": "Br\u00e1s, S\u00e3o Paulo - State of S\u00e3o Paulo, Brazil"
     },
     {
-        "station_name": "Estacao Bras, Sao Paulo, Brasil",
-        "station_real": "Esta\u00e7\u00e3o Br\u00e1s",
+        "station": "Estacao Bras, Sao Paulo, Brasil",
+        "real_station": "Esta\u00e7\u00e3o Br\u00e1s",
         "rating": 4.2,
         "address": "Br\u00e1s, S\u00e3o Paulo - State of S\u00e3o Paulo, Brazil"
     },
     {
-        "station_name": "Estacao Pedro II, Sao Paulo, Brasil",
-        "station_real": "Pedro II",
+        "station": "Estacao Pedro II, Sao Paulo, Brasil",
+        "real_station": "Pedro II",
         "rating": 4,
         "address": "Br\u00e1s, S\u00e3o Paulo - State of S\u00e3o Paulo, 01017-040, Brazil"
     },
     {
-        "station_name": "Estacao Anhangabau, Sao Paulo, Brasil",
-        "station_real": "Esta\u00e7\u00e3o Anhangaba\u00fa",
+        "station": "Estacao Anhangabau, Sao Paulo, Brasil",
+        "real_station": "Esta\u00e7\u00e3o Anhangaba\u00fa",
         "rating": 4.1,
         "address": "R. Formosa - Rep\u00fablica, S\u00e3o Paulo - SP, 01007-040, Brazil"
     },
     {
-        "station_name": "Estacao Republica, Sao Paulo, Brasil",
-        "station_real": "Rep\u00fablica",
+        "station": "Estacao Republica, Sao Paulo, Brasil",
+        "real_station": "Rep\u00fablica",
         "rating": 4,
         "address": "Pra\u00e7a da Rep\u00fablica, 299 - Rep\u00fablica, S\u00e3o Paulo - SP, 01045-001, Brazil"
     },
     {
-        "station_name": "Estacao Santa Cecilia, Sao Paulo, Brasil",
-        "station_real": "Santa Cec\u00edlia",
+        "station": "Estacao Santa Cecilia, Sao Paulo, Brasil",
+        "real_station": "Santa Cec\u00edlia",
         "rating": 4.1,
         "address": "R. Conselheiro N\u00e9bias, 1039 - Campos El\u00edseos, S\u00e3o Paulo - SP, 01203-002, Brazil"
     },
     {
-        "station_name": "Estacao Marechal Deodoro, Sao Paulo, Brasil",
-        "station_real": "Marechal Deodoro",
+        "station": "Estacao Marechal Deodoro, Sao Paulo, Brasil",
+        "real_station": "Marechal Deodoro",
         "rating": 3.8,
         "address": "Barra Funda, S\u00e3o Paulo - State of S\u00e3o Paulo, 01154-000, Brazil"
     },
     {
-        "station_name": "Estacao Palmeiras-Barra Funda, Sao Paulo, Brasil",
-        "station_real": "Palmeiras\u2013Barra Funda",
+        "station": "Estacao Palmeiras-Barra Funda, Sao Paulo, Brasil",
+        "real_station": "Palmeiras\u2013Barra Funda",
         "rating": 4.3,
         "address": "Rua Bento Teobaldo Ferraz, 119 - Barra Funda, S\u00e3o Paulo - SP, 01156-001, Brazil"
     },
     {
-        "station_name": "Estacao Vila Sonia Profa. Elisabeth Tenreiro, Sao Paulo, Brasil",
-        "station_real": "Vila S\u00f4nia-Professora Elisabeth Tenreiro",
+        "station": "Estacao Vila Sonia Profa. Elisabeth Tenreiro, Sao Paulo, Brasil",
+        "real_station": "Vila S\u00f4nia-Professora Elisabeth Tenreiro",
         "rating": 3.8,
         "address": "Ferreira, S\u00e3o Paulo - State of S\u00e3o Paulo, Brazil"
     },
     {
-        "station_name": "Estacao Sao Paulo-Morumbi, Sao Paulo, Brasil",
-        "station_real": "S\u00e3o Paulo-Morumbi Subway Station",
+        "station": "Estacao Sao Paulo-Morumbi, Sao Paulo, Brasil",
+        "real_station": "S\u00e3o Paulo-Morumbi Subway Station",
         "rating": 4.7,
         "address": "Av. Dep. Jacob Salvador Zveibil, 50 - Butant\u00e3, S\u00e3o Paulo - SP, 05513-400, Brazil"
     },
     {
-        "station_name": "Estacao Butanta, Sao Paulo, Brasil",
-        "station_real": "Butant\u00e3",
+        "station": "Estacao Butanta, Sao Paulo, Brasil",
+        "real_station": "Butant\u00e3",
         "rating": 4.4,
         "address": "Butant\u00e3, S\u00e3o Paulo - State of S\u00e3o Paulo, 05503-001, Brazil"
     },
     {
-        "station_name": "Estacao Pinheiros, Sao Paulo, Brasil",
-        "station_real": "Pinheiros",
+        "station": "Estacao Pinheiros, Sao Paulo, Brasil",
+        "real_station": "Pinheiros",
         "rating": 4.1,
         "address": "R. Capri, 145 - Pinheiros, S\u00e3o Paulo - SP, 05425-030, Brazil"
     },
     {
-        "station_name": "Estacao Faria Lima, Sao Paulo, Brasil",
-        "station_real": "Faria Lima",
+        "station": "Estacao Faria Lima, Sao Paulo, Brasil",
+        "real_station": "Faria Lima",
         "rating": 4.4,
         "address": "Pinheiros, S\u00e3o Paulo - State of S\u00e3o Paulo, 05421-090, Brazil"
     },
     {
-        "station_name": "Estacao Fradique Coutinho, Sao Paulo, Brasil",
-        "station_real": "Fradique Coutinho",
+        "station": "Estacao Fradique Coutinho, Sao Paulo, Brasil",
+        "real_station": "Fradique Coutinho",
         "rating": 4.6,
         "address": "R. dos Pinheiros, 623 - Pinheiros, S\u00e3o Paulo - SP, 05422-011, Brazil"
     },
     {
-        "station_name": "Estacao Oscar Freire, Sao Paulo, Brasil",
-        "station_real": "Oscar Freire",
+        "station": "Estacao Oscar Freire, Sao Paulo, Brasil",
+        "real_station": "Oscar Freire",
         "rating": 4.6,
         "address": "Av. Rebou\u00e7as, 1089 - Cerqueira C\u00e9sar, S\u00e3o Paulo - SP, 05401-150, Brazil"
     },
     {
-        "station_name": "Estacao Paulista Pernambucanas, Sao Paulo, Brasil",
-        "station_real": "Paulista",
+        "station": "Estacao Paulista Pernambucanas, Sao Paulo, Brasil",
+        "real_station": "Paulista",
         "rating": 4.4,
         "address": "Consola\u00e7\u00e3o, S\u00e3o Paulo - State of S\u00e3o Paulo, 01301-100, Brazil"
     },
     {
-        "station_name": "Estacao Higienopolis-Mackenzie, Sao Paulo, Brasil",
-        "station_real": "Higien\u00f3polis - Mackenzie",
+        "station": "Estacao Higienopolis-Mackenzie, Sao Paulo, Brasil",
+        "real_station": "Higien\u00f3polis - Mackenzie",
         "rating": 4.6,
         "address": "R. da Consola\u00e7\u00e3o - Consola\u00e7\u00e3o, S\u00e3o Paulo - SP, 01220-010, Brazil"
     },
     {
-        "station_name": "Estacao Capao Redondo, Sao Paulo, Brasil",
-        "station_real": "Cap\u00e3o Redondo",
+        "station": "Estacao Capao Redondo, Sao Paulo, Brasil",
+        "real_station": "Cap\u00e3o Redondo",
         "rating": 4.1,
         "address": "Cidade Auxiliadora, S\u00e3o Paulo - State of S\u00e3o Paulo, 05798-300, Brazil"
     },
     {
-        "station_name": "Estacao Campo Limpo, Sao Paulo, Brasil",
-        "station_real": "Campo Limpo",
+        "station": "Estacao Campo Limpo, Sao Paulo, Brasil",
+        "real_station": "Campo Limpo",
         "rating": 4.2,
         "address": "Av. Carlos Caldeira Filho, 13500 - Vila Prel, S\u00e3o Paulo - SP, Brazil"
     },
     {
-        "station_name": "Estacao Vila das Belezas, Sao Paulo, Brasil",
-        "station_real": "Vila das Belezas",
+        "station": "Estacao Vila das Belezas, Sao Paulo, Brasil",
+        "real_station": "Vila das Belezas",
         "rating": 4.3,
         "address": "Vila Prel, S\u00e3o Paulo - State of S\u00e3o Paulo, Brazil"
     },
     {
-        "station_name": "Estacao Giovanni Gronchi, Sao Paulo, Brasil",
-        "station_real": "Giovanni Gronchi",
+        "station": "Estacao Giovanni Gronchi, Sao Paulo, Brasil",
+        "real_station": "Giovanni Gronchi",
         "rating": 4.2,
         "address": "Jardim Mirante, S\u00e3o Paulo - State of S\u00e3o Paulo, Brazil"
     },
     {
-        "station_name": "Estacao Santo Amaro, Sao Paulo, Brasil",
-        "station_real": "Santo Amaro",
+        "station": "Estacao Santo Amaro, Sao Paulo, Brasil",
+        "real_station": "Santo Amaro",
         "rating": 4.1,
         "address": "Av. Guido Caloi, 2221 - Santo Amaro, S\u00e3o Paulo - SP, 04753-100, Brazil"
     },
     {
-        "station_name": "Estacao Largo Treze, Sao Paulo, Brasil",
-        "station_real": "Largo Treze",
+        "station": "Estacao Largo Treze, Sao Paulo, Brasil",
+        "real_station": "Largo Treze",
         "rating": 4.1,
         "address": "Av. Padre Jos\u00e9 Maria - Santo Amaro, S\u00e3o Paulo - SP, 04753-060, Brazil"
     },
     {
-        "station_name": "Estacao Adolfo Pinheiro, Sao Paulo, Brasil",
-        "station_real": "Adolfo Pinheiro",
+        "station": "Estacao Adolfo Pinheiro, Sao Paulo, Brasil",
+        "real_station": "Adolfo Pinheiro",
         "rating": 4.5,
         "address": "Av. Adolfo Pinheiro, 301 - Santo Amaro, S\u00e3o Paulo - SP, 04753-060, Brazil"
     },
     {
-        "station_name": "Estacao Alto da Boa Vista, Sao Paulo, Brasil",
-        "station_real": "Alto da Boa Vista",
+        "station": "Estacao Alto da Boa Vista, Sao Paulo, Brasil",
+        "real_station": "Alto da Boa Vista",
         "rating": 4.5,
         "address": "Av. Santo Amaro, 6936 - Santo Amaro, S\u00e3o Paulo - SP, 04702-002, Brazil"
     },
     {
-        "station_name": "Estacao Borba Gato, Sao Paulo, Brasil",
-        "station_real": "Borba Gato",
+        "station": "Estacao Borba Gato, Sao Paulo, Brasil",
+        "real_station": "Borba Gato",
         "rating": 4.5,
         "address": "Santo Amaro, S\u00e3o Paulo - State of S\u00e3o Paulo, 04733-000, Brazil"
     },
     {
-        "station_name": "Estacao Brooklin, Sao Paulo, Brasil",
-        "station_real": "Brooklin",
+        "station": "Estacao Brooklin, Sao Paulo, Brasil",
+        "real_station": "Brooklin",
         "rating": 4.6,
         "address": "Av. Roque Petroni J\u00fanior, 51 - Jardim das Acacias, S\u00e3o Paulo - SP, 04707-000, Brazil"
     },
     {
-        "station_name": "Estacao Campo Belo, Sao Paulo, Brasil",
-        "station_real": "Campo Belo",
+        "station": "Estacao Campo Belo, Sao Paulo, Brasil",
+        "real_station": "Campo Belo",
         "rating": 4.5,
         "address": "Av. Santo Amaro - Brooklin, S\u00e3o Paulo - SP, Brazil"
     },
     {
-        "station_name": "Estacao Eucaliptos, Sao Paulo, Brasil",
-        "station_real": "Eucaliptos",
+        "station": "Estacao Eucaliptos, Sao Paulo, Brasil",
+        "real_station": "Eucaliptos",
         "rating": 4.6,
         "address": "Indian\u00f3polis, S\u00e3o Paulo - State of S\u00e3o Paulo, 04028-003, Brazil"
     },
     {
-        "station_name": "Estacao Moema, Sao Paulo, Brasil",
-        "station_real": "Moema",
+        "station": "Estacao Moema, Sao Paulo, Brasil",
+        "real_station": "Moema",
         "rating": 4.5,
         "address": "Indian\u00f3polis, S\u00e3o Paulo - State of S\u00e3o Paulo, 04075-010, Brazil"
     },
     {
-        "station_name": "Estacao AACD-Servidor, Sao Paulo, Brasil",
-        "station_real": "AACD \u2013 Servidor",
+        "station": "Estacao AACD-Servidor, Sao Paulo, Brasil",
+        "real_station": "AACD \u2013 Servidor",
         "rating": 4.5,
         "address": "Rua Pedro de Toledo, 1.601 - Indian\u00f3polis, S\u00e3o Paulo - SP, 04027-000, Brazil"
     },
     {
-        "station_name": "Estacao Hospital Sao Paulo, Sao Paulo, Brasil",
-        "station_real": "Hospital S\u00e3o Paulo",
+        "station": "Estacao Hospital Sao Paulo, Sao Paulo, Brasil",
+        "real_station": "Hospital S\u00e3o Paulo",
         "rating": 4.5,
         "address": "Vila Clementino, S\u00e3o Paulo - State of S\u00e3o Paulo, 04039-032, Brazil"
     },
     {
-        "station_name": "Estacao Oratorio, Sao Paulo, Brasil",
-        "station_real": "Orat\u00f3rio",
+        "station": "Estacao Oratorio, Sao Paulo, Brasil",
+        "real_station": "Orat\u00f3rio",
         "rating": 4.3,
         "address": "Av. Professor Luiz Ign\u00e1cio Anhaia Mello, 3250 - Vila Prudente, S\u00e3o Paulo - SP, 03224-010, Brazil"
     },
     {
-        "station_name": "Estacao Sao Lucas, Sao Paulo, Brasil",
-        "station_real": "S\u00e3o Lucas",
+        "station": "Estacao Sao Lucas, Sao Paulo, Brasil",
+        "real_station": "S\u00e3o Lucas",
         "rating": 4.5,
         "address": "Vila Ema, S\u00e3o Paulo - State of S\u00e3o Paulo, 03155-100, Brazil"
     },
     {
-        "station_name": "Estacao Camilo Haddad, Sao Paulo, Brasil",
-        "station_real": "Camilo Haddad",
+        "station": "Estacao Camilo Haddad, Sao Paulo, Brasil",
+        "real_station": "Camilo Haddad",
         "rating": 4.6,
         "address": "Vila Ema, S\u00e3o Paulo - State of S\u00e3o Paulo, 03282-001, Brazil"
     },
     {
-        "station_name": "Estacao Vila Tolstoi, Sao Paulo, Brasil",
-        "station_real": "Vila Tolst\u00f3i",
+        "station": "Estacao Vila Tolstoi, Sao Paulo, Brasil",
+        "real_station": "Vila Tolst\u00f3i",
         "rating": 4.4,
         "address": "Av. Professor Luiz Ign\u00e1cio Anhaia Mello, 7753 - Vila Ema, S\u00e3o Paulo - SP, 03295-100, Brazil"
     },
     {
-        "station_name": "Estacao Vila Uniao, Sao Paulo, Brasil",
-        "station_real": "Vila Uni\u00e3o",
+        "station": "Estacao Vila Uniao, Sao Paulo, Brasil",
+        "real_station": "Vila Uni\u00e3o",
         "rating": 4.4,
         "address": "Vila Nova Pauliceia, S\u00e3o Paulo - State of S\u00e3o Paulo, 03294-200, Brazil"
     },
     {
-        "station_name": "Estacao Jd. Planalto, Sao Paulo, Brasil",
-        "station_real": "Jardim Planalto",
+        "station": "Estacao Jd. Planalto, Sao Paulo, Brasil",
+        "real_station": "Jardim Planalto",
         "rating": 4.5,
         "address": "Av. Sapopemba, 10000 - Sapopemba, S\u00e3o Paulo - SP, 03345-001, Brazil"
     },
     {
-        "station_name": "Estacao Sapopemba, Sao Paulo, Brasil",
-        "station_real": "Esta\u00e7\u00e3o Metr\u00f4 Sapopemba",
+        "station": "Estacao Sapopemba, Sao Paulo, Brasil",
+        "real_station": "Esta\u00e7\u00e3o Metr\u00f4 Sapopemba",
         "rating": 4.3,
         "address": "Av. Sapopemba, 11100 - Jardim Adutora, S\u00e3o Paulo - SP, 03988-010, Brazil"
     },
     {
-        "station_name": "Estacao Fazenda da Juta, Sao Paulo, Brasil",
-        "station_real": "Esta\u00e7\u00e3o Fazenda da Juta - Monotrilho",
+        "station": "Estacao Fazenda da Juta, Sao Paulo, Brasil",
+        "real_station": "Esta\u00e7\u00e3o Fazenda da Juta - Monotrilho",
         "rating": 4.6,
         "address": "Av. Sapopemba, 12580 - Jardim Adutora, S\u00e3o Paulo - SP, Brazil"
     },
     {
-        "station_name": "Estacao Sao Mateus, Sao Paulo, Brasil",
-        "station_real": "Esta\u00e7\u00e3o S\u00e3o Mateus monotrilho.",
+        "station": "Estacao Sao Mateus, Sao Paulo, Brasil",
+        "real_station": "Esta\u00e7\u00e3o S\u00e3o Mateus monotrilho.",
         "rating": 4.5,
         "address": "Av. Sapopemba, 15.000 - Jardim Adutora, S\u00e3o Paulo - SP, 03970-000, Brazil"
     }

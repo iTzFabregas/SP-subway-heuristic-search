@@ -1,6 +1,6 @@
-### Real duration between connected station and the latitude and longitude from each station
+### Real duration and distance between connected station and the latitude and longitude from each station
 ``` 
-python3 duration.py
+python3 real_info.py
 ```
 -> return two file ```durations.json``` and ```latitude_longitude.json```
 

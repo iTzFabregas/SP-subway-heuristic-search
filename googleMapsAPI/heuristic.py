@@ -31,11 +31,12 @@ def find_heuristic(dest_station):
             ori_log = directions_result[0]["legs"][0]["start_location"]["lng"]
             dest_lat = directions_result[0]["legs"][0]["end_location"]["lat"]
             dest_log = directions_result[0]["legs"][0]["end_location"]["lng"]
-            curr_heuristic = haversine(ori_lat, dest_lat, ori_log, dest_log)
+            curr_duration, curr_distance = haversine(ori_lat, dest_lat, ori_log, dest_log)
             
             buffer = {}
             buffer['station'] = origin_station
-            buffer['heuristic'] = curr_heuristic
+            buffer['heuristic-duration'] = curr_duration
+            buffer['heuristic-distance'] = curr_distance            
             heuristic_list.append(buffer)
 
     return heuristic_list
@@ -50,7 +51,7 @@ def haversine(origin_lat, dest_lat, origin_lng, dest_lng):
     a = pow(sin(del_lat/2),2) + cos(origin_lat) * cos(dest_lat) * pow(sin(del_lng/2),2)
     c = 2 * atan2(sqrt(a), sqrt(1-a))
 
-    return r * c / 80 * 3600
+    return r * c / 80 * 3600, 1000 * r * c
 
     
 
