@@ -2,6 +2,7 @@ import os
 import json
 from collections import deque
 import heapq
+import subprocess
 
 class Grafo:
     def __init__(self):
@@ -10,9 +11,13 @@ class Grafo:
         self.heuristics = {}
 
     def carrega_heuristicas(self, station):
-        #abre o json das heuristicas e transforma em dicionário
-        dir_atual = os.getcwd()
-        file_path= os.path.join(dir_atual, 'googleMapsAPI', 'output', 'heuristics', 'EstacaoSe_heuristic.json')
+        #chama o script que gera a heurística ()
+        os.chdir("googleMapsAPI/")
+        python_interpreter = 'python_3'
+        python_program = './heuristic.py'
+        subprocess.run(f'python3 {python_program} "{station}"', shell=True, check=True)
+
+        file_path = "../googleMapsAPI/output/heuristics/" + station.replace(" ", "") + "_heuristic.json"
         with open(file_path, 'r') as file:
             data = json.load(file)
             for item in data:
@@ -57,16 +62,6 @@ class Grafo:
                     came_from[neighbor] = current
 
         return came_from, cost_so_far, expanded_nodes
-
-    def reconstruir_caminho(came_from, start, goal):
-        current = goal
-        path = []
-        while current != start:
-            path.append(current)
-            current = came_from[current]
-            path.append(start)
-            path.reverse()
-            return path
 
     def imprime(self):
         # Imprime todas as conexões do grafo formatadas para fácil leitura.
@@ -218,24 +213,33 @@ def reconstruir_caminho(came_from, start, goal):
     path.reverse()
     return path
 
-# Criação e uso do grafo
+origem = input("Escreva a estação de origem: ")
+destino = input("Escreva a estação de destino: ")
+#Criação e uso do grafo
 g = cria_grafo_dist()
-#g.imprime()  # Imprime o grafo completo com distâncias
-caminho, dist, expandidos = g.dfs("Estacao Butanta, Sao Paulo, Brasil", "Estacao Se, Sao Paulo, Brasil")
+g.carrega_heuristicas(destino)
+
+origem += ", Sao Paulo, Brasil"
+destino += ", Sao Paulo, Brasil"
+
+print("\n DFS: ")
+caminho, dist, expandidos = g.dfs(origem, destino)
 print("Caminho dfs:", caminho)
 print("Distancia dfs:", dist)
 print("Nós Expandidos:", expandidos)
-print("\n Começando bfs")
 
-caminho, dist, expandidos = g.bfs("Estacao Butanta, Sao Paulo, Brasil", "Estacao Se, Sao Paulo, Brasil")
+print("\n BFS: ")
+caminho, dist, expandidos = g.bfs(origem, destino)
 print("Caminho bfs:", caminho)
-print("Distancia dfs:", dist)
+print("Distancia bfs:", dist)
 print("Nós Expandidos:", expandidos)
 
 print("\n Começando A*")
-g.carrega_heuristicas('EstacaoSe_heuristic')
-came_from, costs, nodes_expanded = g.a_star('Estacao Butanta, Sao Paulo, Brasil', 'Estacao Se, Sao Paulo, Brasil', 'distance')
-path = reconstruir_caminho(came_from, 'Estacao Butanta, Sao Paulo, Brasil', 'Estacao Se, Sao Paulo, Brasil')
-print('Caminho percorrido:', path)
+came_from, costs, nodes_expanded = g.a_star(origem, destino, 'distance')
+path = reconstruir_caminho(came_from, origem, destino)
+print('Caminho A*:', path)
 print('Nós expandidos:', nodes_expanded)
-print('Custo total:', costs['Estacao Se, Sao Paulo, Brasil'])
+print('Custo total:', costs[destino])
+
+os.chdir('output/heuristics')
+subprocess.run('rm *.json', shell=True, check=True)
