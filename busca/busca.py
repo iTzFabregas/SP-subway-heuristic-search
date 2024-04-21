@@ -97,12 +97,17 @@ def plotGraph(path):
     plt.title("Graph Visualization with Path Highlighted")
     plt.show()
 
-createGraph()
-print("BUSCA NAO INFORMADA")
-dfs_path = dfs(starting_node, target_node)
-print("================================")
-print("BUSCA INFORMADA")
-astar_path = AStar(starting_node, target_node)
+def main():
+    createGraph()
+    print("BUSCA NAO INFORMADA")
+    dfs_path = dfs(starting_node, target_node)
+    print("================================")
+    print("BUSCA INFORMADA")
+    astar_path = AStar(starting_node, target_node)
 
-#plotGraph(dfs_path)
-#plotGraph(astar_path)
+    #plotGraph(dfs_path)
+    #plotGraph(astar_path)
+
+if __name__ == "__main__":
+    main()
+
