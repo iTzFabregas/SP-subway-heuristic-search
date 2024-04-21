@@ -50,7 +50,7 @@ def showFinalPath(path):
         print(path[i] + " ➡ ", end="")
     print(path[-1]) 
 
-def dfs(starting_node, target_node):
+def dfs():
     # search in graph
     dfs_path = list(nx.dfs_edges(G_distance, source=starting_node))
     total_cost = 0
@@ -73,7 +73,7 @@ def heuristic(origin, destination):
             return item['heuristic-distance']
     return 0
 
-def AStar(starting_node, target_node):
+def AStar():
     path = nx.astar_path(G_distance, starting_node, target_node, 
                          heuristic=heuristic,
                          weight='weight')
@@ -104,10 +104,10 @@ def plotGraph(path):
 def main():
     createGraph()
     print("BUSCA NAO INFORMADA")
-    dfs_path = dfs(starting_node, target_node)
+    dfs_path = dfs()
     print("================================")
     print("BUSCA INFORMADA")
-    astar_path = AStar(starting_node, target_node)
+    astar_path = AStar()
 
     #plotGraph(dfs_path)
     #plotGraph(astar_path)
