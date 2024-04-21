@@ -84,25 +84,29 @@ def dfs(graph):
 
     return path, total_cost
 
-def heuristic(origin, destination):
-    with open(heuristic_path, 'r') as f:
-        data = json.load(f)
-    for item in data:
-        current_station = item['station'].split(', ')[0].strip()
-        if (current_station == origin):
-            return item['heuristic-distance']
-    return 0
+def heuristic(origin, destination, heuristic_type):
+    if heuristic_type == 'RATING':
+        return 0
+    else:
+        with open(heuristic_path, 'r') as f:
+            data = json.load(f)
+        for item in data:
+            current_station = item['station'].split(', ')[0].strip()
+            if (current_station == origin):
+                if heuristic_type == 'DISTANCE':
+                    return item['heuristic-distance']
+                else:
+                    return item['heuristic-duration']
 
-def AStar(graph):
+def AStar(graph, heuristic_type):
     path = nx.astar_path(graph, starting_node, target_node, 
-                         heuristic=heuristic,
+                         heuristic=lambda n1, n2: heuristic(n1, n2, heuristic_type),  
                          weight='weight')
     total_cost = 0
     for i in range(len(path) - 1):
         total_cost += graph[path[i]][path[i+1]]['weight']
 
     return path, total_cost
-
 
 def plotGraph(graph, path):
     plt.figure(figsize=(16, 12))
@@ -145,12 +149,11 @@ def main():
     graph_list = [G_distance, G_duration, G_rating] 
     data_paths = [distances_file_path, durations_file_path, durations_file_path]
     rating_permissions = [False, False, True]
-
     for i in range (3):
         createGraph(graph_list[i], data_paths[i], rating_permissions[i])
         
         dfs_path, dfs_cost = dfs(graph_list[i])
-        astar_path, astar_cost = AStar(graph_list[i])
+        astar_path, astar_cost = AStar(graph_list[i], index[i])
         
         showOutput(index[i], dfs_path, astar_path, dfs_cost, astar_cost)
 
