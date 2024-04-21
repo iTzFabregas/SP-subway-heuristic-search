@@ -26,20 +26,41 @@ G_distance = nx.DiGraph()
 G_duration = nx.DiGraph()
 G_rating = nx.DiGraph()
  
-def createGraph(graph, path):
+def createGraph(graph, path, RATING):
     # open json 
     with open(path, 'r') as f:
         data = json.load(f)
-    
+  
+    # search with ratings
+    if (RATING == True):
+        with open(ratings_file_path, 'r') as rating_f:
+            rating_data = json.load(rating_f)
+
     # full graph
     for item in data:
         origin = item['origin'].split(', ')[0].strip()
         destination = item['destination'].split(', ')[0].strip()
-        
-        # take the last element of itens and convert to flaot 
-        weight_key = list(item.keys())[-1]
-        weight = float(item[weight_key])
-        
+      
+        # if search is with rating
+        if (RATING == True):
+            weight = 0
+            nodes_traveled = 0
+            for rating_item in rating_data:
+                station = rating_item.get('station').split(', ')[0].strip() 
+                if station in origin or station in destination:
+                    weight += rating_item.get('rating')
+                    nodes_traveled += 1
+                # origin and destination rating founded
+                if nodes_traveled == 2:
+                    break
+            # arithmetic average
+            weight *= 0.5
+        # search without rating 
+        else:
+            # take the last key value in itens and convert to flaot 
+            weight_key = list(item.keys())[-1]
+            weight = float(item[weight_key])
+       
         graph.add_node(origin)
         graph.add_node(destination)
         graph.add_edge(origin, destination, weight=weight)
@@ -122,9 +143,11 @@ def showOutput(index, dfs_path, astar_path, dfs_cost, astar_cost):
 def main():
     index = ['DISTANCE', 'DURATION', 'RATINGS'] 
     graph_list = [G_distance, G_duration, G_rating] 
-    data_paths = [distances_file_path, durations_file_path, ratings_file_path]
-    for i in range (2):
-        createGraph(graph_list[i], data_paths[i])
+    data_paths = [distances_file_path, durations_file_path, durations_file_path]
+    rating_permissions = [False, False, True]
+
+    for i in range (3):
+        createGraph(graph_list[i], data_paths[i], rating_permissions[i])
         
         dfs_path, dfs_cost = dfs(graph_list[i])
         astar_path, astar_cost = AStar(graph_list[i])
