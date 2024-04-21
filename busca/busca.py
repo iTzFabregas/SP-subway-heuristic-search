@@ -26,7 +26,7 @@ G_distance = nx.DiGraph()
 G_duration = nx.DiGraph()
 G_rating = nx.DiGraph()
  
-def createGraph():
+def createGraph(graph):
     # open json 
     with open(distances_file_path, 'r') as f:
         data = json.load(f)
@@ -40,23 +40,23 @@ def createGraph():
         weight_key = list(item.keys())[-1]
         weight = float(item[weight_key])
         
-        G_distance.add_node(origin)
-        G_distance.add_node(destination)
-        G_distance.add_edge(origin, destination, weight=weight)
-        G_distance.add_edge(destination, origin, weight=weight)
+        graph.add_node(origin)
+        graph.add_node(destination)
+        graph.add_edge(origin, destination, weight=weight)
+        graph.add_edge(destination, origin, weight=weight)
 
 def showFinalPath(path):
     for i in range(len(path) - 1):
         print(path[i] + " ➡ ", end="")
     print(path[-1]) 
 
-def dfs():
+def dfs(graph):
     # search in graph
-    dfs_path = list(nx.dfs_edges(G_distance, source=starting_node))
+    dfs_path = list(nx.dfs_edges(graph, source=starting_node))
     total_cost = 0
     path = [starting_node]
     for edge in dfs_path:
-        total_cost += G_distance[edge[0]][edge[1]]['weight']
+        total_cost += graph[edge[0]][edge[1]]['weight']
         path.append(edge[1])
         if edge[1] == target_node:
             break
@@ -73,44 +73,44 @@ def heuristic(origin, destination):
             return item['heuristic-distance']
     return 0
 
-def AStar():
-    path = nx.astar_path(G_distance, starting_node, target_node, 
+def AStar(graph):
+    path = nx.astar_path(graph, starting_node, target_node, 
                          heuristic=heuristic,
                          weight='weight')
     total_cost = 0
     for i in range(len(path) - 1):
-        total_cost += G_distance[path[i]][path[i+1]]['weight']
+        total_cost += graph[path[i]][path[i+1]]['weight']
 
     showFinalPath(path)
     print("Custo total do caminho:", total_cost)
     return path
 
 
-def plotGraph(path):
+def plotGraph(graph, path):
     plt.figure(figsize=(16, 12))
     
-    pos = nx.circular_layout(G_distance)
+    pos = nx.circular_layout(graph)
    
-    nx.draw_networkx_nodes(G_distance, pos, nodelist=path, node_size=500, node_color='skyblue')
+    nx.draw_networkx_nodes(graph, pos, nodelist=path, node_size=500, node_color='skyblue')
     edges = [(path[i], path[i+1]) for i in range(len(path)-1)]
-    nx.draw_networkx_edges(G_distance, pos, edgelist=edges, edge_color='red', width=2)
-    nx.draw_networkx_labels(G_distance, pos, font_size=8)
-    edge_labels = nx.get_edge_attributes(G_distance, 'weight')
-    nx.draw_networkx_edge_labels(G_distance, pos, edge_labels=edge_labels, font_size=8)
+    nx.draw_networkx_edges(graph, pos, edgelist=edges, edge_color='red', width=2)
+    nx.draw_networkx_labels(graph, pos, font_size=8)
+    edge_labels = nx.get_edge_attributes(graph, 'weight')
+    nx.draw_networkx_edge_labels(graph, pos, edge_labels=edge_labels, font_size=8)
     
     plt.title("Graph Visualization with Path Highlighted")
     plt.show()
 
 def main():
-    createGraph()
+    createGraph(G_distance)
     print("BUSCA NAO INFORMADA")
-    dfs_path = dfs()
+    dfs_path = dfs(G_distance)
     print("================================")
     print("BUSCA INFORMADA")
-    astar_path = AStar()
+    astar_path = AStar(G_distance)
 
-    #plotGraph(dfs_path)
-    #plotGraph(astar_path)
+    plotGraph(G_distance, dfs_path)
+    plotGraph(G_distance, astar_path)
 
 if __name__ == "__main__":
     main()
