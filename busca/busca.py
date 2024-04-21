@@ -60,9 +60,8 @@ def dfs(graph):
         path.append(edge[1])
         if edge[1] == target_node:
             break
-    showFinalPath(path)
-    print("Custo total do caminho:", total_cost)
-    return path
+
+    return path, total_cost
 
 def heuristic(origin, destination):
     with open(heuristic_path, 'r') as f:
@@ -81,9 +80,7 @@ def AStar(graph):
     for i in range(len(path) - 1):
         total_cost += graph[path[i]][path[i+1]]['weight']
 
-    showFinalPath(path)
-    print("Custo total do caminho:", total_cost)
-    return path
+    return path, total_cost
 
 
 def plotGraph(graph, path):
@@ -101,16 +98,38 @@ def plotGraph(graph, path):
     plt.title("Graph Visualization with Path Highlighted")
     plt.show()
 
-def main():
-    createGraph(G_distance)
-    print("BUSCA NAO INFORMADA")
-    dfs_path = dfs(G_distance)
-    print("================================")
-    print("BUSCA INFORMADA")
-    astar_path = AStar(G_distance)
+def showOutput(index, dfs_path, astar_path, dfs_cost, astar_cost):
+    # get terminal width 
+    terminal_width = os.get_terminal_size().columns
+    # print full terminal width
+    print("=" * terminal_width)
+    print(str(index) + " GRAPH")
+    print()
 
-    plotGraph(G_distance, dfs_path)
-    plotGraph(G_distance, astar_path)
+    print("---- BUSCA NAO INFORMADA")
+    showFinalPath(dfs_path)
+    print("Custo total: " + str(dfs_cost))
+    
+    print() 
+
+    print("---- BUSCA INFORMADA")
+    showFinalPath(astar_path)
+    print("Custo total: " + str(astar_cost))
+
+    print("=" * terminal_width)
+
+def main():
+    index = ['DISTANCE', 'DURATION', 'RATINGS'] 
+    for i in range (1):
+        createGraph(G_distance)
+        
+        dfs_path, dfs_cost = dfs(G_distance)
+        astar_path, astar_cost = AStar(G_distance)
+        
+        showOutput(index[i], dfs_path, astar_path, dfs_cost, astar_cost)
+
+        plotGraph(G_distance, dfs_path)
+        plotGraph(G_distance, astar_path)
 
 if __name__ == "__main__":
     main()
