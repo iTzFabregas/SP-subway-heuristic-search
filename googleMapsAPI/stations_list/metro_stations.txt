@@ -1,99 +1,98 @@
 #LINHA 1 AZUL
-Estação Jabaquara - Sao Paulo - Brasil
-Estação Conceição - Sao Paulo - Brasil
-Estação São Judas - Sao Paulo - Brasil
-Estação Saúde - Sao Paulo - Brasil
-Estação Praça da Árvore - Sao Paulo - Brasil
-Estação Santa Cruz - Sao Paulo - Brasil
-Estação Vila Mariana - Sao Paulo - Brasil
-Estação Ana Rosa - Sao Paulo - Brasil
-Estação Paraíso - Sao Paulo - Brasil
-Estação Vergueiro - Sao Paulo - Brasil
-Estação São Joaquim - Sao Paulo - Brasil
-Estação Japão-Liberdade - Sao Paulo - Brasil
-Estação Sé - Sao Paulo - Brasil
-Estação São Bento - Sao Paulo - Brasil
-Estação Luz - Sao Paulo - Brasil
-Estação Tiradentes - Sao Paulo - Brasil
-Estação Armênia - Sao Paulo - Brasil
-Estação Portuguesa-Tietê - Sao Paulo - Brasil
-Estação Carandiru - Sao Paulo - Brasil
-Estação Santana - Sao Paulo - Brasil
-Estação Jardim São Paulo-Ayrton Senna - Sao Paulo - Brasil
-Estação Parada Inglesa - Sao Paulo - Brasil
-Estação Tucuruvi - Sao Paulo - Brasil
+Estacao Jabaquara, Sao Paulo, Brasil
+Estacao Conceicao, Sao Paulo, Brasil
+Estacao Sao Judas, Sao Paulo, Brasil
+Estacao Saude, Sao Paulo, Brasil
+Estacao Praca da arvore, Sao Paulo, Brasil
+Estacao Santa Cruz, Sao Paulo, Brasil
+Estacao Vila Mariana, Sao Paulo, Brasil
+Estacao Ana Rosa, Sao Paulo, Brasil
+Estacao Paraiso, Sao Paulo, Brasil
+Estacao Vergueiro, Sao Paulo, Brasil
+Estacao Sao Joaquim, Sao Paulo, Brasil
+Estacao Japao-Liberdade, Sao Paulo, Brasil
+Estacao Se, Sao Paulo, Brasil
+Estacao Sao Bento, Sao Paulo, Brasil
+Estacao Luz, Sao Paulo, Brasil
+Estacao Armenia, Sao Paulo, Brasil
+Estacao Portuguesa-Tiete, Sao Paulo, Brasil
+Estacao Carandiru, Sao Paulo, Brasil
+Estacao Santana, Sao Paulo, Brasil
+Estacao Jardim Sao Paulo-Ayrton Senna, Sao Paulo, Brasil
+Estacao Parada Inglesa, Sao Paulo, Brasil
+Estacao Tucuruvi, Sao Paulo, Brasil
 #LINHA 2 VERDE
-Estação Vila Prudente - Sao Paulo - Brasil
-Estação Tamanduateí - Sao Paulo - Brasil
-Estação Sacomã - Sao Paulo - Brasil
-Estação Alto do Ipiranga - Sao Paulo - Brasil
-Estação Santos-Imigrantes - Sao Paulo - Brasil
-Estação Chácara Klabin - Sao Paulo - Brasil
-Estação Ana Rosa - Sao Paulo - Brasil
-Estação Paraíso - Sao Paulo - Brasil
-Estação Brigadeiro - Sao Paulo - Brasil
-Estação Trianon-Masp - Sao Paulo - Brasil
-Estação Consolação - Sao Paulo - Brasil
-Estação Clínicas - Sao Paulo - Brasil
-Estação S. N. Sra. de Fátima-Sumaré - Sao Paulo - Brasil
-Estação Vila Madalena - Sao Paulo - Brasil
+Estacao Vila Prudente, Sao Paulo, Brasil
+Estacao Tamanduatei, Sao Paulo, Brasil
+Estacao Sacoma, Sao Paulo, Brasil
+Estacao Alto do Ipiranga, Sao Paulo, Brasil
+Estacao Santos-Imigrantes, Sao Paulo, Brasil
+Estacao Chacara Klabin, Sao Paulo, Brasil
+Estacao Ana Rosa, Sao Paulo, Brasil
+Estacao Paraiso, Sao Paulo, Brasil
+Estacao Brigadeiro, Sao Paulo, Brasil
+Estacao Trianon-Masp, Sao Paulo, Brasil
+Estacao Consolacao, Sao Paulo, Brasil
+Estacao Clinicas, Sao Paulo, Brasil
+Estacao S. N. Sra. de Fatima-Sumare, Sao Paulo, Brasil
+Estacao Vila Madalena, Sao Paulo, Brasil
 #LINHA 3 VERMELHA
-Estação Corinthians-Itaquera - Sao Paulo - Brasil
-Estação Artur Alvim - Sao Paulo - Brasil
-Estação Patriarca-Vila Ré - Sao Paulo - Brasil
-Estação Guilhermina-Esperança - Sao Paulo - Brasil
-Estação Vila Matilde - Sao Paulo - Brasil
-Estação Penha - Sao Paulo - Brasil
-Estação Carrão-Assaí Atacadista - Sao Paulo - Brasil
-Estação Tatuapé - Sao Paulo - Brasil
-Estação Belém - Sao Paulo - Brasil
-Estação Bresser-Mooca - Sao Paulo - Brasil
-Estação Brás - Sao Paulo - Brasil
-Estação Pedro II - Sao Paulo - Brasil
-Estação Sé - Sao Paulo - Brasil
-Estação Anhangabaú - Sao Paulo - Brasil
-Estação República - Sao Paulo - Brasil
-Estação Santa Cecília - Sao Paulo - Brasil
-Estação Marechal Deodoro - Sao Paulo - Brasil
-Estação Palmeiras-Barra Funda - Sao Paulo - Brasil
+Estacao Corinthians-Itaquera, Sao Paulo, Brasil
+Estacao Artur Alvim, Sao Paulo, Brasil
+Estacao Patriarca-Vila Re, Sao Paulo, Brasil
+Estacao Guilhermina-Esperanca, Sao Paulo, Brasil
+Estacao Vila Matilde, Sao Paulo, Brasil
+Estacao Penha, Sao Paulo, Brasil
+Estacao Carrao-Assai Atacadista, Sao Paulo, Brasil
+Estacao Tatuape, Sao Paulo, Brasil
+Estacao Belem, Sao Paulo, Brasil
+Estacao Bresser-Mooca, Sao Paulo, Brasil
+Estacao Bras, Sao Paulo, Brasil
+Estacao Pedro II, Sao Paulo, Brasil
+Estacao Se, Sao Paulo, Brasil
+Estacao Anhangabau, Sao Paulo, Brasil
+Estacao Republica, Sao Paulo, Brasil
+Estacao Santa Cecilia, Sao Paulo, Brasil
+Estacao Marechal Deodoro, Sao Paulo, Brasil
+Estacao Palmeiras-Barra Funda, Sao Paulo, Brasil
 #LINHA 4 AMARELA
-Estação Vila Sônia Profa. Elisabeth Tenreiro - Sao Paulo - Brasil
-Estação São Paulo-Morumbi - Sao Paulo - Brasil
-Estação Butantã - Sao Paulo - Brasil
-Estação Pinheiros - Sao Paulo - Brasil
-Estação Faria Lima - Sao Paulo - Brasil
-Estação Fradique Coutinho - Sao Paulo - Brasil
-Estação Oscar Freire - Sao Paulo - Brasil
-Estação Paulista Pernambucanas - Sao Paulo - Brasil
-Estação Higienópolis-Mackenzie - Sao Paulo - Brasil
-Estação República - Sao Paulo - Brasil
-Estação Luz - Sao Paulo - Brasil
+Estacao Vila Sonia Profa. Elisabeth Tenreiro, Sao Paulo, Brasil
+Estacao Sao Paulo-Morumbi, Sao Paulo, Brasil
+Estacao Butanta, Sao Paulo, Brasil
+Estacao Pinheiros, Sao Paulo, Brasil
+Estacao Faria Lima, Sao Paulo, Brasil
+Estacao Fradique Coutinho, Sao Paulo, Brasil
+Estacao Oscar Freire, Sao Paulo, Brasil
+Estacao Paulista Pernambucanas, Sao Paulo, Brasil
+Estacao Higienopolis-Mackenzie, Sao Paulo, Brasil
+Estacao Republica, Sao Paulo, Brasil
+Estacao Luz, Sao Paulo, Brasil
 #LINHA 5 LILAS
-Estação Capão Redondo - Sao Paulo - Brasil
-Estação Campo Limpo - Sao Paulo - Brasil
-Estação Vila das Belezas - Sao Paulo - Brasil
-Estação Giovanni Gronchi - Sao Paulo - Brasil
-Estação Santo Amaro - Sao Paulo - Brasil
-Estação Largo Treze - Sao Paulo - Brasil
-Estação Adolfo Pinheiro - Sao Paulo - Brasil
-Estação Alto da Boa Vista - Sao Paulo - Brasil
-Estação Borba Gato - Sao Paulo - Brasil
-Estação Brooklin - Sao Paulo - Brasil
-Estação Campo Belo - Sao Paulo - Brasil
-Estação Eucaliptos - Sao Paulo - Brasil
-Estação Moema - Sao Paulo - Brasil
-Estação AACD-Servidor - Sao Paulo - Brasil
-Estação Hospital São Paulo - Sao Paulo - Brasil
-Estação Santa Cruz - Sao Paulo - Brasil
-Estação Chácara Klabin - Sao Paulo - Brasil
+Estacao Capao Redondo, Sao Paulo, Brasil
+Estacao Campo Limpo, Sao Paulo, Brasil
+Estacao Vila das Belezas, Sao Paulo, Brasil
+Estacao Giovanni Gronchi, Sao Paulo, Brasil
+Estacao Santo Amaro, Sao Paulo, Brasil
+Estacao Largo Treze, Sao Paulo, Brasil
+Estacao Adolfo Pinheiro, Sao Paulo, Brasil
+Estacao Alto da Boa Vista, Sao Paulo, Brasil
+Estacao Borba Gato, Sao Paulo, Brasil
+Estacao Brooklin, Sao Paulo, Brasil
+Estacao Campo Belo, Sao Paulo, Brasil
+Estacao Eucaliptos, Sao Paulo, Brasil
+Estacao Moema, Sao Paulo, Brasil
+Estacao AACD-Servidor, Sao Paulo, Brasil
+Estacao Hospital Sao Paulo, Sao Paulo, Brasil
+Estacao Santa Cruz, Sao Paulo, Brasil
+Estacao Chacara Klabin, Sao Paulo, Brasil
 #LINHA 15 PRATA
-Estação Vila Prudente - Sao Paulo - Brasil
-Estação Oratório - Sao Paulo - Brasil
-Estação São Lucas - Sao Paulo - Brasil
-Estação Camilo Haddad - Sao Paulo - Brasil
-Estação Vila Tolstói - Sao Paulo - Brasil
-Estação Vila União - Sao Paulo - Brasil
-Estação Jd. Planalto - Sao Paulo - Brasil
-Estação Sapopemba - Sao Paulo - Brasil
-Estação Fazenda da Juta - Sao Paulo - Brasil
-Estação São Mateus - Sao Paulo - Brasil
+Estacao Vila Prudente, Sao Paulo, Brasil
+Estacao Oratorio, Sao Paulo, Brasil
+Estacao Sao Lucas, Sao Paulo, Brasil
+Estacao Camilo Haddad, Sao Paulo, Brasil
+Estacao Vila Tolstoi, Sao Paulo, Brasil
+Estacao Vila Uniao, Sao Paulo, Brasil
+Estacao Jd. Planalto, Sao Paulo, Brasil
+Estacao Sapopemba, Sao Paulo, Brasil
+Estacao Fazenda da Juta, Sao Paulo, Brasil
+Estacao Sao Mateus, Sao Paulo, Brasil
