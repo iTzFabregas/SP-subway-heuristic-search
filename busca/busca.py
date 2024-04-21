@@ -84,6 +84,19 @@ def dfs(graph):
 
     return path, total_cost
 
+def bfs(graph):
+    # search in graph
+    bfs_path = list(nx.bfs_edges(graph, source=starting_node))
+    total_cost = 0
+    path = [starting_node]
+    for edge in bfs_path:
+        total_cost += graph[edge[0]][edge[1]]['weight']
+        path.append(edge[1])
+        if edge[1] == target_node:
+            break
+
+    return path, total_cost
+
 def heuristic(origin, destination, heuristic_type):
     if heuristic_type == 'RATING':
         return 0
@@ -123,7 +136,7 @@ def plotGraph(graph, path):
     plt.title("Graph Visualization with Path Highlighted")
     plt.show()
 
-def showOutput(index, dfs_path, astar_path, dfs_cost, astar_cost):
+def showOutput(index, dfs_path, bfs_path, astar_path, dfs_cost, bfs_cost, astar_cost):
     # get terminal width 
     terminal_width = os.get_terminal_size().columns
     # print full terminal width
@@ -132,9 +145,16 @@ def showOutput(index, dfs_path, astar_path, dfs_cost, astar_cost):
     print()
 
     print("---- BUSCA NAO INFORMADA")
+    print("- DFS")
     showFinalPath(dfs_path)
     print("Custo total: " + str(dfs_cost))
+   
+    print()
+    print("- BFS")
+    showFinalPath(bfs_path)
+    print("Custo total: " + str(bfs_cost))
     
+
     print() 
 
     print("---- BUSCA INFORMADA")
@@ -153,9 +173,10 @@ def main():
         createGraph(graph_list[i], data_paths[i], rating_permissions[i])
         
         dfs_path, dfs_cost = dfs(graph_list[i])
+        bfs_path, bfs_cost = bfs(graph_list[i])
         astar_path, astar_cost = AStar(graph_list[i], index[i])
         
-        showOutput(index[i], dfs_path, astar_path, dfs_cost, astar_cost)
+        showOutput(index[i], dfs_path, bfs_path, astar_path, dfs_cost, bfs_cost, astar_cost)
 
         #plotGraph(graph_list[i], dfs_path)
         #plotGraph(graph_list[i], astar_path)
