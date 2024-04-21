@@ -1,21 +1,72 @@
 import os
 import json
 from collections import deque
+import heapq
 
 class Grafo:
     def __init__(self):
         # Inicializa um dicionário para armazenar a lista de adjacências.
         self.adjacentes = {}
+        self.heuristics = {}
+
+    def carrega_heuristicas(self, station):
+        #abre o json das heuristicas e transforma em dicionário
+        dir_atual = os.getcwd()
+        file_path= os.path.join(dir_atual, 'googleMapsAPI', 'output', 'heuristics', 'EstacaoSe_heuristic.json')
+        with open(file_path, 'r') as file:
+            data = json.load(file)
+            for item in data:
+                self.heuristics[item['station']] = {
+                    'duration': item['heuristic-duration'],
+                    'distance': item['heuristic-distance']
+                }
 
     def adiciona_aresta(self, origem, destino, distancia):
         # Adiciona uma aresta bidirecional com a distância entre os nós ao grafo.
         if origem not in self.adjacentes:
             self.adjacentes[origem] = {}
         self.adjacentes[origem][destino] = distancia
-        
+
         if destino not in self.adjacentes:
             self.adjacentes[destino] = {}
         self.adjacentes[destino][origem] = distancia
+
+    def a_star(self, start, goal, heuristic_type='distance'):
+        open_set = []
+        heapq.heappush(open_set, (0 + self.heuristics[start][heuristic_type], start))
+        came_from = {}
+        cost_so_far = {start: 0}
+        expanded_nodes = 0
+
+        while open_set:
+            #expande o nó com maior prioridade (menor custo com heuristica)
+            current = heapq.heappop(open_set)[1]
+            expanded_nodes += 1
+
+            if current == goal:
+                # chegou no destino, finaliza
+                break
+
+            for neighbor in self.adjacentes[current]:
+                #para cada vizinho do nó atual, calcula o custo
+                new_cost = cost_so_far[current] + self.adjacentes[current][neighbor]
+                if neighbor not in cost_so_far or new_cost < cost_so_far[neighbor]:
+                    cost_so_far[neighbor] = new_cost
+                    priority = new_cost + self.heuristics[neighbor][heuristic_type] #calcula custo com a heuristica
+                    heapq.heappush(open_set, (priority, neighbor)) #coloca na lista de prioridade
+                    came_from[neighbor] = current
+
+        return came_from, cost_so_far, expanded_nodes
+
+    def reconstruir_caminho(came_from, start, goal):
+        current = goal
+        path = []
+        while current != start:
+            path.append(current)
+            current = came_from[current]
+            path.append(start)
+            path.reverse()
+            return path
 
     def imprime(self):
         # Imprime todas as conexões do grafo formatadas para fácil leitura.
@@ -27,9 +78,11 @@ class Grafo:
         # Executa uma busca em largura (BFS) para encontrar um caminho e a distância total.
         fila = deque([(inicio, 0)])  # Cada entrada da fila é uma tupla (nó, distância acumulada)
         visitados = {inicio: (None, 0)}  # Dicionário para rastrear de onde viemos e a distância acumulada
+        expanded = 0
 
         while fila:
             atual, dist_atual = fila.popleft()
+            expanded +=1
             if atual == fim:
                 break
             for vizinho, dist in self.adjacentes[atual].items():
@@ -39,7 +92,7 @@ class Grafo:
                     visitados[vizinho] = (atual, nova_dist)  # Guarda de onde viemos para este vizinho e a distância acumulada
 
         if fim not in visitados:
-            return [], 0  # Retorna lista vazia se não há caminho
+            return [], 0, expanded  # Retorna lista vazia se não há caminho
 
         # Reconstruir o caminho a partir do fim até o início e calcular a distância total
         caminho = []
@@ -52,28 +105,30 @@ class Grafo:
                 dist_total += self.adjacentes[passo][caminho[-1]]  # Soma a distância do passo atual ao próximo nó no caminho
         caminho.reverse()
 
-        return caminho, dist_total
+        return caminho, dist_total, expanded
 
     def dfs(self, inicio, fim):
         # Executa uma busca em profundidade (DFS) para encontrar um caminho e a soma das distâncias.
         visitados = set()
         caminho = []
-        dist_total = self._dfs_recursivo(inicio, fim, visitados, caminho, 0)
+        expanded = [0]
+        dist_total = self._dfs_recursivo(inicio, fim, visitados, caminho, 0, expanded)
         if dist_total is not None:
             caminho.reverse()  # Inverte a ordem do caminho ao final da busca
-            return caminho, dist_total
+            return caminho, dist_total, expanded[0]
         else:
-            return [], 0
+            return [], 0, expanded[0]
 
-    def _dfs_recursivo(self, atual, fim, visitados, caminho, dist_acumulada):
+    def _dfs_recursivo(self, atual, fim, visitados, caminho, dist_acumulada, expanded):
         # Auxiliar recursiva da DFS que realiza a busca e acumula a distância.
         if atual == fim:
             caminho.append(atual)
             return dist_acumulada
         visitados.add(atual)
+        expanded[0] +=1
         for vizinho, distancia in self.adjacentes.get(atual, {}).items():
             if vizinho not in visitados:
-                resultado = self._dfs_recursivo(vizinho, fim, visitados, caminho, dist_acumulada + distancia)
+                resultado = self._dfs_recursivo(vizinho, fim, visitados, caminho, dist_acumulada + distancia, expanded)
                 if resultado is not None:
                     caminho.append(atual)
                     return resultado
@@ -82,7 +137,7 @@ class Grafo:
 def ler_distancias():
     # Lê um arquivo JSON contendo as distâncias entre as estações e retorna um dicionário.
     dir_atual = os.getcwd()
-    file_json = os.path.join(dir_atual, 'googleMapsAPI', 'dist.json')
+    file_json = os.path.join(dir_atual, 'googleMapsAPI','output', 'distances.json')
     with open(file_json, 'r') as file:
         dados = json.load(file)
     distancias = {}
@@ -134,7 +189,7 @@ def ler_avaliacoes():
     file_json = os.path.join(dir_atual, 'googleMapsAPI', 'output', 'ratings.json')
     with open(file_json, 'r') as file:
         dados = json.load(file)
-    avaliacoes = {item["station_real"]: item["rating"] for item in dados}
+    avaliacoes = {item["real_station"]: item["rating"] for item in dados}
     return avaliacoes
 
 def cria_grafo_duracao_avaliacao():
@@ -153,30 +208,34 @@ def cria_grafo_duracao_avaliacao():
         grafo.adiciona_aresta(origem, destino, peso)
     return grafo
 
+def reconstruir_caminho(came_from, start, goal):
+    current = goal
+    path = []
+    while current != start:
+        path.append(current)
+        current = came_from[current]
+    path.append(start)
+    path.reverse()
+    return path
+
 # Criação e uso do grafo
 g = cria_grafo_dist()
 #g.imprime()  # Imprime o grafo completo com distâncias
-caminho, dist = g.dfs("Estacao Conceicao", "Estacao Santos-Imigrantes")
-#print("Caminho:", caminho)
-#print("Distancia:", dist)
+caminho, dist, expandidos = g.dfs("Estacao Butanta, Sao Paulo, Brasil", "Estacao Se, Sao Paulo, Brasil")
+print("Caminho dfs:", caminho)
+print("Distancia dfs:", dist)
+print("Nós Expandidos:", expandidos)
+print("\n Começando bfs")
 
-caminho, dist = g.bfs("Estacao Conceicao", "Estacao Santos-Imigrantes")
-#print("Caminho:", caminho)
-#print("Distancia:", dist)
+caminho, dist, expandidos = g.bfs("Estacao Butanta, Sao Paulo, Brasil", "Estacao Se, Sao Paulo, Brasil")
+print("Caminho bfs:", caminho)
+print("Distancia dfs:", dist)
+print("Nós Expandidos:", expandidos)
 
-print("busca baseada no tempo de viagem!!!")
-g2 = cria_grafo_duracao()
-#g2.imprime()
-caminho2, time2 = g2.dfs("Estação Luz", "Estação Capão Redondo")
-print("Caminho:", caminho2)
-print("Tempo:", time2, "seg")
-caminho2, time2 = g2.bfs("Estação Luz", "Estação Capão Redondo")
-print("Caminho:", caminho2)
-print("Tempo:", time2, "seg")
-
-print("busca baseada no tempo de viagem e na avaliação da estação!!!")
-g3 = cria_grafo_duracao_avaliacao()
-#g3.imprime()
-caminho3, time3 = g3.bfs("Estação Luz", "Estação Capão Redondo")
-print("Caminho:", caminho3)
-print("Tempo:", time3, "seg")
+print("\n Começando A*")
+g.carrega_heuristicas('EstacaoSe_heuristic')
+came_from, costs, nodes_expanded = g.a_star('Estacao Butanta, Sao Paulo, Brasil', 'Estacao Se, Sao Paulo, Brasil', 'distance')
+path = reconstruir_caminho(came_from, 'Estacao Butanta, Sao Paulo, Brasil', 'Estacao Se, Sao Paulo, Brasil')
+print('Caminho percorrido:', path)
+print('Nós expandidos:', nodes_expanded)
+print('Custo total:', costs['Estacao Se, Sao Paulo, Brasil'])
