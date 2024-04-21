@@ -2,7 +2,7 @@
 ``` 
 python3 real_info.py
 ```
--> return two file ```durations.json``` and ```latitude_longitude.json```
+-> return two file ```durations.json```, ```directions.json``` and ```latitude_longitude.json```
 
 
 ### The rating of each station
