@@ -149,7 +149,7 @@ def main():
     graph_list = [G_distance, G_duration, G_rating] 
     data_paths = [distances_file_path, durations_file_path, durations_file_path]
     rating_permissions = [False, False, True]
-    for i in graph_list:
+    for i in range(len(graph_list)):
         createGraph(graph_list[i], data_paths[i], rating_permissions[i])
         
         dfs_path, dfs_cost = dfs(graph_list[i])
