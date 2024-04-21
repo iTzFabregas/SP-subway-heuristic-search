@@ -26,16 +26,16 @@ G_distance = nx.DiGraph()
 G_duration = nx.DiGraph()
 G_rating = nx.DiGraph()
  
-def createGraph(graph):
+def createGraph(graph, path):
     # open json 
-    with open(distances_file_path, 'r') as f:
+    with open(path, 'r') as f:
         data = json.load(f)
     
     # full graph
     for item in data:
         origin = item['origin'].split(', ')[0].strip()
         destination = item['destination'].split(', ')[0].strip()
-        distance = item['real-distance']
+        
         # take the last element of itens and convert to flaot 
         weight_key = list(item.keys())[-1]
         weight = float(item[weight_key])
@@ -117,19 +117,22 @@ def showOutput(index, dfs_path, astar_path, dfs_cost, astar_cost):
     print("Custo total: " + str(astar_cost))
 
     print("=" * terminal_width)
+    print()
 
 def main():
     index = ['DISTANCE', 'DURATION', 'RATINGS'] 
-    for i in range (1):
-        createGraph(G_distance)
+    graph_list = [G_distance, G_duration, G_rating] 
+    data_paths = [distances_file_path, durations_file_path, ratings_file_path]
+    for i in range (2):
+        createGraph(graph_list[i], data_paths[i])
         
-        dfs_path, dfs_cost = dfs(G_distance)
-        astar_path, astar_cost = AStar(G_distance)
+        dfs_path, dfs_cost = dfs(graph_list[i])
+        astar_path, astar_cost = AStar(graph_list[i])
         
         showOutput(index[i], dfs_path, astar_path, dfs_cost, astar_cost)
 
-        plotGraph(G_distance, dfs_path)
-        plotGraph(G_distance, astar_path)
+        #plotGraph(graph_list[i], dfs_path)
+        #plotGraph(graph_list[i], astar_path)
 
 if __name__ == "__main__":
     main()
