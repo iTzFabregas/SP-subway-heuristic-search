@@ -36,10 +36,14 @@ def createGraph():
         origin = item['origin'].split(', ')[0].strip()
         destination = item['destination'].split(', ')[0].strip()
         distance = item['real-distance']
+        # take the last element of itens and convert to flaot 
+        weight_key = list(item.keys())[-1]
+        weight = float(item[weight_key])
+        
         G_distance.add_node(origin)
         G_distance.add_node(destination)
-        G_distance.add_edge(origin, destination, weight=distance)
-        G_distance.add_edge(destination, origin, weight=distance)
+        G_distance.add_edge(origin, destination, weight=weight)
+        G_distance.add_edge(destination, origin, weight=weight)
 
 def showFinalPath(path):
     for i in range(len(path) - 1):
