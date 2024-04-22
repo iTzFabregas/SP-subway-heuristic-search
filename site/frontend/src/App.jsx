@@ -71,7 +71,7 @@ function App() {
                     <option value="03" onClick={handleOption} >Viagem com maior média das avaliações</option>
                     <option value="04" onClick={handleOption} >Viagem com maior número de estações percorridas</option>
                 </select>
-                <button className="bg-blue-500 p-1 rounded-2xl" onClick={handleClick}>Encontrar viagem!</button>
+                <button className="bg-blue-500 p-2 rounded-2xl transform hover:scale-110 transition duration-300" onClick={handleClick}>Encontrar viagem!</button>
             </div>
             <div className="flex flex-col mb-8 p-10 w-3/4 h-16 bg-neutral-100 rounded-3xl shadow-xl items-center justify-center">
                 <h2>{'Caminho encontrado -> XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'}</h2>
