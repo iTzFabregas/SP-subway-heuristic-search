@@ -1,4 +1,5 @@
 import os
+import sys
 import json
 from collections import deque
 import heapq
@@ -23,7 +24,8 @@ class Grafo:
             for item in data:
                 self.heuristics[item['station']] = {
                     'duration': item['heuristic-duration'],
-                    'distance': item['heuristic-distance']
+                    'distance': item['heuristic-distance'],
+                    'time'    : 0
                 }
 
     def adiciona_aresta(self, origem, destino, distancia):
@@ -215,8 +217,24 @@ def reconstruir_caminho(came_from, start, goal):
 
 origem = input("Escreva a estação de origem: ")
 destino = input("Escreva a estação de destino: ")
+modo = input("Escolha o modo de busca (distância, tempo ou avaliação): ")
 #Criação e uso do grafo
-g = cria_grafo_dist()
+if modo == 'distância':
+    g = cria_grafo_dist()
+    print("Modo melhor distância escolhido!")
+
+elif modo == 'tempo':
+    g = cria_grafo_duracao()
+    print("Modo melhor tempo escolhido!")
+
+elif modo == 'avaliação':
+    g = cria_grafo_duracao_avaliacao()
+    print("Modo melhor avaliação escolhido!")
+
+else:
+    print("Modo não existente")
+    sys.exit()
+
 g.carrega_heuristicas(destino)
 
 origem += ", Sao Paulo, Brasil"
@@ -225,21 +243,29 @@ destino += ", Sao Paulo, Brasil"
 print("\n DFS: ")
 caminho, dist, expandidos = g.dfs(origem, destino)
 print("Caminho dfs:", caminho)
-print("Distancia dfs:", dist)
+print("Custo dfs:", dist)
 print("Nós Expandidos:", expandidos)
 
 print("\n BFS: ")
 caminho, dist, expandidos = g.bfs(origem, destino)
 print("Caminho bfs:", caminho)
-print("Distancia bfs:", dist)
+print("Custo bfs:", dist)
 print("Nós Expandidos:", expandidos)
 
-print("\n Começando A*")
-came_from, costs, nodes_expanded = g.a_star(origem, destino, 'distance')
+print("\n A*:")
+if modo == 'distância':
+    came_from, costs, nodes_expanded = g.a_star(origem, destino, 'distance')
+
+elif modo == 'tempo':
+    came_from, costs, nodes_expanded = g.a_star(origem, destino, 'duration')
+
+else:
+    came_from, costs, nodes_expanded = g.a_star(origem, destino, 'time')
+
 path = reconstruir_caminho(came_from, origem, destino)
 print('Caminho A*:', path)
+print('Custo A*:', costs[destino])
 print('Nós expandidos:', nodes_expanded)
-print('Custo total:', costs[destino])
 
 os.chdir('output/heuristics')
 subprocess.run('rm *.json', shell=True, check=True)
