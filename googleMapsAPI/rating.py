@@ -3,7 +3,7 @@ import json
 
 import heuristic
 
-client = googlemaps.Client(key="AIzaSyA_prM8fOfjOLNI_pDa0w1IO0L5ePMMaaU")
+client = googlemaps.Client(key="NAO_RODAR")
 
 if __name__ == "__main__":
 
@@ -19,7 +19,7 @@ if __name__ == "__main__":
             buffer["station"] = station
             buffer["real_station"] = res["results"][0]["name"]
             buffer["rating"] = res["results"][0]["rating"]
-            buffer["address"] = res["results"][0]["formatted_address"]
+            buffer["place-id"] = res["results"][0]["place_id"]
             stations_ratings.append(buffer)
     
     with open("./output/ratings.json", "w") as f:
