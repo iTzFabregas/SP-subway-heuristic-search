@@ -1,4 +1,5 @@
 import { useState } from "react"
+import axios from 'axios'
 import "./assets/tailwind.css"
 
 function App() {
@@ -7,47 +8,24 @@ function App() {
     const [destination, setDestination] = useState()
     const [option, setOption] = useState()
 
-    const handleOrigin = (e) => {
-        setOrigin(e.target.value)
-        // verificar se é uma estação valida
-    }
-
-    const handleDestination = (e) => {
-        setDestination(e.target.value)
-        // verificar se é uma estação valida
-    }
-
-    const handleOption = (e) => {
-        setOption(e.target.value)
-    }
+    const [response, setResponse] = useState()
 
     const handleClick = () => {
         console.log(origin)
         console.log(destination)
         console.log(option)
 
-        // ao clicar no botao, ver qual o opçao
-        switch (option) {
-            case "01":
-                // A* no grafo de duração
-                break;
+        const searchBaseURL = `http://127.0.0.1:5000/${option}?s1=${origin}&s2=${destination}`
+        axios
+            .get(searchBaseURL)
+            .then((res) => {
+                console.log(res, "Response fetched in app")
+                setResponse(res)
+            })
+            .catch((error) => {
+                console.log("Erro fetch full criterio: " + error);
+            })
 
-            case "02":
-                // A* no grafo de distancia
-                break;
-
-            case "03":
-                // A* no grafo de avaliação
-                break;
-
-            case "04":
-                // profundidade em algum grafo???
-                break;
-
-            default:
-                //error
-                break;
-        }
     }
 
     return (
@@ -58,18 +36,18 @@ function App() {
 
             <div className="flex flex-col bg-gray-200 rounded-3xl shadow-2xl w-1/2 h-96 items-center justify-center mb-12">
                 <h3>Estação de Origem</h3>
-                <input type="text" className="bg-gray-400 mb-5" onChange={handleOrigin} />
+                <input type="text" className="bg-gray-400 mb-5" onChange={(e) => setOrigin(e.target.value)} />
 
                 <h3>Estação de Destino</h3>
-                <input type="text" className="bg-gray-400 mb-5" onChange={handleDestination} />
+                <input type="text" className="bg-gray-400 mb-5" onChange={(e) => setDestination(e.target.value)} />
 
                 <h3>Selecione o tipo de viagem</h3>
-                <select defaultValue={"00"} className="bg-gray-400 p-1 mb-8">
-                    <option value="00" onClick={handleOption} disabled>Selecione a viagem</option>
-                    <option value="01" onClick={handleOption} >Viagem com menor duração</option>
-                    <option value="02" onClick={handleOption} >Viagem com menor caminho percorrido</option>
-                    <option value="03" onClick={handleOption} >Viagem com maior média das avaliações</option>
-                    <option value="04" onClick={handleOption} >Viagem com maior número de estações percorridas</option>
+                <select defaultValue={"g0"} className="bg-gray-400 p-1 mb-8">
+                    <option value="g0" onClick={(e) => setOption(e.target.value)} disabled>Selecione a viagem</option>
+                    <option value="g1" onClick={(e) => setOption(e.target.value)} >Viagem com menor duração</option>
+                    <option value="g2" onClick={(e) => setOption(e.target.value)} >Viagem com menor caminho percorrido</option>
+                    <option value="g3" onClick={(e) => setOption(e.target.value)} >Viagem com maior média das avaliações</option>
+                    <option value="g4" onClick={(e) => setOption(e.target.value)} >Viagem com maior número de estações percorridas</option>
                 </select>
                 <button className="bg-blue-500 p-2 rounded-2xl transform hover:scale-110 transition duration-300" onClick={handleClick}>Encontrar viagem!</button>
             </div>
