@@ -16,11 +16,6 @@ def index():
 @app.route('/g1')
 # Viagem com menor duração
 def graph1():
-    # o ideial é retornar:
-        # a lista com as estações do caminho
-        # o numero de esações que tem no caminho
-        # o place-id das estações
-        # a duração total
     WEIGHT = 'DURATION'
 
     origin = request.args.get('s1')  # obtém o valor do parâmetro 's1' que representa a origem
@@ -42,16 +37,11 @@ def graph1():
     # get place-id
     place_id_list = graph.returnPlaceID(astar_path)
 
-    return astar_path_formatted 
+    return([astar_path_formatted, astar_cost, place_id_list])
 
 @app.route('/g2')
 # Viagem com menor caminho percorrido
 def graph2():
-    # o ideial é retornar:
-        # a lista com as estações do caminho
-        # o numero de esações que tem no caminho
-        # o place-id das estações
-        # a distancial total
     WEIGHT = 'DISTANCE'
 
     origin = request.args.get('s1')  # obtém o valor do parâmetro 's1' que representa a origem
@@ -73,7 +63,7 @@ def graph2():
     # get place-id 
     place_id_list = graph.returnPlaceID(astar_path)
 
-    return(astar_path_formatted)
+    return([astar_path_formatted, astar_cost, place_id_list])
 
 @app.route('/g3')
 # Viagem com maior média das avaliações

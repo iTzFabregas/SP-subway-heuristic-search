@@ -6,16 +6,6 @@ from math import radians, sin, atan2, cos, sqrt, pow
 
 client = googlemaps.Client(key="AIzaSyA_prM8fOfjOLNI_pDa0w1IO0L5ePMMaaU")
 
-def check_station(station):
-    with open("./stations_list/metro_stations.txt", "r") as f:
-        stations_list = [line.split(', ')[0].strip() for line in f.readlines()]
-        if station not in stations_list:
-            print('This station is not in ours stations databse.')
-            exit(1)
-
-    return station + ", Sao Paulo, Brasil"
-
-
 def find_heuristic(dest_station):
 
     heuristic_list = []
@@ -53,17 +43,17 @@ def haversine(origin_lat, dest_lat, origin_lng, dest_lng):
 
     return r * c / 80 * 3600, 1000 * r * c
 
-    
+
 
 if __name__ == "__main__":
-    if len(sys.argv) <= 1: 
-        print("Enter destination station as argument.")
-        exit(1)
-
-    station = " ". join(sys.argv[1:])
-    station = check_station(station)
-    heuristic_list = find_heuristic(station)
+    stations_list = []
+    with open("./stations_list/metro_stations.txt", "r") as f1:
+        stations_list = [line.rstrip('\n') for line in f1.readlines()]
+    
+    for station in stations_list:
+        if station[0] == '#': continue
+        heuristic_list = find_heuristic(station)
                 
-    file_name = "./output/heuristics/" + station.split(', ')[0].replace(" ", "") + "_heuristic.json"
-    with open(file_name, "w") as f:
-        json.dump(heuristic_list, f)
+        file_name = "./output/heuristics/" + station.split(', ')[0].replace(" ", "") + "_heuristic.json"
+        with open(file_name, "w") as f2:
+            json.dump(heuristic_list, f2)

@@ -125,8 +125,7 @@ def createGraph(GRAPH_TYPE):
 
 def heuristic(origin, destination, heuristic_type):
     """ 
-    Execute the heuristic.py that creates a json file containing all heuristic
-    informations. Open that file and return a heuristic value given 
+    Open the file with the json containing all heuristic information and return the value given 
     an origin and destination nodes
 
     Args: 
@@ -143,12 +142,7 @@ def heuristic(origin, destination, heuristic_type):
     """
 
     # generate the heuristic file 
-    python_interpreter = 'python3'
-    python_program = './heuristic.py'
-    heuristic_path =  destination.replace(" ", "") + "_heuristic.json"
-
-    # Execute o script heuristic.py
-    subprocess.run(f'{python_interpreter} {python_program} "{destination}"', shell=True, check=True)
+    heuristic_path =  "./heuristics/" + destination.replace(" ", "") + "_heuristic.json"
 
     # open heuristic file
     with open(heuristic_path, 'r') as f:

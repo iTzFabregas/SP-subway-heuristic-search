@@ -37,7 +37,7 @@
     {
         "origin": "Estacao Ana Rosa, Sao Paulo, Brasil",
         "destination": "Estacao Paraiso, Sao Paulo, Brasil",
-        "real-distance": 753
+        "real-distance": 765
     },
     {
         "origin": "Estacao Paraiso, Sao Paulo, Brasil",
@@ -137,7 +137,7 @@
     {
         "origin": "Estacao Ana Rosa, Sao Paulo, Brasil",
         "destination": "Estacao Paraiso, Sao Paulo, Brasil",
-        "real-distance": 753
+        "real-distance": 765
     },
     {
         "origin": "Estacao Paraiso, Sao Paulo, Brasil",
@@ -397,7 +397,7 @@
     {
         "origin": "Estacao Sao Lucas, Sao Paulo, Brasil",
         "destination": "Estacao Camilo Haddad, Sao Paulo, Brasil",
-        "real-distance": 1041
+        "real-distance": 1050
     },
     {
         "origin": "Estacao Camilo Haddad, Sao Paulo, Brasil",
@@ -417,7 +417,7 @@
     {
         "origin": "Estacao Jd. Planalto, Sao Paulo, Brasil",
         "destination": "Estacao Sapopemba, Sao Paulo, Brasil",
-        "real-distance": 2993
+        "real-distance": 3443
     },
     {
         "origin": "Estacao Sapopemba, Sao Paulo, Brasil",

@@ -397,7 +397,7 @@
     {
         "origin": "Estacao Sao Lucas, Sao Paulo, Brasil",
         "destination": "Estacao Camilo Haddad, Sao Paulo, Brasil",
-        "real-duration": 196
+        "real-duration": 180
     },
     {
         "origin": "Estacao Camilo Haddad, Sao Paulo, Brasil",
@@ -417,7 +417,7 @@
     {
         "origin": "Estacao Jd. Planalto, Sao Paulo, Brasil",
         "destination": "Estacao Sapopemba, Sao Paulo, Brasil",
-        "real-duration": 603
+        "real-duration": 420
     },
     {
         "origin": "Estacao Sapopemba, Sao Paulo, Brasil",
