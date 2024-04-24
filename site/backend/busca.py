@@ -32,10 +32,26 @@ def returnPlaceID(stations):
     return place_id_list
 
 def returnFinalPath(path):
+    """ 
+    Return a string that represents the final path.
+    The final path includes all stations separated by an arrow 
+    
+    Args: 
+        path (list): list of string stations 
+
+    Returns: 
+        string: final path including all stations formatted  
+    
+    Raises:
+        none
+    """
+
+    # format final path 
     final_path = "" 
     for i in range(len(path) - 1):
         final_path += path[i] + " ➡ "
     final_path += path[-1]
+
     return final_path
 
 def getJsonData(GRAPH_TYPE):
