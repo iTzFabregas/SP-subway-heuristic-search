@@ -124,6 +124,24 @@ def createGraph(GRAPH_TYPE):
     return graph
 
 def heuristic(origin, destination, heuristic_type):
+    """ 
+    Execute the heuristic.py that creates a json file containing all heuristic
+    informations. Open that file and return a heuristic value given 
+    an origin and destination nodes
+
+    Args: 
+        origin (string): represents the start node of the trip 
+        destination (string): represents the target node of the trip 
+        heuristic_type (string): string that represents which heuristic type 
+        shall be used
+
+    Returns: 
+        float: heuristic value  
+    
+    Raises:
+        none
+    """
+
     # generate the heuristic file 
     python_interpreter = 'python3'
     python_program = './heuristic.py'
