@@ -64,11 +64,6 @@ def returnFinalPath(path):
     final_path += path[-1]
     return final_path
 
-def showFinalPath(path):
-    for i in range(len(path) - 1):
-        print(path[i] + " ➡ ", end="")
-    print(path[-1]) 
-
 def heuristic(origin, destination, heuristic_type):
     # generate the heuristic file 
     python_interpreter = 'python3'
