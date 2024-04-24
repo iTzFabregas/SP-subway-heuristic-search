@@ -55,6 +55,19 @@ def returnFinalPath(path):
     return final_path
 
 def getJsonData(GRAPH_TYPE):
+    """ 
+    Return a dict type including all data from json file
+
+    Args: 
+        GRAPH_TYPE (string): string that represents which file shall be open 
+
+    Returns: 
+        dict: contain all data from json file  
+    
+    Raises:
+        none
+    """
+
     # file path
     distances_file_path = "../../googleMapsAPI/output/distances.json"
     durations_file_path = "../../googleMapsAPI/output/durations.json"
