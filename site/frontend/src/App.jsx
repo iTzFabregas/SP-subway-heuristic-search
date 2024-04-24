@@ -52,7 +52,7 @@ function App() {
                 <button className="bg-blue-500 p-2 rounded-2xl transform hover:scale-110 transition duration-300" onClick={handleClick}>Encontrar viagem!</button>
             </div>
             <div className="flex flex-col mb-8 p-10 w-3/4 h-16 bg-neutral-100 rounded-3xl shadow-xl items-center justify-center">
-                <h2>{response.data}</h2>
+                {response && <h2>{response.data}</h2>} 
             </div>
             <div className="grid grid-cols-2 gap-4 mb-10 px-16 pb-32 w-3/4 bg-neutral-100 rounded-3xl shadow-2xl">
                 <div className="flex flex-col gap-4 border border-black bg-gray-300 mx-10 mt-20 w-3/4 p-3 transform hover:scale-105 transition duration-300">
