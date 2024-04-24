@@ -4,9 +4,24 @@ import subprocess
 import os
 
 def returnPlaceID(stations):
+    """ 
+    Return a list of place-id values
+    
+    Args: 
+        stations (list): list of string stations 
+
+    Returns: 
+        list: all place-id values in a list
+    
+    Raises:
+        none
+    """
+
+    # open file ratings
     with open("ratings.json", 'r') as f:
         data = json.load(f)
-   
+  
+    # get place-id by match stations 
     place_id_list = []
     for item in data:
         station_rating = item.get('station').split(', ')[0].strip() 
