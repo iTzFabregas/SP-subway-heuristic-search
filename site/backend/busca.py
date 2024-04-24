@@ -3,6 +3,19 @@ import networkx as nx
 import subprocess
 import os
 
+def returnPlaceID(stations):
+    with open("ratings.json", 'r') as f:
+        data = json.load(f)
+   
+    place_id_list = []
+    for item in data:
+        station_rating = item.get('station').split(', ')[0].strip() 
+        for station in stations:
+            if (station == station_rating):
+                place_id_list.append(item.get('place-id'))
+
+    return place_id_list
+
 def getJsonData(GRAPH_TYPE):
     # file path
     distances_file_path = "../../googleMapsAPI/output/distances.json"
@@ -17,7 +30,6 @@ def getJsonData(GRAPH_TYPE):
             path = data_paths[i]
             break
 
-    print(path) 
     with open(path, 'r') as f:
         data = json.load(f)
    
@@ -33,7 +45,7 @@ def createGraph(GRAPH_TYPE):
         # format origin and destination 
         origin = item['origin'].split(', ')[0].strip()
         destination = item['destination'].split(', ')[0].strip()
-        print(origin) 
+        
         # take the last key value in itens and convert to flaot 
         weight_key = list(item.keys())[-1]
         weight = float(item[weight_key])
@@ -56,32 +68,6 @@ def showFinalPath(path):
     for i in range(len(path) - 1):
         print(path[i] + " ➡ ", end="")
     print(path[-1]) 
-
-def dfs(graph):
-    # search in graph
-    dfs_path = list(nx.dfs_edges(graph, source=starting_node))
-    total_cost = 0
-    path = [starting_node]
-    for edge in dfs_path:
-        total_cost += graph[edge[0]][edge[1]]['weight']
-        path.append(edge[1])
-        if edge[1] == target_node:
-            break
-
-    return path, total_cost
-
-def bfs(graph):
-    # search in graph
-    bfs_path = list(nx.bfs_edges(graph, source=starting_node))
-    total_cost = 0
-    path = [starting_node]
-    for edge in bfs_path:
-        total_cost += graph[edge[0]][edge[1]]['weight']
-        path.append(edge[1])
-        if edge[1] == target_node:
-            break
-
-    return path, total_cost
 
 def heuristic(origin, destination, heuristic_type):
     # generate the heuristic file 
@@ -133,45 +119,3 @@ def plotGraph(graph, path):
     
     plt.title("Graph Visualization with Path Highlighted")
     plt.show()
-
-def showOutput(index, dfs_path, bfs_path, astar_path, dfs_cost, bfs_cost, astar_cost):
-    # get terminal width 
-    terminal_width = os.get_terminal_size().columns
-    # print full terminal width
-    print("=" * terminal_width)
-    print(str(index) + " GRAPH")
-    print()
-
-    print("---- BUSCA NAO INFORMADA")
-    print("- DFS")
-    showFinalPath(dfs_path)
-    print("Custo total: " + str(dfs_cost))
-   
-    print()
-    print("- BFS")
-    showFinalPath(bfs_path)
-    print("Custo total: " + str(bfs_cost))
-    
-
-    print() 
-
-    print("---- BUSCA INFORMADA")
-    showFinalPath(astar_path)
-    print("Custo total: " + str(astar_cost))
-
-    print("=" * terminal_width)
-    print()
-
-def main():
-    index = ['DISTANCE', 'DURATION', 'RATINGS'] 
-    graph_list = [G_distance, G_duration, G_rating] 
-    data_paths = [distances_file_path, durations_file_path, durations_file_path]
-    rating_permissions = [False, False, True]
-    for i in range(len(graph_list)):
-        createGraph(graph_list[i], data_paths[i], rating_permissions[i])
-        
-        dfs_path, dfs_cost = dfs(graph_list[i])
-        bfs_path, bfs_cost = bfs(graph_list[i])
-        astar_path, astar_cost = AStar(graph_list[i], index[i])
-        
-        showOutput(index[i], dfs_path, bfs_path, astar_path, dfs_cost, bfs_cost, astar_cost)
