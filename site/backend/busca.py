@@ -87,6 +87,20 @@ def getJsonData(GRAPH_TYPE):
     return data
 
 def createGraph(GRAPH_TYPE):
+    """ 
+    Return a graph type from networkx library 
+
+    Args: 
+        GRAPH_TYPE (string): string that represents which file shall be open
+        in getJsonData() function
+
+    Returns: 
+        graph: graph from networkx library  
+    
+    Raises:
+        none
+    """
+
     graph = nx.DiGraph()
     
     data = getJsonData(GRAPH_TYPE) 
@@ -101,6 +115,7 @@ def createGraph(GRAPH_TYPE):
         weight_key = list(item.keys())[-1]
         weight = float(item[weight_key])
 
+        # add nodes and edges
         graph.add_node(origin)
         graph.add_node(destination)
         graph.add_edge(origin, destination, weight=weight)
