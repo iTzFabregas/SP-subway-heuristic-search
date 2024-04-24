@@ -70,6 +70,9 @@ def graph2():
     # path transformed to string
     astar_path_formatted = graph.returnFinalPath(astar_path)
 
+    # get place-id 
+    place_id_list = graph.returnPlaceID(astar_path)
+
     return(astar_path_formatted)
 
 @app.route('/g3')
