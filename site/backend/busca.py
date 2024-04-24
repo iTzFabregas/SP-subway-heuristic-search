@@ -16,6 +16,13 @@ def returnPlaceID(stations):
 
     return place_id_list
 
+def returnFinalPath(path):
+    final_path = "" 
+    for i in range(len(path) - 1):
+        final_path += path[i] + " ➡ "
+    final_path += path[-1]
+    return final_path
+
 def getJsonData(GRAPH_TYPE):
     # file path
     distances_file_path = "../../googleMapsAPI/output/distances.json"
@@ -56,13 +63,6 @@ def createGraph(GRAPH_TYPE):
         graph.add_edge(destination, origin, weight=weight)
 
     return graph
-
-def returnFinalPath(path):
-    final_path = "" 
-    for i in range(len(path) - 1):
-        final_path += path[i] + " ➡ "
-    final_path += path[-1]
-    return final_path
 
 def heuristic(origin, destination, heuristic_type):
     # generate the heuristic file 
