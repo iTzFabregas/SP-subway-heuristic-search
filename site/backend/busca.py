@@ -99,18 +99,3 @@ def AStar(graph, heuristic_type, travel_info):
         total_cost += graph[path[i]][path[i+1]]['weight']
 
     return path, total_cost
-
-def plotGraph(graph, path):
-    plt.figure(figsize=(16, 12))
-    
-    pos = nx.circular_layout(graph)
-   
-    nx.draw_networkx_nodes(graph, pos, nodelist=path, node_size=500, node_color='skyblue')
-    edges = [(path[i], path[i+1]) for i in range(len(path)-1)]
-    nx.draw_networkx_edges(graph, pos, edgelist=edges, edge_color='red', width=2)
-    nx.draw_networkx_labels(graph, pos, font_size=8)
-    edge_labels = nx.get_edge_attributes(graph, 'weight')
-    nx.draw_networkx_edge_labels(graph, pos, edge_labels=edge_labels, font_size=8)
-    
-    plt.title("Graph Visualization with Path Highlighted")
-    plt.show()
