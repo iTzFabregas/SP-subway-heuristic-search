@@ -164,6 +164,22 @@ def heuristic(origin, destination, heuristic_type):
                 return item['heuristic-duration']
 
 def AStar(graph, heuristic_type, travel_info):
+    """ 
+    Search for the best path given a graph of stations using A* algorithm
+
+    Args: 
+        graph: graph type from networkx library
+        heuristic_type (string): string that represents which heuristic type 
+        shall be used
+        travel_info (list): contains origin and destination information
+
+    Returns: 
+        list: final path founded by A* 
+
+    Raises:
+        none
+    """
+
     starting_node = travel_info[0]
     target_node = travel_info[1]
     path = nx.astar_path(graph, 
