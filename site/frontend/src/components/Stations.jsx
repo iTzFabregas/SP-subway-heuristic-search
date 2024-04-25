@@ -2,7 +2,7 @@ import React from "react";
 
 import "../assets/tailwind.css"
 
-export default function Filter(info) {
+export default function Stations(info) {
     const { stations } = info
 
     return (

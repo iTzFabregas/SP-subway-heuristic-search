@@ -5,11 +5,12 @@ import { v4 as uuidv4 } from 'uuid';
 import "./assets/tailwind.css"
 
 import Stations from './components/Stations'
+import Autocomplete from "./components/Autocomplete";
 
 function App() {
 
-    const [origin, setOrigin] = useState()
-    const [destination, setDestination] = useState()
+    const [origin, setOrigin] = useState('')
+    const [destination, setDestination] = useState('')
     const [option, setOption] = useState()
 
     const [status, setStatus] = useState('idle') // 'idle', 'loading', 'error', 'ready'
@@ -44,13 +45,13 @@ function App() {
 
             <div className="flex flex-col bg-gray-200 rounded-3xl shadow-2xl w-1/2 h-96 items-center justify-center mb-12">
                 <h3>Estação de Origem</h3>
-                <input type="text" className="bg-gray-400 mb-5" onChange={(e) => setOrigin(e.target.value)} />
+                <Autocomplete inputValue={origin} setInputValue={setOrigin}/>
 
                 <h3>Estação de Destino</h3>
-                <input type="text" className="bg-gray-400 mb-5" onChange={(e) => setDestination(e.target.value)} />
+                <Autocomplete inputValue={destination} setInputValue={setDestination}/>
 
                 <h3>Selecione o tipo de viagem</h3>
-                <select defaultValue={"g0"} className="bg-gray-400 p-1 mb-8">
+                <select defaultValue={"g0"} className="bg-white p-1 mb-8">
                     <option value="g0" onClick={(e) => setOption(e.target.value)} disabled>Selecione a viagem</option>
                     <option value="g1" onClick={(e) => setOption(e.target.value)} >Viagem com menor duração</option>
                     <option value="g2" onClick={(e) => setOption(e.target.value)} >Viagem com menor caminho percorrido</option>
