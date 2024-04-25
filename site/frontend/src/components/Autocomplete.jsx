@@ -1,38 +1,45 @@
 import React, { useState } from 'react';
 
 export default function Autocomplete(info) {
-    const { inputValue, setInputValue } = info
-    const [suggestions, setSuggestions] = useState([]);
-    const [showSuggestions, setShowSuggestions] = useState(false);
+    const {handleInput} = info
+    const [filteredOptions, setFilteredOptions] = useState([]);
+    const [inputValue, setInputValue] = useState("");
 
-    const handleChange = (e) => {
-        const value = e.target.value;
-        setInputValue(value);
+    const handleInputChange = (e) => {
+        setInputValue(e.target.value);
+        // handleInput(e.target.value)
 
-        const filteredSuggestions = exampleSuggestions.filter(suggestion =>
-            suggestion.toLowerCase().includes(value.toLowerCase())
+        const filteredOptions = options.filter(
+            (option) =>
+                option.toLowerCase().indexOf(inputValue.toLowerCase()) > -1
         );
-        setSuggestions(filteredSuggestions);
+        setFilteredOptions(filteredOptions);
     };
 
-    const handleSelectSuggestion = (suggestion) => {
-        setInputValue(suggestion);
-        setSuggestions([]);
+    const handleOptionClick = (option) => {
+        setInputValue(option);
+        setFilteredOptions([]);
+        // handleInput(e.target.value)
     };
 
     return (
-        <div className='relative' onMouseEnter={() => setShowSuggestions(true)} onMouseLeave={() => setShowSuggestions(false)}>
+        <div className="relative">
             <input
                 type="text"
                 value={inputValue}
-                onChange={handleChange}
-                placeholder="Digite algo..."
+                defaultValue={inputValue}
+                onChange={handleInputChange}
+                className="border border-gray-300 rounded-md p-2 w-64"
             />
-            {showSuggestions && inputValue.length > 0 && (
-                <ul className='absolute z-10 bg-white border shadow-lg p-0 m-0'>
-                    {suggestions.map((suggestion, index) => (
-                        <li key={index} onClick={() => handleSelectSuggestion(suggestion)} className='px-2 py-1 cursor-pointer hover:bg-gray-200'>
-                            {suggestion}
+            {filteredOptions.length > 0 && (
+                <ul className="absolute z-10 bg-white border border-gray-300 rounded-md mt-1 w-64">
+                    {filteredOptions.map((option, index) => (
+                        <li
+                            key={index}
+                            onClick={() => handleOptionClick(option)}
+                            className="px-3 py-2 cursor-pointer hover:bg-gray-100"
+                        >
+                            {option}
                         </li>
                     ))}
                 </ul>
@@ -41,7 +48,8 @@ export default function Autocomplete(info) {
     );
 }
 
-const exampleSuggestions = [
+
+const options = [
     'Estacao Jabaquara',
     'Estacao Conceicao',
     'Estacao Sao Judas',

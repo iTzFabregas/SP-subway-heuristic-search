@@ -61,14 +61,14 @@ def graph2():
     astar_path_formatted = graph.returnFinalPath(astar_path)
 
     # get place-id 
-    place_id_list = graph.returnPlaceID(astar_path)
+    place_id_list, place_list = graph.returnPlaceID(astar_path)
 
-    return([astar_path_formatted, astar_cost, place_id_list])
+    return([astar_path_formatted, astar_cost, place_list, place_id_list])
 
 @app.route('/g3')
 # Viagem com maior média das avaliações
 def graph3():
-    # o ideial é retornar:
+    # o ideial é retornar:  
         # a lista com as estações do caminho
         # o numero de esações que tem no caminho
         # o place-id das estações

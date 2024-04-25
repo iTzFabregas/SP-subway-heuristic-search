@@ -2,6 +2,12 @@ import json
 import networkx as nx
 import subprocess
 import os
+import googlemaps
+
+def fetchPlaceID(place_id):
+    client = googlemaps.Client(key="AIzaSyA_prM8fOfjOLNI_pDa0w1IO0L5ePMMaaU")
+    response = client.place(place_id)
+    return response
 
 def returnPlaceID(stations):
     """ 
@@ -22,14 +28,17 @@ def returnPlaceID(stations):
         data = json.load(f)
   
     # get place-id by match stations 
+    places_list = []
     place_id_list = []
-    for item in data:
-        station_rating = item.get('station').split(', ')[0].strip() 
-        for station in stations:
+    for station in stations:
+        for item in data:
+            station_rating = item.get('station').split(', ')[0].strip() 
             if (station == station_rating):
                 place_id_list.append(item.get('place-id'))
+                response = fetchPlaceID(item.get('place-id'))
+                places_list.append(response)
 
-    return place_id_list
+    return place_id_list, places_list
 
 def returnFinalPath(path):
     """ 
