@@ -1,37 +1,40 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 
 export default function Autocomplete(info) {
-    const {handleInput} = info
+    const {input, handleInput} = info
     const [filteredOptions, setFilteredOptions] = useState([]);
-    const [inputValue, setInputValue] = useState("");
+    const [options, setOptions] = useState(stations)
+    const [showOptions, setShowOptions] = useState(false)
+    const inputRef = useRef(null);
 
-    const handleInputChange = (e) => {
-        setInputValue(e.target.value);
-        // handleInput(e.target.value)
-
+    useEffect (() => {
         const filteredOptions = options.filter(
             (option) =>
-                option.toLowerCase().indexOf(inputValue.toLowerCase()) > -1
+                option.toLowerCase().indexOf(input.toLowerCase()) > -1
         );
         setFilteredOptions(filteredOptions);
-    };
+        inputRef.current.focus();
+    }, [input])
 
     const handleOptionClick = (option) => {
-        setInputValue(option);
-        setFilteredOptions([]);
-        // handleInput(e.target.value)
+        setFilteredOptions([]); 
+        inputRef.current.focus();
+        handleInput(option);
     };
 
     return (
         <div className="relative">
             <input
                 type="text"
-                value={inputValue}
-                defaultValue={inputValue}
-                onChange={handleInputChange}
+                defaultValue={input}
+                value={input}
+                onChange={(e) => handleInput(e.target.value)}
+                ref={inputRef}
                 className="border border-gray-300 rounded-md p-2 w-64"
+                onFocus={() => setShowOptions(true)}
+                onBlur={() => setShowOptions(false)}
             />
-            {filteredOptions.length > 0 && (
+            {showOptions && filteredOptions.length > 0 && (
                 <ul className="absolute z-10 bg-white border border-gray-300 rounded-md mt-1 w-64">
                     {filteredOptions.map((option, index) => (
                         <li
@@ -49,7 +52,7 @@ export default function Autocomplete(info) {
 }
 
 
-const options = [
+const stations = [
     'Estacao Jabaquara',
     'Estacao Conceicao',
     'Estacao Sao Judas',

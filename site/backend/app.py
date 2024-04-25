@@ -35,9 +35,9 @@ def graph1():
     astar_path_formatted = graph.returnFinalPath(astar_path)
 
     # get place-id
-    place_id_list = graph.returnPlaceID(astar_path)
+    place_list = graph.returnPlaceID(astar_path)
 
-    return([astar_path_formatted, astar_cost, place_id_list])
+    return([astar_path_formatted, astar_cost, place_list])
 
 @app.route('/g2')
 # Viagem com menor caminho percorrido
@@ -61,9 +61,9 @@ def graph2():
     astar_path_formatted = graph.returnFinalPath(astar_path)
 
     # get place-id 
-    place_id_list, place_list = graph.returnPlaceID(astar_path)
+    place_list = graph.returnPlaceID(astar_path)
 
-    return([astar_path_formatted, astar_cost, place_list, place_id_list])
+    return([astar_path_formatted, astar_cost, place_list])
 
 @app.route('/g3')
 # Viagem com maior média das avaliações

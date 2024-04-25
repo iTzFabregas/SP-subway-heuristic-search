@@ -36,7 +36,6 @@ export default function Stations(info) {
                             <h2 className={`text-lg ${definirCor1(station)}`}>{station['result']['rating'] + '★ de ' + station['result']['user_ratings_total'] + ' reviews'}</h2>
                             {station['result']['wheelchair_accessible_entrance'] && <h3 className="border border-green-600 bg-green-300 w-fit p-1 text-green-600 font-bold">Acesso para cadeirantes</h3>}
                             {!station['result']['wheelchair_accessible_entrance'] && <h3 className="border border-red-600 bg-red-300 w-fit p-1 text-red-600 font-bold">Sem acesso para cadeirantes</h3>}
-                            <h3>{station['result']['place_id']}</h3>
                         </div>
                     </a>
                 )

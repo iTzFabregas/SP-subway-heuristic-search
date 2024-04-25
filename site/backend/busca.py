@@ -38,7 +38,7 @@ def returnPlaceID(stations):
                 response = fetchPlaceID(item.get('place-id'))
                 places_list.append(response)
 
-    return place_id_list, places_list
+    return places_list
 
 def returnFinalPath(path):
     """ 
