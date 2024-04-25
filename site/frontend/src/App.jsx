@@ -45,10 +45,10 @@ function App() {
 
             <div className="flex flex-col bg-gray-200 rounded-3xl shadow-2xl w-1/2 h-96 items-center justify-center mb-12">
                 <h3>Estação de Origem</h3>
-                <Autocomplete inputValue={origin} setInputValue={setOrigin}/>
+                <Autocomplete inputValue={origin} setInputValue={setOrigin} key={uuidv4()} />
 
                 <h3>Estação de Destino</h3>
-                <Autocomplete inputValue={destination} setInputValue={setDestination}/>
+                <Autocomplete inputValue={destination} setInputValue={setDestination} key={uuidv4()} />
 
                 <h3>Selecione o tipo de viagem</h3>
                 <select defaultValue={"g0"} className="bg-white p-1 mb-8">

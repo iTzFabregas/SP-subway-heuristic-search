@@ -9,8 +9,6 @@ export default function Autocomplete(info) {
         const value = e.target.value;
         setInputValue(value);
 
-        // Aqui você pode implementar a lógica para buscar sugestões
-        // Por enquanto, estamos apenas filtrando uma lista de exemplo
         const filteredSuggestions = exampleSuggestions.filter(suggestion =>
             suggestion.toLowerCase().includes(value.toLowerCase())
         );
