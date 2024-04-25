@@ -35,7 +35,7 @@ def graph1():
     astar_path_formatted = graph.returnFinalPath(astar_path)
 
     # get place-id
-    place_list = graph.returnPlaceID(astar_path)
+    place_list = graph.returnInfo(astar_path)
 
     return([astar_path_formatted, astar_cost, place_list])
 
@@ -61,7 +61,7 @@ def graph2():
     astar_path_formatted = graph.returnFinalPath(astar_path)
 
     # get place-id 
-    place_list = graph.returnPlaceID(astar_path)
+    place_list = graph.returnInfo(astar_path)
 
     return([astar_path_formatted, astar_cost, place_list])
 

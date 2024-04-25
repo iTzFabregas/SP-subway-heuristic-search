@@ -4,39 +4,37 @@ import subprocess
 import os
 import googlemaps
 
-def fetchPlaceID(place_id):
-    client = googlemaps.Client(key="AIzaSyA_prM8fOfjOLNI_pDa0w1IO0L5ePMMaaU")
-    response = client.place(place_id)
-    return response
-
-def returnPlaceID(stations):
+def returnInfo(stations):
     """ 
-    Return a list of place-id values
+    Return a list of places information
     
     Args: 
         stations (list): list of string stations 
 
     Returns: 
-        list: all place-id values in a list
+        list: all places information
     
     Raises:
         none
     """
 
-    # open file ratings
+    # open file ratings and places
     with open("ratings.json", 'r') as f:
-        data = json.load(f)
+        data1 = json.load(f)
+
+    with open("places.json", 'r') as f:
+        data2 = json.load(f)
   
     # get place-id by match stations 
     places_list = []
-    place_id_list = []
     for station in stations:
-        for item in data:
+        for item in data1:
             station_rating = item.get('station').split(', ')[0].strip() 
             if (station == station_rating):
-                place_id_list.append(item.get('place-id'))
-                response = fetchPlaceID(item.get('place-id'))
-                places_list.append(response)
+                place_id = item['place-id']
+                for info in data2:
+                    if info['place-id'] == place_id:
+                        places_list.append(info['response'])
 
     return places_list
 
