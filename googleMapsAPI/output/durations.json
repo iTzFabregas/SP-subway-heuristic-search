@@ -437,17 +437,17 @@
     {
         "origin": "Estacao Palmeiras-Barra Funda, Sao Paulo, Brasil",
         "destination": "Estacao agua Branca, Sao Paulo, Brasil",
-        "real-duration": 210
+        "real-duration": 193
     },
     {
         "origin": "Estacao agua Branca, Sao Paulo, Brasil",
         "destination": "Estacao Lapa, Sao Paulo, Brasil",
-        "real-duration": 334
+        "real-duration": 248
     },
     {
         "origin": "Estacao Lapa, Sao Paulo, Brasil",
         "destination": "Estacao Piqueri, Sao Paulo, Brasil",
-        "real-duration": 180
+        "real-duration": 174
     },
     {
         "origin": "Estacao Piqueri, Sao Paulo, Brasil",
@@ -467,7 +467,7 @@
     {
         "origin": "Estacao Jaragua, Sao Paulo, Brasil",
         "destination": "Estacao Vila Aurora, Sao Paulo, Brasil",
-        "real-duration": 210
+        "real-duration": 194
     },
     {
         "origin": "Estacao Vila Aurora, Sao Paulo, Brasil",
@@ -482,12 +482,12 @@
     {
         "origin": "Estacao Caieiras, Melhoramentos, Caieiras - SP, 07700-000",
         "destination": "Estacao Franco da Rocha, Sao Paulo, Brasil",
-        "real-duration": 330
+        "real-duration": 417
     },
     {
         "origin": "Estacao Franco da Rocha, Sao Paulo, Brasil",
         "destination": "Estacao Baltazar Fidelis, Sao Paulo, Brasil",
-        "real-duration": 213
+        "real-duration": 210
     },
     {
         "origin": "Estacao Baltazar Fidelis, Sao Paulo, Brasil",
