@@ -417,7 +417,7 @@
     {
         "origin": "Estacao Jd. Planalto, Sao Paulo, Brasil",
         "destination": "Estacao Sapopemba, Sao Paulo, Brasil",
-        "real-duration": 420
+        "real-duration": 675
     },
     {
         "origin": "Estacao Sapopemba, Sao Paulo, Brasil",
@@ -437,7 +437,7 @@
     {
         "origin": "Estacao Palmeiras-Barra Funda, Sao Paulo, Brasil",
         "destination": "Estacao agua Branca, Sao Paulo, Brasil",
-        "real-duration": 193
+        "real-duration": 210
     },
     {
         "origin": "Estacao agua Branca, Sao Paulo, Brasil",
@@ -447,7 +447,7 @@
     {
         "origin": "Estacao Lapa, Sao Paulo, Brasil",
         "destination": "Estacao Piqueri, Sao Paulo, Brasil",
-        "real-duration": 174
+        "real-duration": 180
     },
     {
         "origin": "Estacao Piqueri, Sao Paulo, Brasil",
@@ -467,7 +467,7 @@
     {
         "origin": "Estacao Jaragua, Sao Paulo, Brasil",
         "destination": "Estacao Vila Aurora, Sao Paulo, Brasil",
-        "real-duration": 194
+        "real-duration": 210
     },
     {
         "origin": "Estacao Vila Aurora, Sao Paulo, Brasil",
@@ -477,22 +477,22 @@
     {
         "origin": "Estacao Perus, Sao Paulo, Brasil",
         "destination": "Estacao Caieiras, Melhoramentos, Caieiras - SP, 07700-000",
-        "real-duration": 398
+        "real-duration": 300
     },
     {
         "origin": "Estacao Caieiras, Melhoramentos, Caieiras - SP, 07700-000",
         "destination": "Estacao Franco da Rocha, Sao Paulo, Brasil",
-        "real-duration": 417
+        "real-duration": 330
     },
     {
         "origin": "Estacao Franco da Rocha, Sao Paulo, Brasil",
         "destination": "Estacao Baltazar Fidelis, Sao Paulo, Brasil",
-        "real-duration": 210
+        "real-duration": 213
     },
     {
         "origin": "Estacao Baltazar Fidelis, Sao Paulo, Brasil",
         "destination": "Estacao Francisco Morato, Sao Paulo, Brasil",
-        "real-duration": 314
+        "real-duration": 240
     },
     {
         "origin": "Estacao Francisco Morato, Sao Paulo, Brasil",

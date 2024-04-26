@@ -20,7 +20,7 @@ class Grafo:
         os.chdir("../googleMapsAPI/")
         python_interpreter = 'python_3'
         python_program = './heuristic.py'
-        subprocess.run(f'python3 {python_program} "{station}"', shell=True, check=True)
+        subprocess.run(f'python3 {python_program} {station}', shell=True, check=True)
 
         file_path = "../googleMapsAPI/output/heuristics/" + station.replace(" ", "") + "_heuristic.json"
         with open(file_path, 'r') as file:
