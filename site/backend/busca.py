@@ -193,3 +193,18 @@ def AStar(graph, heuristic_type, travel_info):
         total_cost += graph[path[i]][path[i+1]]['weight']
 
     return path, total_cost
+
+def findLongestPath(graph, travel_info):
+    origin = travel_info[0]
+    destination = travel_info[1]
+
+    max_path = []
+    max_len = 0
+
+    for path in nx.all_simple_paths(graph, origin, destination):
+        len_path = len(path)
+        if len_path > max_len:
+            max_path = path 
+            max_len = len_path 
+
+    return max_path, len(max_path) 
