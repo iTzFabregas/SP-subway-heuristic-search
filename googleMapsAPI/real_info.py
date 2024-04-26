@@ -30,7 +30,8 @@ if __name__ == '__main__':
 
             buffer_distance = {}
             buffer_duration = {}
-            buffer_latlon = {}
+            buffer_latlon1 = {}
+            buffer_latlon2 = {}
             for i in directions_result[0]['legs'][0]['steps']:
                 if i['travel_mode'] != 'TRANSIT': continue
                 
@@ -39,22 +40,23 @@ if __name__ == '__main__':
                 buffer_distance['real-distance'] = i['distance']['value']
                 buffer_duration['real-duration'] = i['duration']['value']
 
+
                 start_in = end_in = False
                 for dic in stations_latlon:
                     if stations_list[station_1] in dic.values(): start_in = True
                     if stations_list[station_2] in dic.values(): end_in = True
 
                 if not start_in:
-                    buffer_latlon['station'] = stations_list[station_1]
-                    buffer_latlon['lat'] = i['start_location']['lat']
-                    buffer_latlon['lon'] = i['start_location']['lng']
-                    stations_latlon.append(buffer_latlon)
+                    buffer_latlon1['station'] = stations_list[station_1]
+                    buffer_latlon1['lat'] = i['start_location']['lat']
+                    buffer_latlon1['lon'] = i['start_location']['lng']
+                    stations_latlon.append(buffer_latlon1)
 
                 if not end_in:
-                    buffer_latlon['station'] = stations_list[station_2]
-                    buffer_latlon['lat'] = i['end_location']['lat']
-                    buffer_latlon['lon'] = i['end_location']['lng']
-                    stations_latlon.append(buffer_latlon)
+                    buffer_latlon2['station'] = stations_list[station_2]
+                    buffer_latlon2['lat'] = i['end_location']['lat']
+                    buffer_latlon2['lon'] = i['end_location']['lng']
+                    stations_latlon.append(buffer_latlon2)
 
 
             stations_dist.append(buffer_distance)

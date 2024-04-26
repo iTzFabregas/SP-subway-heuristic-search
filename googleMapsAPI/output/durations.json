@@ -397,7 +397,7 @@
     {
         "origin": "Estacao Sao Lucas, Sao Paulo, Brasil",
         "destination": "Estacao Camilo Haddad, Sao Paulo, Brasil",
-        "real-duration": 196
+        "real-duration": 180
     },
     {
         "origin": "Estacao Camilo Haddad, Sao Paulo, Brasil",
@@ -417,7 +417,7 @@
     {
         "origin": "Estacao Jd. Planalto, Sao Paulo, Brasil",
         "destination": "Estacao Sapopemba, Sao Paulo, Brasil",
-        "real-duration": 603
+        "real-duration": 420
     },
     {
         "origin": "Estacao Sapopemba, Sao Paulo, Brasil",
@@ -428,5 +428,90 @@
         "origin": "Estacao Fazenda da Juta, Sao Paulo, Brasil",
         "destination": "Estacao Sao Mateus, Sao Paulo, Brasil",
         "real-duration": 120
+    },
+    {
+        "origin": "Estacao Luz, Sao Paulo, Brasil",
+        "destination": "Estacao Palmeiras-Barra Funda, Sao Paulo, Brasil",
+        "real-duration": 360
+    },
+    {
+        "origin": "Estacao Palmeiras-Barra Funda, Sao Paulo, Brasil",
+        "destination": "Estacao agua Branca, Sao Paulo, Brasil",
+        "real-duration": 210
+    },
+    {
+        "origin": "Estacao agua Branca, Sao Paulo, Brasil",
+        "destination": "Estacao Lapa, Sao Paulo, Brasil",
+        "real-duration": 334
+    },
+    {
+        "origin": "Estacao Lapa, Sao Paulo, Brasil",
+        "destination": "Estacao Piqueri, Sao Paulo, Brasil",
+        "real-duration": 180
+    },
+    {
+        "origin": "Estacao Piqueri, Sao Paulo, Brasil",
+        "destination": "Estacao Pirituba, Sao Paulo, Brasil",
+        "real-duration": 180
+    },
+    {
+        "origin": "Estacao Pirituba, Sao Paulo, Brasil",
+        "destination": "Estacao Vila Clarice, Sao Paulo, Brasil",
+        "real-duration": 237
+    },
+    {
+        "origin": "Estacao Vila Clarice, Sao Paulo, Brasil",
+        "destination": "Estacao Jaragua, Sao Paulo, Brasil",
+        "real-duration": 180
+    },
+    {
+        "origin": "Estacao Jaragua, Sao Paulo, Brasil",
+        "destination": "Estacao Vila Aurora, Sao Paulo, Brasil",
+        "real-duration": 210
+    },
+    {
+        "origin": "Estacao Vila Aurora, Sao Paulo, Brasil",
+        "destination": "Estacao Perus, Sao Paulo, Brasil",
+        "real-duration": 300
+    },
+    {
+        "origin": "Estacao Perus, Sao Paulo, Brasil",
+        "destination": "Estacao Caieiras, Melhoramentos, Caieiras - SP, 07700-000",
+        "real-duration": 398
+    },
+    {
+        "origin": "Estacao Caieiras, Melhoramentos, Caieiras - SP, 07700-000",
+        "destination": "Estacao Franco da Rocha, Sao Paulo, Brasil",
+        "real-duration": 330
+    },
+    {
+        "origin": "Estacao Franco da Rocha, Sao Paulo, Brasil",
+        "destination": "Estacao Baltazar Fidelis, Sao Paulo, Brasil",
+        "real-duration": 213
+    },
+    {
+        "origin": "Estacao Baltazar Fidelis, Sao Paulo, Brasil",
+        "destination": "Estacao Francisco Morato, Sao Paulo, Brasil",
+        "real-duration": 314
+    },
+    {
+        "origin": "Estacao Francisco Morato, Sao Paulo, Brasil",
+        "destination": "Estacao Botujuru, Sao Paulo, Brasil",
+        "real-duration": 558
+    },
+    {
+        "origin": "Estacao Botujuru, Sao Paulo, Brasil",
+        "destination": "Estacao Campo Limpo Paulista, Sao Paulo, Brasil",
+        "real-duration": 332
+    },
+    {
+        "origin": "Estacao Campo Limpo Paulista, Sao Paulo, Brasil",
+        "destination": "Estacao Varzea Paulista, Sao Paulo, Brasil",
+        "real-duration": 492
+    },
+    {
+        "origin": "Estacao Varzea Paulista, Sao Paulo, Brasil",
+        "destination": "Estacao Jundiai, Sao Paulo, Brasil",
+        "real-duration": 432
     }
 ]

@@ -386,8 +386,8 @@
     },
     {
         "station": "Estacao Camilo Haddad, Sao Paulo, Brasil",
-        "lat": -23.595642,
-        "lon": -46.537656
+        "lat": -23.59557,
+        "lon": -46.53763
     },
     {
         "station": "Estacao Vila Tolstoi, Sao Paulo, Brasil",
@@ -406,8 +406,8 @@
     },
     {
         "station": "Estacao Sapopemba, Sao Paulo, Brasil",
-        "lat": -23.59127,
-        "lon": -46.53057500000001
+        "lat": -23.5955,
+        "lon": -46.53754
     },
     {
         "station": "Estacao Fazenda da Juta, Sao Paulo, Brasil",
@@ -418,5 +418,85 @@
         "station": "Estacao Sao Mateus, Sao Paulo, Brasil",
         "lat": -23.61238,
         "lon": -46.47748
+    },
+    {
+        "station": "Estacao agua Branca, Sao Paulo, Brasil",
+        "lat": -23.5214281,
+        "lon": -46.6891906
+    },
+    {
+        "station": "Estacao Lapa, Sao Paulo, Brasil",
+        "lat": -23.521284,
+        "lon": -46.698763
+    },
+    {
+        "station": "Estacao Piqueri, Sao Paulo, Brasil",
+        "lat": -23.5038954,
+        "lon": -46.7150535
+    },
+    {
+        "station": "Estacao Pirituba, Sao Paulo, Brasil",
+        "lat": -23.4884855,
+        "lon": -46.7262531
+    },
+    {
+        "station": "Estacao Vila Clarice, Sao Paulo, Brasil",
+        "lat": -23.470038,
+        "lon": -46.744207
+    },
+    {
+        "station": "Estacao Jaragua, Sao Paulo, Brasil",
+        "lat": -23.4560824,
+        "lon": -46.73815
+    },
+    {
+        "station": "Estacao Vila Aurora, Sao Paulo, Brasil",
+        "lat": -23.4379368,
+        "lon": -46.7473474
+    },
+    {
+        "station": "Estacao Perus, Sao Paulo, Brasil",
+        "lat": -23.4052429,
+        "lon": -46.7535349
+    },
+    {
+        "station": "Estacao Caieiras, Melhoramentos, Caieiras - SP, 07700-000",
+        "lat": -23.3660593,
+        "lon": -46.7514093
+    },
+    {
+        "station": "Estacao Franco da Rocha, Sao Paulo, Brasil",
+        "lat": -23.329723,
+        "lon": -46.7263104
+    },
+    {
+        "station": "Estacao Baltazar Fidelis, Sao Paulo, Brasil",
+        "lat": -23.3099773,
+        "lon": -46.7236188
+    },
+    {
+        "station": "Estacao Francisco Morato, Sao Paulo, Brasil",
+        "lat": -23.28214,
+        "lon": -46.74248
+    },
+    {
+        "station": "Estacao Botujuru, Sao Paulo, Brasil",
+        "lat": -23.236052,
+        "lon": -46.7675592
+    },
+    {
+        "station": "Estacao Campo Limpo Paulista, Sao Paulo, Brasil",
+        "lat": -23.2065722,
+        "lon": -46.7856578
+    },
+    {
+        "station": "Estacao Varzea Paulista, Sao Paulo, Brasil",
+        "lat": -23.2089029,
+        "lon": -46.8290308
+    },
+    {
+        "station": "Estacao Jundiai, Sao Paulo, Brasil",
+        "lat": -23.1952115,
+        "lon": -46.8723913
     }
 ]
