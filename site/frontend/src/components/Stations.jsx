@@ -5,16 +5,13 @@ import "../assets/tailwind.css"
 export default function Stations(info) {
     const { stations } = info
     const definirCor1 = (station) => {
-        if (station['result']['rating'] <= 3.5) {
-            return 'text-red-500';
-        }
-        if (station['result']['rating'] < 4) {
-            return 'text-orange-500';
+        if (station['result']['rating'] < 4.0) {
+            return 'text-red-600';
         }
         if (station['result']['rating'] < 4.5) {
             return 'text-yellow-500';
         }
-        return 'text-green-500';
+        return 'text-green-600';
     }
 
     const definirCor2 = (station) => {
