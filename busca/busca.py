@@ -17,7 +17,7 @@ class Grafo:
 
     def carrega_heuristicas(self, station):
         #chama o script que gera a heurística ()
-        os.chdir("googleMapsAPI/")
+        os.chdir("../googleMapsAPI/")
         python_interpreter = 'python_3'
         python_program = './heuristic.py'
         subprocess.run(f'python3 {python_program} "{station}"', shell=True, check=True)
@@ -138,7 +138,7 @@ class Grafo:
 def ler_distancias():
     # Lê um arquivo JSON contendo as distâncias entre as estações e retorna um dicionário.
     dir_atual = os.getcwd()
-    file_json = os.path.join(dir_atual, 'googleMapsAPI','output', 'distances.json')
+    file_json = os.path.join(dir_atual, '../googleMapsAPI','output', 'distances.json')
     with open(file_json, 'r') as file:
         dados = json.load(file)
     distancias = {}
@@ -161,7 +161,7 @@ def cria_grafo_dist():
 def ler_duracoes():
     # Lê um arquivo JSON contendo os tempos de duração entre as estações e retorna um dicionário.
     dir_atual = os.getcwd()
-    file_json = os.path.join(dir_atual, 'googleMapsAPI', 'output', 'durations.json')
+    file_json = os.path.join(dir_atual, '../googleMapsAPI', 'output', 'durations.json')
     with open(file_json, 'r') as file:
         dados = json.load(file)
     duracoes = {}
@@ -187,7 +187,7 @@ def cria_grafo_duracao():
 def ler_avaliacoes():
     # Lê o arquivo JSON com as avaliações das estações e retorna um dicionário.
     dir_atual = os.getcwd()
-    file_json = os.path.join(dir_atual, 'googleMapsAPI', 'output', 'ratings.json')
+    file_json = os.path.join(dir_atual, '../googleMapsAPI', 'output', 'ratings.json')
     with open(file_json, 'r') as file:
         dados = json.load(file)
     avaliacoes = {item["real_station"]: item["rating"] for item in dados}
@@ -220,8 +220,12 @@ def reconstruir_caminho(came_from, start, goal):
     return path
 
 origem = input("Escreva a estação de origem: ")
+# origem = 'Estacao Se'
 destino = input("Escreva a estação de destino: ")
+# destino = 'Estacao Luz'
 modo = input("Escolha o modo de busca (distância, tempo ou avaliação): ")
+# modo = 'tempo'
+
 #Criação e uso do grafo
 if modo == 'distância':
     g = cria_grafo_dist()
