@@ -3,7 +3,7 @@ import json
 
 import heuristic
 
-client = googlemaps.Client(key='NAO_RODAR')
+client = googlemaps.Client(key='AIzaSyA_prM8fOfjOLNI_pDa0w1IO0L5ePMMaaU')
 
 stations_dist = []
 stations_durat = []
