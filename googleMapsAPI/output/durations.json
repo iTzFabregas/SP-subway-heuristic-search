@@ -476,11 +476,11 @@
     },
     {
         "origin": "Estacao Perus, Sao Paulo, Brasil",
-        "destination": "Estacao Caieiras, Melhoramentos, Caieiras - SP, 07700-000",
+        "destination": "Estacao Caieiras, Melhoramentos, Caieiras, SP, 07700-000",
         "real-duration": 300
     },
     {
-        "origin": "Estacao Caieiras, Melhoramentos, Caieiras - SP, 07700-000",
+        "origin": "Estacao Caieiras, Melhoramentos, Caieiras, SP, 07700-000",
         "destination": "Estacao Franco da Rocha, Sao Paulo, Brasil",
         "real-duration": 330
     },
