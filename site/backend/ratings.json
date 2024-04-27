@@ -1,0 +1,506 @@
+[
+    {
+        "station": "Estacao Jabaquara, Sao Paulo, Brasil",
+        "real_station": "Jabaquara",
+        "rating": 4.3,
+        "place-id": "ChIJGeqxXN1azpQReOktTOQJGK8"
+    },
+    {
+        "station": "Estacao Conceicao, Sao Paulo, Brasil",
+        "real_station": "Concei\u00e7\u00e3o",
+        "rating": 4.4,
+        "place-id": "ChIJV8LdrPpazpQRpB9Sj_uJ1Ww"
+    },
+    {
+        "station": "Estacao Sao Judas, Sao Paulo, Brasil",
+        "real_station": "S\u00e3o Judas",
+        "rating": 4.4,
+        "place-id": "ChIJQRIx7VdazpQRgL9W35lxi-M"
+    },
+    {
+        "station": "Estacao Saude, Sao Paulo, Brasil",
+        "real_station": "Sa\u00fade",
+        "rating": 4.3,
+        "place-id": "ChIJfYbHU1BazpQRHyKqfBrRyfE"
+    },
+    {
+        "station": "Estacao Praca da arvore, Sao Paulo, Brasil",
+        "real_station": "Pra\u00e7a da \u00c1rvore",
+        "rating": 4.4,
+        "place-id": "ChIJw8hM5rRbzpQRQdtJ2ivTZ3U"
+    },
+    {
+        "station": "Estacao Santa Cruz, Sao Paulo, Brasil",
+        "real_station": "Santa Cruz",
+        "rating": 4.4,
+        "place-id": "ChIJxYfY1DNazpQRpcAmbOPOYRU"
+    },
+    {
+        "station": "Estacao Vila Mariana, Sao Paulo, Brasil",
+        "real_station": "Vila Mariana",
+        "rating": 4.3,
+        "place-id": "ChIJwY5kpitazpQRNUtDjycZDoM"
+    },
+    {
+        "station": "Estacao Ana Rosa, Sao Paulo, Brasil",
+        "real_station": "Ana Rosa",
+        "rating": 4.3,
+        "place-id": "ChIJtfvLP4RZzpQRR6LbsWmq0gs"
+    },
+    {
+        "station": "Estacao Paraiso, Sao Paulo, Brasil",
+        "real_station": "Para\u00edso",
+        "rating": 4.3,
+        "place-id": "ChIJC9WRFppZzpQRZ0ibkIlYF_g"
+    },
+    {
+        "station": "Estacao Vergueiro, Sao Paulo, Brasil",
+        "real_station": "Vergueiro Metro Station",
+        "rating": 4.3,
+        "place-id": "ChIJyWgPbMVbzpQRNOKobXleKOg"
+    },
+    {
+        "station": "Estacao Sao Joaquim, Sao Paulo, Brasil",
+        "real_station": "S\u00e3o Joaquim",
+        "rating": 4.3,
+        "place-id": "ChIJ8brYUaRZzpQRvLJOxBxv5gk"
+    },
+    {
+        "station": "Estacao Japao-Liberdade, Sao Paulo, Brasil",
+        "real_station": "Esta\u00e7\u00e3o Jap\u00e3o-Liberdade",
+        "rating": 4.5,
+        "place-id": "ChIJqzxzPKlZzpQRlXR0NTfcww0"
+    },
+    {
+        "station": "Estacao Se, Sao Paulo, Brasil",
+        "real_station": "S\u00e9",
+        "rating": 3.9,
+        "place-id": "ChIJiUYAW6pZzpQR2YtcUuwgxzc"
+    },
+    {
+        "station": "Estacao Sao Bento, Sao Paulo, Brasil",
+        "real_station": "S\u00e3o Bento",
+        "rating": 4.4,
+        "place-id": "ChIJq6ua4lRYzpQRhXPYRlKVXzQ"
+    },
+    {
+        "station": "Estacao Luz, Sao Paulo, Brasil",
+        "real_station": "Luz Station",
+        "rating": 4.4,
+        "place-id": "ChIJGylGOVlYzpQRSZWmk5VgHoM"
+    },
+    {
+        "station": "Estacao Armenia, Sao Paulo, Brasil",
+        "real_station": "Arm\u00eania",
+        "rating": 3.4,
+        "place-id": "ChIJ0RAyA4tYzpQRvCV7h69StWg"
+    },
+    {
+        "station": "Estacao Portuguesa-Tiete, Sao Paulo, Brasil",
+        "real_station": "Portuguesa-Tiet\u00ea",
+        "rating": 4.3,
+        "place-id": "ChIJyz9efI9YzpQRTmPqwZTlucQ"
+    },
+    {
+        "station": "Estacao Carandiru, Sao Paulo, Brasil",
+        "real_station": "Carandiru",
+        "rating": 3.8,
+        "place-id": "ChIJzXTqqINYzpQRDJjJ1UytAgw"
+    },
+    {
+        "station": "Estacao Santana, Sao Paulo, Brasil",
+        "real_station": "Santana",
+        "rating": 4.3,
+        "place-id": "ChIJiYaeLyn2zpQRsyWEvQXpwcQ"
+    },
+    {
+        "station": "Estacao Jardim Sao Paulo-Ayrton Senna, Sao Paulo, Brasil",
+        "real_station": "Jardim S\u00e3o Paulo-Ayrton Senna",
+        "rating": 4.5,
+        "place-id": "ChIJk4MfiTz2zpQRtAt37RL3pwM"
+    },
+    {
+        "station": "Estacao Parada Inglesa, Sao Paulo, Brasil",
+        "real_station": "Parada Inglesa",
+        "rating": 4.3,
+        "place-id": "ChIJN8uooRb2zpQRfRZr2lBLUzc"
+    },
+    {
+        "station": "Estacao Tucuruvi, Sao Paulo, Brasil",
+        "real_station": "Tucuruvi",
+        "rating": 4.1,
+        "place-id": "ChIJ03T7TW32zpQRGUmE0Q9VBcI"
+    },
+    {
+        "station": "Estacao Vila Prudente, Sao Paulo, Brasil",
+        "real_station": "Vila Prudente",
+        "rating": 4.3,
+        "place-id": "ChIJyZajcBJczpQRuHMDeVsCHjo"
+    },
+    {
+        "station": "Estacao Tamanduatei, Sao Paulo, Brasil",
+        "real_station": "Tamanduate\u00ed",
+        "rating": 4.3,
+        "place-id": "ChIJYXClaXRczpQRCyQmYUcbhZo"
+    },
+    {
+        "station": "Estacao Sacoma, Sao Paulo, Brasil",
+        "real_station": "Esta\u00e7\u00e3o Sacom\u00e3",
+        "rating": 4.3,
+        "place-id": "ChIJFwAiK5BbzpQRjIGK5YyGC-I"
+    },
+    {
+        "station": "Estacao Alto do Ipiranga, Sao Paulo, Brasil",
+        "real_station": "Alto do Ipiranga",
+        "rating": 4.5,
+        "place-id": "ChIJzwv1_pVbzpQRsQL7MHYXf4o"
+    },
+    {
+        "station": "Estacao Santos-Imigrantes, Sao Paulo, Brasil",
+        "real_station": "Santos - Imigrantes",
+        "rating": 4.4,
+        "place-id": "ChIJJ_XZ2MVbzpQRBdGuB9D2alA"
+    },
+    {
+        "station": "Estacao Chacara Klabin, Sao Paulo, Brasil",
+        "real_station": "Ch\u00e1cara Klabin",
+        "rating": 4.6,
+        "place-id": "ChIJsUTr79JbzpQRKWKIVyfOQKE"
+    },
+    {
+        "station": "Estacao Brigadeiro, Sao Paulo, Brasil",
+        "real_station": "Brigadeiro",
+        "rating": 4.3,
+        "place-id": "ChIJoYLR3L5ZzpQRhxQbVHJCpMY"
+    },
+    {
+        "station": "Estacao Trianon-Masp, Sao Paulo, Brasil",
+        "real_station": "Trianon - Masp",
+        "rating": 4.6,
+        "place-id": "ChIJp8NBh8hZzpQRD1ijUNPjkNI"
+    },
+    {
+        "station": "Estacao Consolacao, Sao Paulo, Brasil",
+        "real_station": "Consola\u00e7\u00e3o",
+        "rating": 4.3,
+        "place-id": "ChIJ09HeW81ZzpQRucUggczdLB4"
+    },
+    {
+        "station": "Estacao Clinicas, Sao Paulo, Brasil",
+        "real_station": "Cl\u00ednicas",
+        "rating": 4.6,
+        "place-id": "ChIJ6ekgY4dXzpQRjRsRTBfmprU"
+    },
+    {
+        "station": "Estacao S. N. Sra. de Fatima-Sumare, Sao Paulo, Brasil",
+        "real_station": "Santu\u00e1rio N. Sra. de F\u00e1tima-Sumar\u00e9",
+        "rating": 4.5,
+        "place-id": "ChIJYbEr-I5XzpQRCVDf7ACtq8I"
+    },
+    {
+        "station": "Estacao Vila Madalena, Sao Paulo, Brasil",
+        "real_station": "Vila Madalena",
+        "rating": 4.5,
+        "place-id": "ChIJ3dGqMMBXzpQRZ55QWNI9dsk"
+    },
+    {
+        "station": "Estacao Corinthians-Itaquera, Sao Paulo, Brasil",
+        "real_station": "Corinthians - Itaquera",
+        "rating": 4.2,
+        "place-id": "ChIJy5_nsNtmzpQRKqTU-_Uyuf4"
+    },
+    {
+        "station": "Estacao Artur Alvim, Sao Paulo, Brasil",
+        "real_station": "Artur Alvim",
+        "rating": 4.3,
+        "place-id": "ChIJzefJ8C5nzpQR4VSlXjKT828"
+    },
+    {
+        "station": "Estacao Patriarca-Vila Re, Sao Paulo, Brasil",
+        "real_station": "Patriarca",
+        "rating": 4.2,
+        "place-id": "ChIJ185_C7pgzpQRf5n5K2h12mI"
+    },
+    {
+        "station": "Estacao Guilhermina-Esperanca, Sao Paulo, Brasil",
+        "real_station": "Guilhermina - Esperan\u00e7a",
+        "rating": 4.2,
+        "place-id": "ChIJRYJILx5ezpQRqHpuMJAcJz4"
+    },
+    {
+        "station": "Estacao Vila Matilde, Sao Paulo, Brasil",
+        "real_station": "Vila Matilde",
+        "rating": 4.3,
+        "place-id": "ChIJH3nJCxZezpQRfwXTnmfocEM"
+    },
+    {
+        "station": "Estacao Penha, Sao Paulo, Brasil",
+        "real_station": "Penha",
+        "rating": 4.3,
+        "place-id": "ChIJ2T8p3kJezpQR-3QDFDB-Fy8"
+    },
+    {
+        "station": "Estacao Carrao-Assai Atacadista, Sao Paulo, Brasil",
+        "real_station": "Carr\u00e3o",
+        "rating": 4.2,
+        "place-id": "ChIJFUOhHO5ezpQR8bhqv5hqsN8"
+    },
+    {
+        "station": "Estacao Tatuape, Sao Paulo, Brasil",
+        "real_station": "Esta\u00e7\u00e3o Tatuap\u00e9",
+        "rating": 4.2,
+        "place-id": "ChIJvUwAiENczpQRIk-sPXPJvn0"
+    },
+    {
+        "station": "Estacao Belem, Sao Paulo, Brasil",
+        "real_station": "Bel\u00e9m",
+        "rating": 4.1,
+        "place-id": "ChIJjxcHRNdezpQR94HgMTn0FYg"
+    },
+    {
+        "station": "Estacao Bresser-Mooca, Sao Paulo, Brasil",
+        "real_station": "Bresser - Mooca",
+        "rating": 4.1,
+        "place-id": "ChIJi33cmiRZzpQRo6SClR0wWnA"
+    },
+    {
+        "station": "Estacao Bras, Sao Paulo, Brasil",
+        "real_station": "Esta\u00e7\u00e3o Br\u00e1s",
+        "rating": 4.2,
+        "place-id": "ChIJ2zKw7R5ZzpQR40TmawyQa0k"
+    },
+    {
+        "station": "Estacao Pedro II, Sao Paulo, Brasil",
+        "real_station": "Pedro II",
+        "rating": 4,
+        "place-id": "ChIJYTHABwRZzpQRrGTXpIo3dLU"
+    },
+    {
+        "station": "Estacao Anhangabau, Sao Paulo, Brasil",
+        "real_station": "Esta\u00e7\u00e3o Anhangaba\u00fa",
+        "rating": 4.1,
+        "place-id": "ChIJ8dNxrBv1zpQRcxRhw-wRhLY"
+    },
+    {
+        "station": "Estacao Republica, Sao Paulo, Brasil",
+        "real_station": "Rep\u00fablica",
+        "rating": 4,
+        "place-id": "ChIJn890p09YzpQRXF0XKS5pwUU"
+    },
+    {
+        "station": "Estacao Santa Cecilia, Sao Paulo, Brasil",
+        "real_station": "Santa Cec\u00edlia",
+        "rating": 4.1,
+        "place-id": "ChIJ71YIJ0dYzpQR29yAWieAH98"
+    },
+    {
+        "station": "Estacao Marechal Deodoro, Sao Paulo, Brasil",
+        "real_station": "Marechal Deodoro",
+        "rating": 3.8,
+        "place-id": "ChIJX0l9KRRYzpQRJrTW7CpjBR4"
+    },
+    {
+        "station": "Estacao Palmeiras-Barra Funda, Sao Paulo, Brasil",
+        "real_station": "Palmeiras\u2013Barra Funda",
+        "rating": 4.3,
+        "place-id": "ChIJeVrI_wNYzpQRGiAKph9UMfw"
+    },
+    {
+        "station": "Estacao Vila Sonia Profa. Elisabeth Tenreiro, Sao Paulo, Brasil",
+        "real_station": "Vila S\u00f4nia-Professora Elisabeth Tenreiro",
+        "rating": 3.8,
+        "place-id": "ChIJIXipNY5WzpQRCC2T_r2tCMU"
+    },
+    {
+        "station": "Estacao Sao Paulo-Morumbi, Sao Paulo, Brasil",
+        "real_station": "S\u00e3o Paulo-Morumbi",
+        "rating": 4.6,
+        "place-id": "ChIJod3cgfFWzpQRoaYl3jVOrO8"
+    },
+    {
+        "station": "Estacao Butanta, Sao Paulo, Brasil",
+        "real_station": "Butant\u00e3",
+        "rating": 4.4,
+        "place-id": "ChIJDVSj16pXzpQRs7F5EE7Em3g"
+    },
+    {
+        "station": "Estacao Pinheiros, Sao Paulo, Brasil",
+        "real_station": "Pinheiros",
+        "rating": 4.1,
+        "place-id": "ChIJxax8yK5XzpQRIxNP02rVxXQ"
+    },
+    {
+        "station": "Estacao Faria Lima, Sao Paulo, Brasil",
+        "real_station": "Faria Lima",
+        "rating": 4.4,
+        "place-id": "ChIJN6VKjqBXzpQRrjZiYcAgAeo"
+    },
+    {
+        "station": "Estacao Fradique Coutinho, Sao Paulo, Brasil",
+        "real_station": "Fradique Coutinho",
+        "rating": 4.6,
+        "place-id": "ChIJ4elYEHZXzpQRWwROsJLQqFA"
+    },
+    {
+        "station": "Estacao Oscar Freire, Sao Paulo, Brasil",
+        "real_station": "Oscar Freire",
+        "rating": 4.6,
+        "place-id": "ChIJSc6aXS5XzpQR1M7Q8s565kc"
+    },
+    {
+        "station": "Estacao Paulista Pernambucanas, Sao Paulo, Brasil",
+        "real_station": "Paulista",
+        "rating": 4.4,
+        "place-id": "ChIJseZhoi1YzpQRO0jBy2su61w"
+    },
+    {
+        "station": "Estacao Higienopolis-Mackenzie, Sao Paulo, Brasil",
+        "real_station": "Higien\u00f3polis - Mackenzie",
+        "rating": 4.6,
+        "place-id": "ChIJIQ16DTZYzpQRjVv_U9a98bo"
+    },
+    {
+        "station": "Estacao Capao Redondo, Sao Paulo, Brasil",
+        "real_station": "Cap\u00e3o Redondo",
+        "rating": 4.1,
+        "place-id": "ChIJd1UtQbhTzpQR0Wge5PYYQWc"
+    },
+    {
+        "station": "Estacao Campo Limpo, Sao Paulo, Brasil",
+        "real_station": "Campo Limpo",
+        "rating": 4.2,
+        "place-id": "ChIJgxg3mMJTzpQRMjzKf8npz2w"
+    },
+    {
+        "station": "Estacao Vila das Belezas, Sao Paulo, Brasil",
+        "real_station": "Vila das Belezas",
+        "rating": 4.3,
+        "place-id": "ChIJIX6mPV9RzpQR0CLdQtSF99k"
+    },
+    {
+        "station": "Estacao Giovanni Gronchi, Sao Paulo, Brasil",
+        "real_station": "Giovanni Gronchi",
+        "rating": 4.2,
+        "place-id": "ChIJvwZJR2lRzpQRnVqtGMNJQm8"
+    },
+    {
+        "station": "Estacao Santo Amaro, Sao Paulo, Brasil",
+        "real_station": "Santo Amaro",
+        "rating": 4.1,
+        "place-id": "ChIJR4-Su6dRzpQRNkvY3zV0wLc"
+    },
+    {
+        "station": "Estacao Largo Treze, Sao Paulo, Brasil",
+        "real_station": "Largo Treze",
+        "rating": 4.1,
+        "place-id": "ChIJ1UHSaqtRzpQReQpRv7aAsSc"
+    },
+    {
+        "station": "Estacao Adolfo Pinheiro, Sao Paulo, Brasil",
+        "real_station": "Adolfo Pinheiro",
+        "rating": 4.5,
+        "place-id": "ChIJ91yvFFZQzpQRkA4E-djxOL4"
+    },
+    {
+        "station": "Estacao Alto da Boa Vista, Sao Paulo, Brasil",
+        "real_station": "Alto da Boa Vista",
+        "rating": 4.5,
+        "place-id": "ChIJM-oDovBQzpQRQLPUo_4LEfk"
+    },
+    {
+        "station": "Estacao Borba Gato, Sao Paulo, Brasil",
+        "real_station": "Borba Gato",
+        "rating": 4.5,
+        "place-id": "ChIJRzkiru1QzpQRY6IaNJBGodQ"
+    },
+    {
+        "station": "Estacao Brooklin, Sao Paulo, Brasil",
+        "real_station": "Brooklin",
+        "rating": 4.6,
+        "place-id": "ChIJX9eE-5RQzpQRTjvFcPxuwj8"
+    },
+    {
+        "station": "Estacao Campo Belo, Sao Paulo, Brasil",
+        "real_station": "Campo Belo",
+        "rating": 4.5,
+        "place-id": "ChIJJRC-8rxQzpQRREJswkWVcKo"
+    },
+    {
+        "station": "Estacao Eucaliptos, Sao Paulo, Brasil",
+        "real_station": "Eucaliptos",
+        "rating": 4.6,
+        "place-id": "ChIJ-wD6yQlazpQRoe0Fk-7LJng"
+    },
+    {
+        "station": "Estacao Moema, Sao Paulo, Brasil",
+        "real_station": "Moema",
+        "rating": 4.5,
+        "place-id": "ChIJgSQxFgVazpQRJEXusq9Yg-k"
+    },
+    {
+        "station": "Estacao AACD-Servidor, Sao Paulo, Brasil",
+        "real_station": "AACD \u2013 Servidor",
+        "rating": 4.5,
+        "place-id": "ChIJc9qTpBhazpQR-4_igE-ZcvU"
+    },
+    {
+        "station": "Estacao Hospital Sao Paulo, Sao Paulo, Brasil",
+        "real_station": "Hospital S\u00e3o Paulo",
+        "rating": 4.5,
+        "place-id": "ChIJcf9ZliRazpQRDKM1a212sUw"
+    },
+    {
+        "station": "Estacao Oratorio, Sao Paulo, Brasil",
+        "real_station": "Orat\u00f3rio",
+        "rating": 4.3,
+        "place-id": "ChIJI49ArElczpQRDNtW51PWlH4"
+    },
+    {
+        "station": "Estacao Sao Lucas, Sao Paulo, Brasil",
+        "real_station": "S\u00e3o Lucas",
+        "rating": 4.5,
+        "place-id": "ChIJFfwJBaZdzpQRJpGKFwPQ0YA"
+    },
+    {
+        "station": "Estacao Camilo Haddad, Sao Paulo, Brasil",
+        "real_station": "Camilo Haddad",
+        "rating": 4.6,
+        "place-id": "ChIJ1SfxfQtdzpQRBAJvLzJqiHw"
+    },
+    {
+        "station": "Estacao Vila Tolstoi, Sao Paulo, Brasil",
+        "real_station": "Vila Tolst\u00f3i",
+        "rating": 4.4,
+        "place-id": "ChIJVxnpR29dzpQR12CK0L4VPUQ"
+    },
+    {
+        "station": "Estacao Vila Uniao, Sao Paulo, Brasil",
+        "real_station": "Vila Uni\u00e3o",
+        "rating": 4.4,
+        "place-id": "ChIJx_zGWfVnzpQRVnTfEukc3mo"
+    },
+    {
+        "station": "Estacao Jd. Planalto, Sao Paulo, Brasil",
+        "real_station": "Jardim Planalto",
+        "rating": 4.5,
+        "place-id": "ChIJHeUuuPFnzpQRWdptj81u8gc"
+    },
+    {
+        "station": "Estacao Sapopemba, Sao Paulo, Brasil",
+        "real_station": "Esta\u00e7\u00e3o Metr\u00f4 Sapopemba",
+        "rating": 4.3,
+        "place-id": "ChIJS5sjsIBnzpQRo8lywKXMLXE"
+    },
+    {
+        "station": "Estacao Fazenda da Juta, Sao Paulo, Brasil",
+        "real_station": "Esta\u00e7\u00e3o Fazenda da Juta - Monotrilho",
+        "rating": 4.6,
+        "place-id": "ChIJA4Q3ReFpzpQRjl5F3BaRjM4"
+    },
+    {
+        "station": "Estacao Sao Mateus, Sao Paulo, Brasil",
+        "real_station": "Esta\u00e7\u00e3o S\u00e3o Mateus monotrilho.",
+        "rating": 4.5,
+        "place-id": "ChIJzT_nfP5pzpQRxmLx0AFdKIA"
+    }
+]
