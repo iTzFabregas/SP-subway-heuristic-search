@@ -19,10 +19,10 @@ def returnInfo(stations):
     """
 
     # open file ratings and places
-    with open("ratings.json", 'r') as f:
+    with open("./json_files/ratings.json", 'r') as f:
         data1 = json.load(f)
 
-    with open("places.json", 'r') as f:
+    with open("./json_files/places.json", 'r') as f:
         data2 = json.load(f)
   
     # get place-id by match stations 
@@ -76,9 +76,9 @@ def getJsonData(GRAPH_TYPE):
     """
 
     # file path
-    distances_file_path = "../../googleMapsAPI/output/distances.json"
-    durations_file_path = "../../googleMapsAPI/output/durations.json"
-    ratings_file_path = "../../googleMapsAPI/output/ratings.json"
+    distances_file_path = "./json_files/distances.json"
+    durations_file_path = "./json_files/durations.json"
+    ratings_file_path = "./json_files/ratings.json"
 
     data_paths = [distances_file_path, durations_file_path, durations_file_path]
     index = ['DISTANCE', 'DURATION', 'RATING']
