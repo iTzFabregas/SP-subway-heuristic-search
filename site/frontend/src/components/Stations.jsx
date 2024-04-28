@@ -22,11 +22,11 @@ export default function Stations(info) {
     }
 
     return (
-        <div className="grid grid-cols-1 gap-4 mb-10 px-16 pb-32 w-3/4 bg-neutral-100 rounded-3xl shadow-2xl">
+        <div className="flex flex-col items-center justify-center gap-4 mb-10 px-16 pb-32 w-3/4 bg-neutral-100 rounded-3xl shadow-2xl">
             {stations.map((station) => {
                 return (    
-                    <a href={station['result']['website']} target="_blank" rel="noopener noreferrer">
-                        <div className={`flex flex-col xl:flex-row gap-4 border border-black bg-gray-200 mx-10 mt-20 w-3/4 p-3 transform hover:shadow-2xl hover:${definirCor2(station)} transition duration-300`}>
+                    <a href={station['result']['website']} target="_blank" rel="noopener noreferrer" className="w-3/4">
+                        <div className={`flex flex-col xl:flex-row gap-4 border border-black bg-gray-200 mx-10 mt-20 w-full p-3 transform hover:shadow-2xl hover:${definirCor2(station)} transition duration-300`}>
                             <div>
                                 <img src={`https://maps.googleapis.com/maps/api/place/photo?maxheight=288&photo_reference=${station['result']['photos'][0]['photo_reference']}&key=AIzaSyA_prM8fOfjOLNI_pDa0w1IO0L5ePMMaaU`}></img>
                             </div>
