@@ -94,7 +94,7 @@ function App() {
 
                     {status === 'ready' && <h3>{response[0]}</h3>}
                     {status === 'ready' &&
-                        <div className="flex flex-row">
+                        <div className="flex flex-row mt-5">
                             <h3>{response[1]}</h3>
                             <h3>&nbsp;&nbsp;</h3>
                             {option === 'g1' && <h3> minutos</h3>}
