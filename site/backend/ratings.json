@@ -62,7 +62,7 @@
     {
         "station": "Estacao Sao Joaquim, Sao Paulo, Brasil",
         "real_station": "S\u00e3o Joaquim",
-        "rating": 4.3,
+        "rating": 4.4,
         "place-id": "ChIJ8brYUaRZzpQRvLJOxBxv5gk"
     },
     {
@@ -313,9 +313,9 @@
     },
     {
         "station": "Estacao Sao Paulo-Morumbi, Sao Paulo, Brasil",
-        "real_station": "S\u00e3o Paulo-Morumbi",
-        "rating": 4.6,
-        "place-id": "ChIJod3cgfFWzpQRoaYl3jVOrO8"
+        "real_station": "S\u00e3o Paulo-Morumbi Subway Station",
+        "rating": 4.7,
+        "place-id": "ChIJq1n9vKFVzpQR5ptRTCFDgR0"
     },
     {
         "station": "Estacao Butanta, Sao Paulo, Brasil",
@@ -464,7 +464,7 @@
     {
         "station": "Estacao Camilo Haddad, Sao Paulo, Brasil",
         "real_station": "Camilo Haddad",
-        "rating": 4.6,
+        "rating": 4.5,
         "place-id": "ChIJ1SfxfQtdzpQRBAJvLzJqiHw"
     },
     {
@@ -488,7 +488,7 @@
     {
         "station": "Estacao Sapopemba, Sao Paulo, Brasil",
         "real_station": "Esta\u00e7\u00e3o Metr\u00f4 Sapopemba",
-        "rating": 4.3,
+        "rating": 4.4,
         "place-id": "ChIJS5sjsIBnzpQRo8lywKXMLXE"
     },
     {
@@ -502,5 +502,101 @@
         "real_station": "Esta\u00e7\u00e3o S\u00e3o Mateus monotrilho.",
         "rating": 4.5,
         "place-id": "ChIJzT_nfP5pzpQRxmLx0AFdKIA"
+    },
+    {
+        "station": "Estacao agua Branca, Sao Paulo, Brasil",
+        "real_station": "\u00c1gua Branca",
+        "rating": 3.5,
+        "place-id": "ChIJIeGV-Qz4zpQR0J1oNZC0t9I"
+    },
+    {
+        "station": "Estacao Lapa, Sao Paulo, Brasil",
+        "real_station": "Lapa",
+        "rating": 3.7,
+        "place-id": "ChIJKZVX7WX4zpQRJ5EuRLUY0TM"
+    },
+    {
+        "station": "Estacao Piqueri, Sao Paulo, Brasil",
+        "real_station": "Esta\u00e7\u00e3o Piqueri",
+        "rating": 3.3,
+        "place-id": "ChIJKXZCCfz4zpQRYvC3cEKlgbo"
+    },
+    {
+        "station": "Estacao Pirituba, Sao Paulo, Brasil",
+        "real_station": "Pirituba",
+        "rating": 3.7,
+        "place-id": "ChIJ_06lNRT5zpQRLSSCYkn8h30"
+    },
+    {
+        "station": "Estacao Vila Clarice, Sao Paulo, Brasil",
+        "real_station": "Esta\u00e7\u00e3o Vila Clarice",
+        "rating": 3,
+        "place-id": "ChIJeUDFcf77zpQR9GaqNKFqTUQ"
+    },
+    {
+        "station": "Estacao Jaragua, Sao Paulo, Brasil",
+        "real_station": "Jaragu\u00e1",
+        "rating": 4.2,
+        "place-id": "ChIJ1XWb_fH7zpQREC1ZdtTQiDY"
+    },
+    {
+        "station": "Estacao Vila Aurora, Sao Paulo, Brasil",
+        "real_station": "Vila Aurora",
+        "rating": 4.2,
+        "place-id": "ChIJExKwpID7zpQROLybYmiZIS4"
+    },
+    {
+        "station": "Estacao Perus, Sao Paulo, Brasil",
+        "real_station": "Esta\u00e7\u00e3o Perus",
+        "rating": 3.6,
+        "place-id": "ChIJUxPC1678zpQRvZ_IRxzxgYk"
+    },
+    {
+        "station": "Estacao Caieiras, Melhoramentos, Caieiras, SP, 07700-000",
+        "real_station": "Caieiras",
+        "rating": 4,
+        "place-id": "ChIJTQN-d3vjzpQRkmQo6fN5oBQ"
+    },
+    {
+        "station": "Estacao Franco da Rocha, Sao Paulo, Brasil",
+        "real_station": "Franco da Rocha",
+        "rating": 4.3,
+        "place-id": "ChIJSfU8rD_kzpQRiLLnVwedi90"
+    },
+    {
+        "station": "Estacao Baltazar Fidelis, Sao Paulo, Brasil",
+        "real_station": "Estacao Baltazar Fid\u00e9lis",
+        "rating": 3.9,
+        "place-id": "ChIJqR7ZeJ7mzpQRnDoZgWZxwlQ"
+    },
+    {
+        "station": "Estacao Francisco Morato, Sao Paulo, Brasil",
+        "real_station": "Francisco Morato",
+        "rating": 3.2,
+        "place-id": "ChIJV43AkNbmzpQRkpt5WjCRJCE"
+    },
+    {
+        "station": "Estacao Botujuru, Sao Paulo, Brasil",
+        "real_station": "Esta\u00e7\u00e3o Botujuru",
+        "rating": 3.4,
+        "place-id": "ChIJ0Tb8_j3ezpQR40nJBsDqvKg"
+    },
+    {
+        "station": "Estacao Campo Limpo Paulista, Sao Paulo, Brasil",
+        "real_station": "Campo Limpo Paulista",
+        "rating": 3.8,
+        "place-id": "ChIJ9ZyjZOLezpQRQS5fIbOXZiI"
+    },
+    {
+        "station": "Estacao Varzea Paulista, Sao Paulo, Brasil",
+        "real_station": "V\u00e1rzea Paulista",
+        "rating": 4.4,
+        "place-id": "ChIJMWDdyqIgz5QRTmaQmyM5Flc"
+    },
+    {
+        "station": "Estacao Jundiai, Sao Paulo, Brasil",
+        "real_station": "Esta\u00e7\u00e3o Jundia\u00ed",
+        "rating": 3.9,
+        "place-id": "ChIJF-2OmNwmz5QRXI46iSx7BRs"
     }
 ]

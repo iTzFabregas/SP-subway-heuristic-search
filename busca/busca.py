@@ -16,12 +16,6 @@ class Grafo:
         self.heuristics = {}
 
     def carrega_heuristicas(self, station):
-        #chama o script que gera a heurística ()
-        os.chdir("../googleMapsAPI/")
-        python_interpreter = 'python_3'
-        python_program = './heuristic.py'
-        subprocess.run(f'python3 {python_program} "{station}"', shell=True, check=True)
-
         file_path = "../googleMapsAPI/output/heuristics/" + station.replace(" ", "") + "_heuristic.json"
         with open(file_path, 'r') as file:
             data = json.load(file)
@@ -219,12 +213,12 @@ def reconstruir_caminho(came_from, start, goal):
     path.reverse()
     return path
 
-origem = input("Escreva a estação de origem: ")
-# origem = 'Estacao Se'
-destino = input("Escreva a estação de destino: ")
-# destino = 'Estacao Luz'
-modo = input("Escolha o modo de busca (distância, tempo ou avaliação): ")
-# modo = 'tempo'
+# origem = input("Escreva a estação de origem: ")
+origem = 'Estacao Se'
+# destino = input("Escreva a estação de destino: ")
+destino = 'Estacao Sao Mateus'
+# modo = input("Escolha o modo de busca (distância, tempo ou avaliação): ")
+modo = 'tempo'
 
 #Criação e uso do grafo
 if modo == 'distância':
@@ -274,6 +268,3 @@ path = reconstruir_caminho(came_from, origem, destino)
 print('Caminho A*:', path)
 print('Custo A*:', costs[destino])
 print('Nós expandidos:', nodes_expanded)
-
-os.chdir('output/heuristics')
-subprocess.run('rm *.json', shell=True, check=True)

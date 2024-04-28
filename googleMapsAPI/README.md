@@ -17,3 +17,10 @@ python3 rating.py
 python3 heuristic.py <target station>
 ```
 -> return a file ```<target station>_heuristic.json```
+
+
+### Information about a station
+```
+python3 places.py
+```
+-> return a file ```places.json```

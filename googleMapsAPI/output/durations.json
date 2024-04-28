@@ -234,11 +234,7 @@
         "destination": "Estacao Anhangabau, Sao Paulo, Brasil",
         "real-duration": 120
     },
-    {
-        "origin": "Estacao Anhangabau, Sao Paulo, Brasil",
-        "destination": "Estacao Republica, Sao Paulo, Brasil",
-        "real-duration": 180
-    },
+    {},
     {
         "origin": "Estacao Republica, Sao Paulo, Brasil",
         "destination": "Estacao Santa Cecilia, Sao Paulo, Brasil",
@@ -397,7 +393,7 @@
     {
         "origin": "Estacao Sao Lucas, Sao Paulo, Brasil",
         "destination": "Estacao Camilo Haddad, Sao Paulo, Brasil",
-        "real-duration": 180
+        "real-duration": 193
     },
     {
         "origin": "Estacao Camilo Haddad, Sao Paulo, Brasil",
@@ -442,7 +438,7 @@
     {
         "origin": "Estacao agua Branca, Sao Paulo, Brasil",
         "destination": "Estacao Lapa, Sao Paulo, Brasil",
-        "real-duration": 234
+        "real-duration": 248
     },
     {
         "origin": "Estacao Lapa, Sao Paulo, Brasil",
@@ -476,11 +472,11 @@
     },
     {
         "origin": "Estacao Perus, Sao Paulo, Brasil",
-        "destination": "Estacao Caieiras, Melhoramentos, Caieiras - SP, 07700-000",
+        "destination": "Estacao Caieiras, Melhoramentos, Caieiras, SP, 07700-000",
         "real-duration": 398
     },
     {
-        "origin": "Estacao Caieiras, Melhoramentos, Caieiras - SP, 07700-000",
+        "origin": "Estacao Caieiras, Melhoramentos, Caieiras, SP, 07700-000",
         "destination": "Estacao Franco da Rocha, Sao Paulo, Brasil",
         "real-duration": 417
     },

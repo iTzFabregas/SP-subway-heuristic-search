@@ -511,9 +511,9 @@
     },
     {
         "station": "Estacao Lapa, Sao Paulo, Brasil",
-        "real_station": "Lapa - Linha 7",
-        "rating": 3.8,
-        "place-id": "ChIJ67FG0Wb4zpQRlAylFE39wac"
+        "real_station": "Lapa",
+        "rating": 3.7,
+        "place-id": "ChIJKZVX7WX4zpQRJ5EuRLUY0TM"
     },
     {
         "station": "Estacao Piqueri, Sao Paulo, Brasil",
@@ -552,7 +552,7 @@
         "place-id": "ChIJUxPC1678zpQRvZ_IRxzxgYk"
     },
     {
-        "station": "Estacao Caieiras, Melhoramentos, Caieiras - SP, 07700-000",
+        "station": "Estacao Caieiras, Melhoramentos, Caieiras, SP, 07700-000",
         "real_station": "Caieiras",
         "rating": 4,
         "place-id": "ChIJTQN-d3vjzpQRkmQo6fN5oBQ"

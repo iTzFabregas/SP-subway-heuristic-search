@@ -37,7 +37,7 @@
     {
         "origin": "Estacao Ana Rosa, Sao Paulo, Brasil",
         "destination": "Estacao Paraiso, Sao Paulo, Brasil",
-        "real-distance": 765
+        "real-distance": 753
     },
     {
         "origin": "Estacao Paraiso, Sao Paulo, Brasil",
@@ -137,7 +137,7 @@
     {
         "origin": "Estacao Ana Rosa, Sao Paulo, Brasil",
         "destination": "Estacao Paraiso, Sao Paulo, Brasil",
-        "real-distance": 765
+        "real-distance": 753
     },
     {
         "origin": "Estacao Paraiso, Sao Paulo, Brasil",
@@ -234,11 +234,7 @@
         "destination": "Estacao Anhangabau, Sao Paulo, Brasil",
         "real-distance": 654
     },
-    {
-        "origin": "Estacao Anhangabau, Sao Paulo, Brasil",
-        "destination": "Estacao Republica, Sao Paulo, Brasil",
-        "real-distance": 649
-    },
+    {},
     {
         "origin": "Estacao Republica, Sao Paulo, Brasil",
         "destination": "Estacao Santa Cecilia, Sao Paulo, Brasil",
@@ -397,7 +393,7 @@
     {
         "origin": "Estacao Sao Lucas, Sao Paulo, Brasil",
         "destination": "Estacao Camilo Haddad, Sao Paulo, Brasil",
-        "real-distance": 1050
+        "real-distance": 1041
     },
     {
         "origin": "Estacao Camilo Haddad, Sao Paulo, Brasil",
@@ -442,7 +438,7 @@
     {
         "origin": "Estacao agua Branca, Sao Paulo, Brasil",
         "destination": "Estacao Lapa, Sao Paulo, Brasil",
-        "real-distance": 1142
+        "real-distance": 1135
     },
     {
         "origin": "Estacao Lapa, Sao Paulo, Brasil",
@@ -476,11 +472,11 @@
     },
     {
         "origin": "Estacao Perus, Sao Paulo, Brasil",
-        "destination": "Estacao Caieiras, Melhoramentos, Caieiras - SP, 07700-000",
+        "destination": "Estacao Caieiras, Melhoramentos, Caieiras, SP, 07700-000",
         "real-distance": 4744
     },
     {
-        "origin": "Estacao Caieiras, Melhoramentos, Caieiras - SP, 07700-000",
+        "origin": "Estacao Caieiras, Melhoramentos, Caieiras, SP, 07700-000",
         "destination": "Estacao Franco da Rocha, Sao Paulo, Brasil",
         "real-distance": 4974
     },

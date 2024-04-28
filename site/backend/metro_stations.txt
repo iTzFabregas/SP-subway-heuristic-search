@@ -96,3 +96,22 @@ Estacao Jd. Planalto, Sao Paulo, Brasil
 Estacao Sapopemba, Sao Paulo, Brasil
 Estacao Fazenda da Juta, Sao Paulo, Brasil
 Estacao Sao Mateus, Sao Paulo, Brasil
+#LINHA 7-Rubi
+Estacao Luz, Sao Paulo, Brasil
+Estacao Palmeiras-Barra Funda, Sao Paulo, Brasil
+Estacao agua Branca, Sao Paulo, Brasil
+Estacao Lapa, Sao Paulo, Brasil
+Estacao Piqueri, Sao Paulo, Brasil
+Estacao Pirituba, Sao Paulo, Brasil
+Estacao Vila Clarice, Sao Paulo, Brasil
+Estacao Jaragua, Sao Paulo, Brasil
+Estacao Vila Aurora, Sao Paulo, Brasil
+Estacao Perus, Sao Paulo, Brasil
+Estacao Caieiras, Melhoramentos, Caieiras, SP, 07700-000
+Estacao Franco da Rocha, Sao Paulo, Brasil
+Estacao Baltazar Fidelis, Sao Paulo, Brasil
+Estacao Francisco Morato, Sao Paulo, Brasil
+Estacao Botujuru, Sao Paulo, Brasil
+Estacao Campo Limpo Paulista, Sao Paulo, Brasil
+Estacao Varzea Paulista, Sao Paulo, Brasil
+Estacao Jundiai, Sao Paulo, Brasil
