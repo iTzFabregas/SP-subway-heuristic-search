@@ -234,7 +234,11 @@
         "destination": "Estacao Anhangabau, Sao Paulo, Brasil",
         "real-distance": 654
     },
-    {},
+    {
+        "origin": "Estacao Anhangabau, Sao Paulo, Brasil",
+        "destination": "Estacao Republica, Sao Paulo, Brasil",
+        "real-distance": 654
+    },
     {
         "origin": "Estacao Republica, Sao Paulo, Brasil",
         "destination": "Estacao Santa Cecilia, Sao Paulo, Brasil",

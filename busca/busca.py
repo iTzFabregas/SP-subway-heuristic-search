@@ -161,8 +161,8 @@ def ler_duracoes():
     duracoes = {}
     for item in dados:
         if "origin" in item and "destination" in item and "real-duration" in item:
-            origem = item["origin"].split(" - ")[0]
-            destino = item["destination"].split(" - ")[0]
+            origem = item["origin"]
+            destino = item["destination"]
             duracao = item["real-duration"]
             duracoes[(origem, destino)] = duracao
         else:
@@ -184,22 +184,17 @@ def ler_avaliacoes():
     file_json = os.path.join(dir_atual, '../googleMapsAPI', 'output', 'ratings.json')
     with open(file_json, 'r') as file:
         dados = json.load(file)
-    avaliacoes = {item["real_station"]: item["rating"] for item in dados}
+    avaliacoes = {item["station"]: item["rating"] for item in dados}
     return avaliacoes
 
 def cria_grafo_duracao_avaliacao():
     grafo = Grafo()
     duracoes = ler_duracoes()
     avaliacoes = ler_avaliacoes()
-    coef_tempo = 1.0  # Coeficiente para o tempo
-    coef_avaliacao = 3.5  # Coeficiente para a avaliação (maior impacto de avaliações mais altas)
 
     for (origem, destino), duracao in duracoes.items():
-        if origem in avaliacoes and destino in avaliacoes:
-            media_avaliacoes = (avaliacoes[origem] + avaliacoes[destino]) / 2
-            peso = coef_tempo * duracao + coef_avaliacao * (5 - media_avaliacoes)  # Ajuste para que maior avaliação diminua o peso
-        else:
-            peso = coef_tempo * duracao  # Caso não haja avaliação, usa apenas a duração
+        media_avaliacoes = (avaliacoes[origem] + avaliacoes[destino]) / 2
+        peso = media_avaliacoes
         grafo.adiciona_aresta(origem, destino, peso)
     return grafo
 
@@ -213,12 +208,12 @@ def reconstruir_caminho(came_from, start, goal):
     path.reverse()
     return path
 
-# origem = input("Escreva a estação de origem: ")
-origem = 'Estacao Se'
-# destino = input("Escreva a estação de destino: ")
-destino = 'Estacao Sao Mateus'
-# modo = input("Escolha o modo de busca (distância, tempo ou avaliação): ")
-modo = 'tempo'
+origem = input("Escreva a estação de origem: ")
+# origem = 'Estacao Se'
+destino = input("Escreva a estação de destino: ")
+# destino = 'Estacao Jundiai'
+modo = input("Escolha o modo de busca (distância, tempo ou avaliação): ")
+# modo = 'avaliação'
 
 #Criação e uso do grafo
 if modo == 'distância':
@@ -245,12 +240,14 @@ destino += ", Sao Paulo, Brasil"
 print("\n DFS: ")
 caminho, dist, expandidos = g.dfs(origem, destino)
 print("Caminho dfs:", caminho)
+if modo == 'avaliação': dist = dist/(len(caminho)-1)
 print("Custo dfs:", dist)
 print("Nós Expandidos:", expandidos)
 
 print("\n BFS: ")
 caminho, dist, expandidos = g.bfs(origem, destino)
 print("Caminho bfs:", caminho)
+if modo == 'avaliação': dist = dist/(len(caminho)-1)
 print("Custo bfs:", dist)
 print("Nós Expandidos:", expandidos)
 
@@ -266,5 +263,6 @@ else:
 
 path = reconstruir_caminho(came_from, origem, destino)
 print('Caminho A*:', path)
+if modo == 'avaliação': costs[destino] = costs[destino]/(len(path)-1)
 print('Custo A*:', costs[destino])
 print('Nós expandidos:', nodes_expanded)
