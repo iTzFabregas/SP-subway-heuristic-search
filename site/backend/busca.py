@@ -185,9 +185,6 @@ def heuristic(origin, destination, heuristic_type):
         none
     """
 
-    if heuristic_type == 'RATING':
-        return 1
-
     # generate the heuristic file 
     heuristic_path =  "./heuristics/" + destination.replace(" ", "") + "_heuristic.json"
 
@@ -248,3 +245,20 @@ def findLongestPath(graph, travel_info):
             max_len = len_path 
 
     return max_path, len(max_path) 
+
+def findHeaviestPath(graph, travel_info):
+    origin = travel_info[0]
+    destination =  travel_info[1]
+
+    max_path = None
+    max_cost = float('-inf')
+
+    for path in nx.all_simple_paths(graph, origin, destination):
+        cost = 0
+        for u, v in zip(path[:-1], path[1:]):
+            cost += graph[u][v]['weight']
+        if cost > max_cost:
+            max_path = path
+            max_cost = cost
+
+    return max_path, max_cost
