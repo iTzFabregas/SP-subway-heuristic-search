@@ -5,12 +5,12 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        '01': "url('./01.png')",
-        '03': "url('./03.jpg')"
+        '01': "url('/01.png')",
+        '03': "url('/03.jpg')"
       },
       from: {
-        '01': "url('./01.png')",
-        '03': "url('./03.jpg')"
+        '01': "url('/01.png')",
+        '03': "url('/03.jpg')"
       },
       padding: {
         '2.5': "10.5px"

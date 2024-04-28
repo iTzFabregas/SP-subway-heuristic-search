@@ -46,9 +46,6 @@ function App() {
             <div className="flex flex-col items-center relative w-full h-screen">
                 <div className="absolute inset-0 bg-03 bg-center bg-cover filter blur"></div>
                 <div className="flex flex-col justify-center items-center h-full text-white text-center relative w-3/4">
-                     <h1 className="text-6xl font-bold mb-4 relative z-10 underline decoration-sky-500">
-                        Qual melhor caminho para sua necessidade?
-                    </h1>
                    <h1 className="text-6xl font-bold mb-4 relative z-10 underline decoration-sky-500">
                         Qual melhor caminho para sua necessidade?
                     </h1>
