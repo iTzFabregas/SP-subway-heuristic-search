@@ -97,8 +97,8 @@ function App() {
                         <div className="flex flex-row">
                             <h3>{response[1]}</h3>
                             <h3>&nbsp;&nbsp;</h3>
-                            {option === 'g1' && <h3> segundos</h3>}
-                            {option === 'g2' && <h3> metros</h3>}
+                            {option === 'g1' && <h3> minutos</h3>}
+                            {option === 'g2' && <h3> kilometros</h3>}
                             {option === 'g3' && <h3> ★</h3>}
                             {option === 'g4' && <h3> estações</h3>}
                         </div>}

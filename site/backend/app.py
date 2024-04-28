@@ -37,7 +37,7 @@ def graph1():
     # get place-id
     place_list = graph.returnInfo(astar_path)
 
-    return([astar_path_formatted, astar_cost, place_list])
+    return([astar_path_formatted, round(astar_cost/60), place_list])
 
 @app.route('/g2')
 # Viagem com menor caminho percorrido
@@ -63,7 +63,7 @@ def graph2():
     # get place-id 
     place_list = graph.returnInfo(astar_path)
 
-    return([astar_path_formatted, astar_cost, place_list])
+    return([astar_path_formatted, round(astar_cost/1000), place_list])
 
 @app.route('/g3')
 # Viagem com maior média das avaliações
@@ -97,11 +97,6 @@ def graph3():
 @app.route('/g4')
 # Viagem com maior número de estações percorridas
 def graph4():
-    # o ideial é retornar:
-        # a lista com as estações do caminho
-        # o numero de esações que tem no caminho
-        # o place-id das estações
-        # o numero maz de estações obtido
     WEIGHT = 'DISTANCE'
 
     origin = request.args.get('s1')  # obtém o valor do parâmetro 's1' que representa a origem
