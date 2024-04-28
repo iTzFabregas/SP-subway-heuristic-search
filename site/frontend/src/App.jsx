@@ -81,9 +81,7 @@ function App() {
                 </div>
                 {status !== 'idle' &&
                     <div className="flex mb-8 gap-7">
-                        <img class="z-10 w-24 animate-bounce" src="./seta2.png" alt="Descrição da imagem" />
-                        <img class="z-10 w-24 animate-bounce" src="./seta2.png" alt="Descrição da imagem" />
-                        <img class="z-10 w-24 animate-bounce" src="./seta2.png" alt="Descrição da imagem" />
+                        <img class="z-10 w-24 animate-bounce" src="./blue-arrow.png" alt="Descrição da imagem" />
                     </div>}
             </div>
 
