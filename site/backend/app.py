@@ -68,13 +68,31 @@ def graph2():
 @app.route('/g3')
 # Viagem com maior média das avaliações
 def graph3():
-    # o ideial é retornar:  
-        # a lista com as estações do caminho
-        # o numero de esações que tem no caminho
-        # o place-id das estações
-        # a avaliação media final
-    return (request.args)
+    WEIGHT = 'RATING'
 
+    origin = request.args.get('s1')  # obtém o valor do parâmetro 's1' que representa a origem
+    destination = request.args.get('s2')  # obtém o valor do parâmetro 's2' que representa o destino
+
+    origin = formatString(origin)
+    destination = formatString(destination)
+
+    # create graph different from others graphs
+    graph_object = graph.createRatingsGraph(WEIGHT)
+
+    # search using A*   
+    travel_info = [origin, destination]
+    astar_path, astar_cost = graph.AStar(graph_object, WEIGHT, travel_info) 
+    number_of_edges = len(astar_path) - 1
+    astar_cost = astar_cost / number_of_edges 
+    astar_cost_formatted = round(astar_cost, 2)
+    
+    # path transformed to string
+    astar_path_formatted = graph.returnFinalPath(astar_path)
+
+    # get place-id 
+    place_list = graph.returnInfo(astar_path)
+
+    return([astar_path_formatted, astar_cost_formatted, place_list])
 
 @app.route('/g4')
 # Viagem com maior número de estações percorridas
