@@ -4,8 +4,7 @@ import csv
 import sys
 from math import radians, sin, atan2, cos, sqrt, pow
 
-# AIzaSyA_prM8fOfjOLNI_pDa0w1IO0L5ePMMaaU
-client = googlemaps.Client(key="NAO_RODAR")
+client = googlemaps.Client(key="AIzaSyA_prM8fOfjOLNI_pDa0w1IO0L5ePMMaaU")
 
 def find_heuristic(dest_station):
 

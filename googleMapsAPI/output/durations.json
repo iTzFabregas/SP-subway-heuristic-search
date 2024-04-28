@@ -442,7 +442,7 @@
     {
         "origin": "Estacao agua Branca, Sao Paulo, Brasil",
         "destination": "Estacao Lapa, Sao Paulo, Brasil",
-        "real-duration": 248
+        "real-duration": 234
     },
     {
         "origin": "Estacao Lapa, Sao Paulo, Brasil",
@@ -462,7 +462,7 @@
     {
         "origin": "Estacao Vila Clarice, Sao Paulo, Brasil",
         "destination": "Estacao Jaragua, Sao Paulo, Brasil",
-        "real-duration": 180
+        "real-duration": 170
     },
     {
         "origin": "Estacao Jaragua, Sao Paulo, Brasil",
@@ -472,7 +472,7 @@
     {
         "origin": "Estacao Vila Aurora, Sao Paulo, Brasil",
         "destination": "Estacao Perus, Sao Paulo, Brasil",
-        "real-duration": 300
+        "real-duration": 342
     },
     {
         "origin": "Estacao Perus, Sao Paulo, Brasil",
@@ -487,7 +487,7 @@
     {
         "origin": "Estacao Franco da Rocha, Sao Paulo, Brasil",
         "destination": "Estacao Baltazar Fidelis, Sao Paulo, Brasil",
-        "real-duration": 210
+        "real-duration": 213
     },
     {
         "origin": "Estacao Baltazar Fidelis, Sao Paulo, Brasil",
