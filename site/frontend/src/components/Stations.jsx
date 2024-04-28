@@ -13,8 +13,12 @@ export default function Stations(info) {
     }
 
     return (
-        <div className="flex flex-col items-center justify-center gap-4 mb-10 px-16 pb-32 w-3/4 bg-neutral-100 rounded-3xl shadow-2xl">
-            {stations.map((station) => {
+        <div className="flex flex-col items-center justify-center gap-4 mb-10 px-16 pb-32 w-11/12 bg-neutral-100 rounded-1xl shadow-2xl">
+        <h1 className="text-4xl font-bold mt-12 z-10 text-center underline decoration-sky-500">
+            Navegue pelas estações ideais 
+        </h1>
+            
+        {stations.map((station) => {
                 return (
                     <div className={`flex flex-col xl:flex-row gap-4 bg-gray-100 border-4 border-sky-500 rounded-sm shadow-lg mx-10 mt-20 w-3/4 p-3 transform hover:shadow-2xl transition duration-300`}>
                         <div>
