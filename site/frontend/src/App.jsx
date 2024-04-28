@@ -5,7 +5,6 @@ import { v4 as uuidv4 } from 'uuid';
 import "./assets/tailwind.css"
 
 import Stations from './components/Stations'
-import Autocomplete from "./components/Autocomplete";
 
 function App() {
 
@@ -82,9 +81,9 @@ function App() {
                 </div>
                 {status !== 'idle' &&
                     <div className="flex mb-8 gap-7">
-                        <img class="z-10 w-24 animate-bounce" src="../public/seta2.png" alt="Descrição da imagem" />
-                        <img class="z-10 w-24 animate-bounce" src="../public/seta2.png" alt="Descrição da imagem" />
-                        <img class="z-10 w-24 animate-bounce" src="../public/seta2.png" alt="Descrição da imagem" />
+                        <img class="z-10 w-24 animate-bounce" src="./seta2.png" alt="Descrição da imagem" />
+                        <img class="z-10 w-24 animate-bounce" src="./seta2.png" alt="Descrição da imagem" />
+                        <img class="z-10 w-24 animate-bounce" src="./seta2.png" alt="Descrição da imagem" />
                     </div>}
             </div>
 
