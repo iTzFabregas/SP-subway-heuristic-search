@@ -80,7 +80,7 @@ def getJsonData(GRAPH_TYPE):
     durations_file_path = "./json_files/durations.json"
     ratings_file_path = "./json_files/ratings.json"
 
-    data_paths = [distances_file_path, durations_file_path, durations_file_path]
+    data_paths = [distances_file_path, durations_file_path, ratings_file_path]
     index = ['DISTANCE', 'DURATION', 'RATING']
     
     for i in range(len(data_paths)):
@@ -92,6 +92,43 @@ def getJsonData(GRAPH_TYPE):
         data = json.load(f)
    
     return data
+
+def createRatingsGraph(GRAPH_TYPE):
+    graph = nx.DiGraph()
+
+    rating_data = getJsonData(GRAPH_TYPE)
+    travel_data = getJsonData('DISTANCE')
+
+    # full graph
+    for item in travel_data:
+        # format origin and destination 
+        origin = item['origin'].split(', ')[0].strip()
+        destination = item['destination'].split(', ')[0].strip()
+       
+        weight = 0 
+        nodes_traveled = 0 
+        
+        for rating_item in rating_data:
+            station = rating_item.get('station').split(', ')[0].strip()
+            # get rating origin and in another iteration
+            # get rating destination and sum both
+            if station in origin or station in destination:
+                weight += rating_item.get('rating')
+                nodes_traveled += 1
+            # the of origin and destination's rating is complete
+            if nodes_traveled == 2:
+                break
+        
+        #calculate arithmetic average
+        weight *= 0.5 
+        
+        graph.add_node(origin)
+        graph.add_node(destination)
+        graph.add_edge(origin, destination, weight=weight)
+        graph.add_edge(destination, origin, weight=weight)
+
+    return graph
+
 
 def createGraph(GRAPH_TYPE):
     """ 
@@ -121,7 +158,7 @@ def createGraph(GRAPH_TYPE):
         # take the last key value in itens and convert to flaot 
         weight_key = list(item.keys())[-1]
         weight = float(item[weight_key])
-
+        
         # add nodes and edges
         graph.add_node(origin)
         graph.add_node(destination)
@@ -147,6 +184,9 @@ def heuristic(origin, destination, heuristic_type):
     Raises:
         none
     """
+
+    if heuristic_type == 'RATING':
+        return 1
 
     # generate the heuristic file 
     heuristic_path =  "./heuristics/" + destination.replace(" ", "") + "_heuristic.json"
