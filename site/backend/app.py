@@ -81,18 +81,19 @@ def graph3():
 
     # search using A*   
     travel_info = [origin, destination]
-    astar_path, astar_cost = graph.AStar(graph_object, WEIGHT, travel_info) 
-    number_of_edges = len(astar_path) - 1
-    astar_cost = astar_cost / number_of_edges 
-    astar_cost_formatted = round(astar_cost, 2)
+    max_weight_path, max_weight_cost = graph.findHeaviestPath(graph_object, travel_info)
+
+    number_of_edges = len(max_weight_path) - 1
+    max_weight_cost = max_weight_cost / number_of_edges 
+    max_weight_cost_formatted = round(max_weight_cost, 2)
     
     # path transformed to string
-    astar_path_formatted = graph.returnFinalPath(astar_path)
+    max_weight_path_formatted = graph.returnFinalPath(max_weight_path)
 
     # get place-id 
-    place_list = graph.returnInfo(astar_path)
+    place_list = graph.returnInfo(max_weight_path)
 
-    return([astar_path_formatted, astar_cost_formatted, place_list])
+    return([max_weight_path_formatted, max_weight_cost_formatted, place_list])
 
 @app.route('/g4')
 # Viagem com maior número de estações percorridas

@@ -42,11 +42,14 @@ function App() {
 
 
     return (
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center bg-gradient-to-b from-blue-400 to-sky-400">
             <div className="flex flex-col items-center relative w-full h-screen">
-                <div className="absolute inset-0 bg-03 bg-center bg-cover filter blur-md"></div>
+                <div className="absolute inset-0 bg-03 bg-center bg-cover filter blur"></div>
                 <div className="flex flex-col justify-center items-center h-full text-white text-center relative w-3/4">
-                    <h1 className="text-6xl font-bold mb-4 relative z-10 underline decoration-sky-500">
+                     <h1 className="text-6xl font-bold mb-4 relative z-10 underline decoration-sky-500">
+                        Qual melhor caminho para sua necessidade?
+                    </h1>
+                   <h1 className="text-6xl font-bold mb-4 relative z-10 underline decoration-sky-500">
                         Qual melhor caminho para sua necessidade?
                     </h1>
                     <p className="text-3xl relative z-10 w-3/4 mt-6">
@@ -76,19 +79,16 @@ function App() {
                             </div>
                         </div>
                         <button className="bg-sky-500 p-2 w-3/5 rounded-sm hover:bg-blue-600 transition duration-300 text-white" onClick={handleClick} disabled={status === 'loading'}>Encontrar viagem!</button>
-
                     </div>
                 </div>
                 {status !== 'idle' &&
                     <div className="flex mb-8 gap-7">
-                        <img class="z-10 w-24 animate-bounce" src="./seta2.png" alt="Descrição da imagem" />
-                        <img class="z-10 w-24 animate-bounce" src="./seta2.png" alt="Descrição da imagem" />
-                        <img class="z-10 w-24 animate-bounce" src="./seta2.png" alt="Descrição da imagem" />
+                        <img class="z-10 w-24 animate-bounce" src="./blue-arrow.png" alt="Descrição da imagem" />
                     </div>}
             </div>
 
             {status !== 'idle' &&
-                <div className="flex flex-col my-12 p-10 w-3/4 h-fit bg-neutral-100 rounded-3xl shadow-xl items-center justify-center">
+                <div className="flex flex-col my-12 p-10 w-3/4 h-fit bg-neutral-100 rounded-1xl shadow-xl items-center justify-center">
                     {status === 'loading' && <p>LOADING...</p>}
                     {status === 'error' && <p>ERROR...</p>}
 
