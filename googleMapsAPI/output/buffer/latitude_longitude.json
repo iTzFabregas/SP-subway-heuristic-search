@@ -406,8 +406,8 @@
     },
     {
         "station": "Estacao Sapopemba, Sao Paulo, Brasil",
-        "lat": -23.59127,
-        "lon": -46.53057500000001
+        "lat": -23.5955,
+        "lon": -46.53754
     },
     {
         "station": "Estacao Fazenda da Juta, Sao Paulo, Brasil",
@@ -460,7 +460,7 @@
         "lon": -46.7535349
     },
     {
-        "station": "Estacao Caieiras, Melhoramentos, Caieiras, SP, 07700-000",
+        "station": "Estacao Caieiras, Melhoramentos, Caieiras - SP, 07700-000",
         "lat": -23.3660593,
         "lon": -46.7514093
     },

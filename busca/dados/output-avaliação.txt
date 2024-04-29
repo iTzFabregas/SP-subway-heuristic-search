@@ -1,0 +1,76 @@
+Estacao Luz
+
+Estacao Se
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo melhor avaliação escolhido!
+
+ DFS: 
+Custo dfs: 180.0
+Nós Expandidos: 2
+
+ BFS: 
+Custo bfs: 180.0
+Nós Expandidos: 6
+
+ A*:
+Custo A*: 180.0
+Nós Expandidos: 5
+
+
+Estacao Luz
+
+Estacao Bras
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo melhor avaliação escolhido!
+
+ DFS: 
+Custo dfs: 420.0
+Nós Expandidos: 52
+
+ BFS: 
+Custo bfs: 420.0
+Nós Expandidos: 21
+
+ A*:
+Custo A*: 420.0
+Nós Expandidos: 17
+
+
+Estacao Se
+
+Estacao Piqueri
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo melhor avaliação escolhido!
+
+ DFS: 
+Custo dfs: 1294.0
+Nós Expandidos: 65
+
+ BFS: 
+Custo bfs: 1155.0
+Nós Expandidos: 33
+
+ A*:
+Custo A*: 1155.0
+Nós Expandidos: 57
+
+
+Estacao Se
+
+Estacao Oratorio
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo melhor avaliação escolhido!
+
+ DFS: 
+Custo dfs: 1664.0
+Nós Expandidos: 34
+
+ BFS: 
+Custo bfs: 1440.0
+Nós Expandidos: 83
+
+ A*:
+Custo A*: 1440.0
+Nós Expandidos: 69
+
+

@@ -1,0 +1,131 @@
+Estacao Luz
+
+Estacao Se
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo melhor tempo escolhido!
+
+ DFS: 
+Custo dfs: 180
+Nós Expandidos: 2
+
+ BFS: 
+Custo bfs: 180
+Nós Expandidos: 6
+
+ A*:
+Custo A*: 180
+Nós Expandidos: 4
+
+
+Estacao Luz
+
+Estacao Bras
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo melhor tempo escolhido!
+
+ DFS: 
+Custo dfs: 420
+Nós Expandidos: 52
+
+ BFS: 
+Custo bfs: 420
+Nós Expandidos: 21
+
+ A*:
+Custo A*: 420
+Nós Expandidos: 13
+
+
+
+Estacao Piqueri
+
+Estacao Bras
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo melhor tempo escolhido!
+
+ DFS: 
+Custo dfs: 1515
+Nós Expandidos: 67
+
+ BFS: 
+Custo bfs: 1395
+Nós Expandidos: 31
+
+ A*:
+Custo A*: 1395
+Nós Expandidos: 22
+
+
+Estacao Se
+
+Estacao Piqueri
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo melhor tempo escolhido!
+
+ DFS: 
+Custo dfs: 1294
+Nós Expandidos: 65
+
+ BFS: 
+Custo bfs: 1155
+Nós Expandidos: 33
+
+ A*:
+Custo A*: 1155
+Nós Expandidos: 39
+
+
+Estacao Se
+
+Estacao Sapopemba
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo melhor tempo escolhido!
+
+ DFS: 
+Custo dfs: 2804
+Nós Expandidos: 40
+
+ BFS: 
+Custo bfs: 2580
+Nós Expandidos: 109
+
+ A*:
+Custo A*: 2580
+Nós Expandidos: 85
+
+
+Estacao Luz
+
+Estacao Buntanta
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): This station is not in ours stations databse.
+Modo melhor tempo escolhido!
+Traceback (most recent call last):
+  File "/home/yudiaramos/SP-subway-heuristic-search/busca/busca.py", line 246, in <module>
+    g.carrega_heuristicas(destino)
+  File "/home/yudiaramos/SP-subway-heuristic-search/busca/busca.py", line 23, in carrega_heuristicas
+    subprocess.run(f'python3 {python_program} "{station}"', shell=True, check=True)
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'python3 ./heuristic.py "Estacao Buntanta"' returned non-zero exit status 1.
+
+
+Estacao Se
+
+Estacao Penha
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo melhor tempo escolhido!
+
+ DFS: 
+Custo dfs: 900
+Nós Expandidos: 94
+
+ BFS: 
+Custo bfs: 900
+Nós Expandidos: 42
+
+ A*:
+Custo A*: 900
+Nós Expandidos: 30
+
+
