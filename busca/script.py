@@ -1,13 +1,7 @@
 import subprocess
 import os
-import sys
 
-def executar_busca():
-    # Inputs
-    origem = input("Escreva a estação de origem: ")
-    destino = input("Escreva a estação de destino: ")
-    modo = input("Escolha o modo de busca (distância, tempo ou avaliação): ")
-
+def executar_busca(origem, destino, modo):
     # Comando para executar busca.py
     comando = ['python3', 'busca.py']
 
@@ -40,12 +34,22 @@ def executar_busca():
     # Chamar separacao.py para processar os dados
     subprocess.run(['python3', 'separacao.py', modo])
 
-    # Chamar stem-plot.py para plotar os gráficos
-    subprocess.run(['python3', 'stem-plot.py', modo])
+    # Chamar stem-plot.py para plotar os gráficos para os modos especificados
+    subprocess.run(['python3', 'stem-plot.py', *["distância", "tempo", "avaliação"]])
 
 def main():
-    # Executa a busca
-    executar_busca()
+    # Carregar as estações do arquivo
+    with open("/home/yudiaramos/SP-subway-heuristic-search/googleMapsAPI/stations_list/metro_stations.txt", 'r') as arquivo_estacoes:
+        estacoes = [linha.strip() for linha in arquivo_estacoes if linha.strip() and "Estacao" in linha]
+
+    # Executa a busca para todas as combinações de origem e destino
+    for origem in estacoes:
+        for destino in estacoes:
+            if origem != destino:  # Garantir que a origem e o destino sejam diferentes
+                for modo in ["distância", "tempo", "avaliação"]:
+                    # Verificar se a estação já foi incluída nos arquivos de saída
+                    if not any(origem in linha for linha in open(f"dados/output-{modo}.txt").readlines()):
+                        executar_busca(origem, destino, modo)
 
     print("Busca concluída.")
 

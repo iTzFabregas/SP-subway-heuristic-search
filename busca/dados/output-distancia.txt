@@ -1,0 +1,126 @@
+#LINHA 1 AZUL
+
+Estacao Jabaquara, Sao Paulo, Brasil
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo não existente
+
+
+#LINHA 1 AZUL
+
+Estacao Conceicao, Sao Paulo, Brasil
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo não existente
+
+
+#LINHA 1 AZUL
+
+Estacao Sao Judas, Sao Paulo, Brasil
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo não existente
+
+
+#LINHA 1 AZUL
+
+Estacao Saude, Sao Paulo, Brasil
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo não existente
+
+
+#LINHA 1 AZUL
+
+Estacao Praca da arvore, Sao Paulo, Brasil
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo não existente
+
+
+#LINHA 1 AZUL
+
+Estacao Santa Cruz, Sao Paulo, Brasil
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo não existente
+
+
+#LINHA 1 AZUL
+
+Estacao Vila Mariana, Sao Paulo, Brasil
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo não existente
+
+
+#LINHA 1 AZUL
+
+Estacao Ana Rosa, Sao Paulo, Brasil
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo não existente
+
+
+#LINHA 1 AZUL
+
+Estacao Paraiso, Sao Paulo, Brasil
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo não existente
+
+
+#LINHA 1 AZUL
+
+Estacao Vergueiro, Sao Paulo, Brasil
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo não existente
+
+
+#LINHA 1 AZUL
+
+Estacao Sao Joaquim, Sao Paulo, Brasil
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo não existente
+
+
+#LINHA 1 AZUL
+
+Estacao Japao-Liberdade, Sao Paulo, Brasil
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo não existente
+
+
+#LINHA 1 AZUL
+
+Estacao Se, Sao Paulo, Brasil
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo não existente
+
+
+#LINHA 1 AZUL
+
+Estacao Sao Bento, Sao Paulo, Brasil
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo não existente
+
+
+#LINHA 1 AZUL
+
+Estacao Luz, Sao Paulo, Brasil
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo não existente
+
+
+#LINHA 1 AZUL
+
+Estacao Jabaquara, Sao Paulo, Brasil
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo não existente
+
+
+#LINHA 1 AZUL
+
+Estacao Conceicao, Sao Paulo, Brasil
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo não existente
+
+
+#LINHA 1 AZUL
+
+Estacao Sao Judas, Sao Paulo, Brasil
+
+Escreva a estação de origem: Escreva a estação de destino: Escolha o modo de busca (distância, tempo ou avaliação): Modo não existente
+
+

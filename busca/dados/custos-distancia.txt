@@ -1,0 +1,117 @@
+#LINHA 1 AZUL: 0
+Estacao Jabaquara, Sao Paulo, Brasil: 0
+Estacao Conceicao, Sao Paulo, Brasil: 0
+Estacao Sao Judas, Sao Paulo, Brasil: 0
+Estacao Saude, Sao Paulo, Brasil: 0
+Estacao Praca da arvore, Sao Paulo, Brasil: 0
+Estacao Santa Cruz, Sao Paulo, Brasil: 0
+Estacao Vila Mariana, Sao Paulo, Brasil: 0
+Estacao Ana Rosa, Sao Paulo, Brasil: 0
+Estacao Paraiso, Sao Paulo, Brasil: 0
+Estacao Vergueiro, Sao Paulo, Brasil: 0
+Estacao Sao Joaquim, Sao Paulo, Brasil: 0
+Estacao Japao-Liberdade, Sao Paulo, Brasil: 0
+Estacao Se, Sao Paulo, Brasil: 0
+Estacao Sao Bento, Sao Paulo, Brasil: 0
+Estacao Luz, Sao Paulo, Brasil: 0
+Estacao Armenia, Sao Paulo, Brasil: 0
+Estacao Portuguesa-Tiete, Sao Paulo, Brasil: 0
+Estacao Carandiru, Sao Paulo, Brasil: 0
+Estacao Santana, Sao Paulo, Brasil: 0
+Estacao Jardim Sao Paulo-Ayrton Senna, Sao Paulo, Brasil: 0
+Estacao Parada Inglesa, Sao Paulo, Brasil: 0
+Estacao Tucuruvi, Sao Paulo, Brasil: 0
+#LINHA 2 VERDE: 0
+Estacao Vila Prudente, Sao Paulo, Brasil: 0
+Estacao Tamanduatei, Sao Paulo, Brasil: 0
+Estacao Sacoma, Sao Paulo, Brasil: 0
+Estacao Alto do Ipiranga, Sao Paulo, Brasil: 0
+Estacao Santos-Imigrantes, Sao Paulo, Brasil: 0
+Estacao Chacara Klabin, Sao Paulo, Brasil: 0
+Estacao Ana Rosa, Sao Paulo, Brasil: 0
+Estacao Paraiso, Sao Paulo, Brasil: 0
+Estacao Brigadeiro, Sao Paulo, Brasil: 0
+Estacao Trianon-Masp, Sao Paulo, Brasil: 0
+Estacao Consolacao, Sao Paulo, Brasil: 0
+Estacao Clinicas, Sao Paulo, Brasil: 0
+Estacao S. N. Sra. de Fatima-Sumare, Sao Paulo, Brasil: 0
+Estacao Vila Madalena, Sao Paulo, Brasil: 0
+#LINHA 3 VERMELHA: 0
+Estacao Corinthians-Itaquera, Sao Paulo, Brasil: 0
+Estacao Artur Alvim, Sao Paulo, Brasil: 0
+Estacao Patriarca-Vila Re, Sao Paulo, Brasil: 0
+Estacao Guilhermina-Esperanca, Sao Paulo, Brasil: 0
+Estacao Vila Matilde, Sao Paulo, Brasil: 0
+Estacao Penha, Sao Paulo, Brasil: 0
+Estacao Carrao-Assai Atacadista, Sao Paulo, Brasil: 0
+Estacao Tatuape, Sao Paulo, Brasil: 0
+Estacao Belem, Sao Paulo, Brasil: 0
+Estacao Bresser-Mooca, Sao Paulo, Brasil: 0
+Estacao Bras, Sao Paulo, Brasil: 0
+Estacao Pedro II, Sao Paulo, Brasil: 0
+Estacao Se, Sao Paulo, Brasil: 0
+Estacao Anhangabau, Sao Paulo, Brasil: 0
+Estacao Republica, Sao Paulo, Brasil: 0
+Estacao Santa Cecilia, Sao Paulo, Brasil: 0
+Estacao Marechal Deodoro, Sao Paulo, Brasil: 0
+Estacao Palmeiras-Barra Funda, Sao Paulo, Brasil: 0
+#LINHA 4 AMARELA: 0
+Estacao Vila Sonia Profa. Elisabeth Tenreiro, Sao Paulo, Brasil: 0
+Estacao Sao Paulo-Morumbi, Sao Paulo, Brasil: 0
+Estacao Butanta, Sao Paulo, Brasil: 0
+Estacao Pinheiros, Sao Paulo, Brasil: 0
+Estacao Faria Lima, Sao Paulo, Brasil: 0
+Estacao Fradique Coutinho, Sao Paulo, Brasil: 0
+Estacao Oscar Freire, Sao Paulo, Brasil: 0
+Estacao Paulista Pernambucanas, Sao Paulo, Brasil: 0
+Estacao Higienopolis-Mackenzie, Sao Paulo, Brasil: 0
+Estacao Republica, Sao Paulo, Brasil: 0
+Estacao Luz, Sao Paulo, Brasil: 0
+#LINHA 5 LILAS: 0
+Estacao Capao Redondo, Sao Paulo, Brasil: 0
+Estacao Campo Limpo, Sao Paulo, Brasil: 0
+Estacao Vila das Belezas, Sao Paulo, Brasil: 0
+Estacao Giovanni Gronchi, Sao Paulo, Brasil: 0
+Estacao Santo Amaro, Sao Paulo, Brasil: 0
+Estacao Largo Treze, Sao Paulo, Brasil: 0
+Estacao Adolfo Pinheiro, Sao Paulo, Brasil: 0
+Estacao Alto da Boa Vista, Sao Paulo, Brasil: 0
+Estacao Borba Gato, Sao Paulo, Brasil: 0
+Estacao Brooklin, Sao Paulo, Brasil: 0
+Estacao Campo Belo, Sao Paulo, Brasil: 0
+Estacao Eucaliptos, Sao Paulo, Brasil: 0
+Estacao Moema, Sao Paulo, Brasil: 0
+Estacao AACD-Servidor, Sao Paulo, Brasil: 0
+Estacao Hospital Sao Paulo, Sao Paulo, Brasil: 0
+Estacao Santa Cruz, Sao Paulo, Brasil: 0
+Estacao Chacara Klabin, Sao Paulo, Brasil: 0
+#LINHA 15 PRATA: 0
+Estacao Vila Prudente, Sao Paulo, Brasil: 0
+Estacao Oratorio, Sao Paulo, Brasil: 0
+Estacao Sao Lucas, Sao Paulo, Brasil: 0
+Estacao Camilo Haddad, Sao Paulo, Brasil: 0
+Estacao Vila Tolstoi, Sao Paulo, Brasil: 0
+Estacao Vila Uniao, Sao Paulo, Brasil: 0
+Estacao Jd. Planalto, Sao Paulo, Brasil: 0
+Estacao Sapopemba, Sao Paulo, Brasil: 0
+Estacao Fazenda da Juta, Sao Paulo, Brasil: 0
+Estacao Sao Mateus, Sao Paulo, Brasil: 0
+#LINHA 7-Rubi: 0
+Estacao Luz, Sao Paulo, Brasil: 0
+Estacao Palmeiras-Barra Funda, Sao Paulo, Brasil: 0
+Estacao agua Branca, Sao Paulo, Brasil: 0
+Estacao Lapa, Sao Paulo, Brasil: 0
+Estacao Piqueri, Sao Paulo, Brasil: 0
+Estacao Pirituba, Sao Paulo, Brasil: 0
+Estacao Vila Clarice, Sao Paulo, Brasil: 0
+Estacao Jaragua, Sao Paulo, Brasil: 0
+Estacao Vila Aurora, Sao Paulo, Brasil: 0
+Estacao Perus, Sao Paulo, Brasil: 0
+Estacao Caieiras, Melhoramentos, Caieiras - SP, 07700-000: 0
+Estacao Franco da Rocha, Sao Paulo, Brasil: 0
+Estacao Baltazar Fidelis, Sao Paulo, Brasil: 0
+Estacao Francisco Morato, Sao Paulo, Brasil: 0
+Estacao Botujuru, Sao Paulo, Brasil: 0
+Estacao Campo Limpo Paulista, Sao Paulo, Brasil: 0
+Estacao Varzea Paulista, Sao Paulo, Brasil: 0
+Estacao Jundiai, Sao Paulo, Brasil: 0

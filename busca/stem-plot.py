@@ -1,6 +1,6 @@
 import os
 import matplotlib.pyplot as plt
-import sys
+import numpy as np
 
 # Função para ler os valores do arquivo
 def ler_valores(nome_arquivo):
@@ -19,51 +19,35 @@ def plotar_graficos(modo):
     valores_custos = ler_valores(arquivo_custos)
     valores_nos_expandidos = ler_valores(arquivo_nos_expandidos)
 
-    # Separar os valores para cada método
-    dfs = valores_nos_expandidos[::3]  # Valores para DFS (a cada 3 valores)
-    bfs = valores_nos_expandidos[1::3]  # Valores para BFS (a cada 3 valores, começando do segundo)
-    a_star = valores_nos_expandidos[2::3]  # Valores para A* (a cada 3 valores, começando do terceiro)
+    # Selecionar apenas os primeiros 50 valores para cada método
+    dfs = valores_nos_expandidos[::3][:50]  # Valores para DFS (a cada 3 valores)
+    bfs = valores_nos_expandidos[1::3][:50]  # Valores para BFS (a cada 3 valores, começando do segundo)
+    a_star = valores_nos_expandidos[2::3][:50]  # Valores para A* (a cada 3 valores, começando do terceiro)
 
-    # Plotar cada método em um gráfico separado
-    plt.figure(figsize=(10, 6))
+    # Configurar as barras
+    barWidth = 0.25
+    r1 = np.arange(len(dfs))
+    r2 = [x + barWidth for x in r1]
+    r3 = [x + barWidth for x in r2]
 
-    # Gráfico para DFS
-    plt.subplot(3, 1, 1)
-    plt.plot(range(1, len(dfs) + 1), dfs, marker='o', color='blue')
-    for x, y in enumerate(dfs, 1):
-        plt.text(x, y, str(y), color='blue', ha='center', va='bottom')
-    plt.title('DFS')
-    plt.xlabel('Execução')
-    plt.ylabel('Nós Expandidos')
+    # Plotar as barras
+    plt.bar(r1, dfs, color='blue', width=barWidth, edgecolor='grey', label='DFS')
+    plt.bar(r2, bfs, color='green', width=barWidth, edgecolor='grey', label='BFS')
+    plt.bar(r3, a_star, color='red', width=barWidth, edgecolor='grey', label='A*')
 
-    # Gráfico para BFS
-    plt.subplot(3, 1, 2)
-    plt.plot(range(1, len(bfs) + 1), bfs, marker='o', color='green')
-    for x, y in enumerate(bfs, 1):
-        plt.text(x, y, str(y), color='green', ha='center', va='bottom')
-    plt.title('BFS')
-    plt.xlabel('Execução')
-    plt.ylabel('Nós Expandidos')
+    # Adicionar legendas
+    plt.xlabel('Execução', fontweight='bold')
+    plt.ylabel('Nós Expandidos', fontweight='bold')
+    plt.title(f'Nós Expandidos por Execução - {modo.upper()}', fontweight='bold')
+    plt.xticks([r + barWidth for r in range(len(dfs))], range(1, len(dfs) + 1))
 
-    # Gráfico para A*
-    plt.subplot(3, 1, 3)
-    plt.plot(range(1, len(a_star) + 1), a_star, marker='o', color='red')
-    for x, y in enumerate(a_star, 1):
-        plt.text(x, y, str(y), color='red', ha='center', va='bottom')
-    plt.title('A*')
-    plt.xlabel('Execução')
-    plt.ylabel('Nós Expandidos')
-
-    # Ajustar layout
-    plt.tight_layout()
-
-    # Exibir os gráficos
+    # Exibir a legenda e os gráficos
+    plt.legend()
     plt.show()
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print("Por favor, forneça o modo como argumento (distância, tempo ou avaliação).")
-        sys.exit(1)
-    modo = sys.argv[1]
-    plotar_graficos(modo)
+    modos = ["distância", "tempo", "avaliação"]
+
+    for modo in modos:
+        plotar_graficos(modo)
 
