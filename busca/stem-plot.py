@@ -8,6 +8,10 @@ def ler_valores(nome_arquivo):
         valores = [int(valor.strip()) for valor in file.readlines()]
     return valores
 
+# Função para calcular a média dos valores
+def calcular_media(valores):
+    return sum(valores) / len(valores) if valores else 0
+
 # Função para plotar os gráficos
 def plotar_graficos(modo):
     # Montar os caminhos dos arquivos
@@ -16,33 +20,28 @@ def plotar_graficos(modo):
     arquivo_nos_expandidos = os.path.join(pasta_dados, f"nos_expandidos-{modo}.txt")
 
     # Ler os valores dos arquivos
-    valores_custos = ler_valores(arquivo_custos)
     valores_nos_expandidos = ler_valores(arquivo_nos_expandidos)
 
-    # Selecionar apenas os primeiros 50 valores para cada método
-    dfs = valores_nos_expandidos[::3][:50]  # Valores para DFS (a cada 3 valores)
-    bfs = valores_nos_expandidos[1::3][:50]  # Valores para BFS (a cada 3 valores, começando do segundo)
-    a_star = valores_nos_expandidos[2::3][:50]  # Valores para A* (a cada 3 valores, começando do terceiro)
+    # Calcular as médias dos valores para cada método de busca
+    dfs = calcular_media(valores_nos_expandidos[::3])  # Média para DFS (a cada 3 valores)
+    bfs = calcular_media(valores_nos_expandidos[1::3])  # Média para BFS (a cada 3 valores, começando do segundo)
+    a_star = calcular_media(valores_nos_expandidos[2::3])  # Média para A* (a cada 3 valores, começando do terceiro)
 
     # Configurar as barras
-    barWidth = 0.25
-    r1 = np.arange(len(dfs))
-    r2 = [x + barWidth for x in r1]
-    r3 = [x + barWidth for x in r2]
+    methods = ['DFS', 'BFS', 'A*']
+    barWidth = 0.4
+    r = np.arange(len(methods))
 
     # Plotar as barras
-    plt.bar(r1, dfs, color='blue', width=barWidth, edgecolor='grey', label='DFS')
-    plt.bar(r2, bfs, color='green', width=barWidth, edgecolor='grey', label='BFS')
-    plt.bar(r3, a_star, color='red', width=barWidth, edgecolor='grey', label='A*')
+    plt.bar(r, [dfs, bfs, a_star], color=['blue', 'green', 'red'], width=barWidth, edgecolor='grey')
 
     # Adicionar legendas
-    plt.xlabel('Execução', fontweight='bold')
-    plt.ylabel('Nós Expandidos', fontweight='bold')
-    plt.title(f'Nós Expandidos por Execução - {modo.upper()}', fontweight='bold')
-    plt.xticks([r + barWidth for r in range(len(dfs))], range(1, len(dfs) + 1))
+    plt.xlabel('Método de Busca', fontweight='bold')
+    plt.ylabel('Média de Nós Expandidos', fontweight='bold')
+    plt.title(f'Média de Nós Expandidos por Método de Busca - {modo.upper()}', fontweight='bold')
+    plt.xticks([r for r in range(len(methods))], methods)
 
-    # Exibir a legenda e os gráficos
-    plt.legend()
+    # Exibir os gráficos
     plt.show()
 
 if __name__ == "__main__":
