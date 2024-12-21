@@ -21,7 +21,7 @@ function App() {
         console.log(option)
 
         setStatus('loading')
-        const searchBaseURL = `http://3.12.246.4:5000/${option}?s1=${origin}&s2=${destination}`
+        const searchBaseURL = `https://3.12.246.4:5000/${option}?s1=${origin}&s2=${destination}`
         axios
             .get(searchBaseURL)
             .then((res) => {
