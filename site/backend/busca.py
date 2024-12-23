@@ -3,6 +3,20 @@ import networkx as nx
 import subprocess
 import os
 import googlemaps
+import boto3
+from dotenv import load_dotenv
+
+load_dotenv(override=True)
+
+# Configurações AWS
+s3_client = boto3.client(
+    's3',
+    aws_access_key_id=os.getenv('AWS_ACCESS_KEY_ID'),
+    aws_secret_access_key=os.getenv('AWS_SECRET_ACCESS_KEY'),
+    region_name=os.getenv('AWS_REGION')
+)
+
+BUCKET_NAME = os.getenv('AWS_BUCKET_NAME')
 
 def returnInfo(stations):
     """ 
@@ -18,12 +32,14 @@ def returnInfo(stations):
         none
     """
 
-    # open file ratings and places
-    with open("./json_files/ratings.json", 'r') as f:
-        data1 = json.load(f)
+    # get file ratings and places
+    response = s3_client.get_object(Bucket=BUCKET_NAME, Key='json_files/ratings.json')
+    content = response['Body'].read().decode('utf-8')
+    data1 = json.loads(content)
 
-    with open("./json_files/places.json", 'r') as f:
-        data2 = json.load(f)
+    response = s3_client.get_object(Bucket=BUCKET_NAME, Key='json_files/places.json')
+    content = response['Body'].read().decode('utf-8')
+    data2 = json.loads(content)
   
     # get place-id by match stations 
     places_list = []
@@ -76,9 +92,9 @@ def getJsonData(GRAPH_TYPE):
     """
 
     # file path
-    distances_file_path = "./json_files/distances.json"
-    durations_file_path = "./json_files/durations.json"
-    ratings_file_path = "./json_files/ratings.json"
+    distances_file_path = "json_files/distances.json"
+    durations_file_path = "json_files/durations.json"
+    ratings_file_path = "json_files/ratings.json"
 
     data_paths = [distances_file_path, durations_file_path, ratings_file_path]
     index = ['DISTANCE', 'DURATION', 'RATING']
@@ -88,8 +104,9 @@ def getJsonData(GRAPH_TYPE):
             path = data_paths[i]
             break
 
-    with open(path, 'r') as f:
-        data = json.load(f)
+    response = s3_client.get_object(Bucket=BUCKET_NAME, Key=path)
+    content = response['Body'].read().decode('utf-8')
+    data = json.loads(content)
    
     return data
 
@@ -186,11 +203,12 @@ def heuristic(origin, destination, heuristic_type):
     """
 
     # generate the heuristic file 
-    heuristic_path =  "./heuristics/" + destination.replace(" ", "") + "_heuristic.json"
+    heuristic_path =  "heuristics/" + destination.replace(" ", "") + "_heuristic.json"
 
     # open heuristic file
-    with open(heuristic_path, 'r') as f:
-        data = json.load(f)
+    response = s3_client.get_object(Bucket=BUCKET_NAME, Key=heuristic_path)
+    content = response['Body'].read().decode('utf-8')
+    data = json.loads(content)
    
     # return values 
     for item in data:

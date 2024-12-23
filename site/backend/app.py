@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, request, jsonify
 from flask_cors import CORS
 from unidecode import unidecode
 import busca as graph 
@@ -120,6 +120,18 @@ def graph4():
     place_list = graph.returnInfo(longest_path)
 
     return([longest_path_formatted, total_cost, place_list])
+
+@app.route('/get-json/<filename>', methods=['GET'])
+def get_json(filename):
+    try:
+        # Baixar o arquivo do S3
+        response = s3_client.get_object(Bucket=BUCKET_NAME, Key=filename)
+        content = response['Body'].read().decode('utf-8')
+        json_content = json.loads(content)
+        return jsonify(json_content)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, ssl_context='adhoc')
