@@ -28,7 +28,7 @@ export default function Autocomplete(info) {
                 value={input}
                 onChange={(e) => handleInput(e.target.value)}
                 ref={inputRef}
-                className="border border-gray-300 rounded-md p-2 w-64"
+                className="bg-white p-2 rounded-sm mb-4 border-4 border-sky-500 text-gray-500"
                 onFocus={() => setShowOptions(true)}
                 onBlur={() => setShowOptions(false)}
             />

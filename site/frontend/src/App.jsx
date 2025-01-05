@@ -59,12 +59,12 @@ function App() {
                         <div className="flex flex-row gap-10">
                             <div>
                                 <h3 className="text-lg mb-2 font-bold text-sky-500">Estação de Origem</h3>
-                                <Autocomplete input={origin} handleInput={setOrigin}/>
+                                <Autocomplete input={origin} handleInput={setOrigin} className="bg-white p-2 rounded-sm mb-4 border-4 border-sky-500 text-gray-500"/>
                                 {/* <input type="text" className="bg-white p-2 rounded-sm mb-4 border-4 border-sky-500 text-gray-500" onChange={(e) => setOrigin(e.target.value)} /> */}
                             </div>
                             <div>
                                 <h3 className="text-lg mb-2 font-bold text-sky-500">Estação de Destino</h3>
-                                <Autocomplete input={destination} handleInput={setDestination}/>
+                                <Autocomplete input={destination} handleInput={setDestination} className="bg-white p-2 rounded-sm mb-4 border-4 border-sky-500 text-gray-500"/>
                                 {/* <input type="text" className="bg-white p-2 rounded-sm mb-4 border-4 border-sky-500 text-gray-500" onChange={(e) => setDestination(e.target.value)} /> */}
                             </div>
                             <div>
