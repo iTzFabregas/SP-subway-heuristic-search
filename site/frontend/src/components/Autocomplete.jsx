@@ -7,26 +7,24 @@ export default function Autocomplete(info) {
     const [showOptions, setShowOptions] = useState(false)
     const inputRef = useRef(null);
 
+
     useEffect (() => {
         const filteredOptions = options.filter(
             (option) =>
                 option.toLowerCase().indexOf(input.toLowerCase()) > -1
         );
         setFilteredOptions(filteredOptions);
-        inputRef.current.focus();
     }, [input])
 
     const handleOptionClick = (option) => {
-        setFilteredOptions([]); 
         inputRef.current.focus();
         handleInput(option);
     };
 
     return (
-        <div className="relative">
+        <div className="relative text-black">
             <input
                 type="text"
-                defaultValue={input}
                 value={input}
                 onChange={(e) => handleInput(e.target.value)}
                 ref={inputRef}
@@ -39,7 +37,7 @@ export default function Autocomplete(info) {
                     {filteredOptions.map((option, index) => (
                         <li
                             key={index}
-                            onClick={() => handleOptionClick(option)}
+                            onMouseDown={() => handleOptionClick(option)} // necessario pq o evento onBlur do <input /> é acionado quando o campo perde o foco, o que ocorre logo após você clicar em um item da lista. Como o onBlur é responsável por esconder as opções (setShowOptions(false)), ele está sendo chamado antes de você conseguir capturar o clique no item da lista.
                             className="px-3 py-2 cursor-pointer hover:bg-gray-100"
                         >
                             {option}
